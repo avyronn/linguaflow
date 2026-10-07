@@ -1,0 +1,113 @@
+{
+  "manifest_version": 3,
+  "name": "LinguaFlow",
+  "short_name": "LinguaFlow",
+  "version": "1.0.0",
+  "description": "Learn languages while watching. Click subtitle words on Netflix for dictionary, grammar breakdown, pronunciation and flashcards. Korean first. 100% local.",
+  "author": "LinguaFlow",
+  "homepage_url": "https://github.com/linguaflow/linguaflow",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "linguaflow@linguaflow.dev",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.netflix.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "src/core/util.js",
+      "src/core/settings.js",
+      "src/background/background.js"
+    ]
+  },
+  "action": {
+    "default_title": "LinguaFlow",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_popup": "src/popup/popup.html"
+  },
+  "options_ui": {
+    "page": "src/popup/page.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "toggle-learning-mode": {
+      "suggested_key": {
+        "default": "Alt+Shift+L"
+      },
+      "description": "Toggle LinguaFlow learning mode"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.netflix.com/*"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "js": [
+        "src/core/util.js",
+        "src/core/i18n.js",
+        "src/core/settings.js",
+        "src/core/language/language-pack.js",
+        "src/core/language/language-pack-manager.js",
+        "src/core/dictionary/dictionary-provider.js",
+        "src/core/dictionary/local-provider.js",
+        "src/core/dictionary/dictionary-manager.js",
+        "src/core/pronunciation/pronunciation.js",
+        "src/core/vocabulary/storage.js",
+        "src/core/vocabulary/vocabulary-manager.js",
+        "src/core/review/review-engine.js",
+        "src/core/subtitle/selectors.js",
+        "src/core/subtitle/subtitle-parser.js",
+        "src/core/subtitle/netflix-adapter.js",
+        "src/core/subtitle/nflxmultisubs-adapter.js",
+        "src/core/subtitle/subtitle-manager.js",
+        "src/languages/korean/hangul.js",
+        "src/languages/korean/particles.js",
+        "src/languages/korean/endings.js",
+        "src/languages/korean/conjugation.js",
+        "src/languages/korean/dictionary.js",
+        "src/languages/korean/tokenizer.js",
+        "src/languages/korean/morphology.js",
+        "src/languages/korean/romanization.js",
+        "src/languages/korean/index.js",
+        "src/content/overlay-styles.js",
+        "src/content/overlay.js",
+        "src/content/learning-controller.js",
+        "src/content/content-main.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/korean/dictionary.json"
+      ],
+      "matches": [
+        "https://www.netflix.com/*"
+      ]
+    }
+  ]
+}

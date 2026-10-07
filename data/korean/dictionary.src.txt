@@ -1,0 +1,1414 @@
+# LinguaFlow — Korean → Vietnamese starter dictionary (original work, MIT licensed with the project).
+# Format:  headword|pos|meaning 1; meaning 2|flag|example (ko::vi)     (flag: irregular class ㅂ ㄷ ㅅ ㅎ 르, or "reg" to force regular)
+# pos: n pron num cnt nbound det adv int conj v adj aux cop phrase.  Order = rough frequency (used to rank ambiguous readings).
+# A headword may appear on several lines; the build script merges them (extra POS meanings get a label).
+#priority: 이다 아니다 하다 있다 없다 되다 가다 오다 보다 알다 모르다 주다 받다 먹다 말하다 살다 죽다 만나다 좋다 싫다 같다 많다 크다 작다 그렇다 이렇다 어떻다 드시다 계시다 싶다 않다 못하다 사다 듣다 믿다 사랑하다 좋아하다 생각하다 기다리다 찾다 만들다 필요하다 괜찮다 미안하다 고맙다 감사하다 아프다 힘들다 무섭다 보이다 나오다 나가다 들어가다 들어오다 일어나다 시작하다 끝나다 도와주다 돕다 구하다 살리다 죽이다 도망가다 숨다 잡다 열다 닫다 쓰다 읽다 입다 울다 웃다 놀다 자다 앉다 서다 걷다 뛰다 묻다 대답하다 공부하다 일하다 늦다 나 너 저 우리 그 이 것 거 사람 일 때 말 집 오늘 지금 여기 거기 어디 뭐 누구 왜 어떻게 네 아니 아니요 그리고 그래서 하지만 정말 진짜 너무 아주 좀 다 또
+# ===== đại từ, chỉ định, từ nghi vấn =====
+나|pron|tôi; mình
+저|pron|tôi (khiêm nhường)
+저|det|kia (ở xa cả hai người)
+너|pron|bạn; cậu; mày (thân mật)
+당신|pron|anh/chị; bạn (xưng hô vợ chồng hoặc lạnh nhạt)
+우리|pron|chúng tôi; chúng ta
+저희|pron|chúng tôi (khiêm nhường)
+그|pron|anh ấy; cậu ấy
+그|det|đó; ấy
+그녀|pron|cô ấy
+이|det|này
+이것|pron|cái này
+그것|pron|cái đó
+저것|pron|cái kia
+이거|pron|cái này (khẩu ngữ)
+그거|pron|cái đó (khẩu ngữ)
+저거|pron|cái kia (khẩu ngữ)
+것|nbound|cái; điều; việc (danh từ phụ thuộc)
+거|nbound|cái; điều (khẩu ngữ của 것)
+여기|pron|ở đây; chỗ này
+거기|pron|ở đó; chỗ đó
+저기|pron|ở kia; chỗ kia
+어디|pron|đâu; ở đâu
+언제|pron|khi nào; bao giờ
+누구|pron|ai
+무엇|pron|cái gì
+뭐|pron|cái gì (khẩu ngữ)
+무슨|det|gì; nào
+어떤|det|nào; như thế nào; một … nào đó
+어느|det|nào (trong số)
+몇|det|mấy; bao nhiêu
+얼마|n|bao nhiêu; bao nhiêu tiền
+왜|adv|tại sao
+어떻게|adv|như thế nào; làm sao
+이렇게|adv|như thế này
+그렇게|adv|như thế đó; như vậy
+저렇게|adv|như thế kia
+이런|det|như thế này
+그런|det|như thế đó
+저런|det|như thế kia
+이제|adv|bây giờ; từ giờ
+지금|n|bây giờ; hiện tại
+아직|adv|vẫn còn; chưa
+아무|det|bất kỳ; nào (đi với phủ định: không ai/không gì)
+아무것도|adv|không có gì (đi với phủ định)
+아무도|adv|không ai (đi với phủ định)
+모두|n|tất cả; mọi người
+다|adv|tất cả; hết
+전부|n|toàn bộ; tất cả
+각자|n|mỗi người
+서로|adv|lẫn nhau
+자기|pron|bản thân; mình; anh/em yêu
+자신|n|bản thân; sự tự tin
+혼자|n|một mình
+같이|adv|cùng nhau
+함께|adv|cùng; cùng nhau
+스스로|adv|tự mình; tự
+# ===== số, đếm, đơn vị =====
+하나|num|một
+둘|num|hai
+셋|num|ba
+넷|num|bốn
+다섯|num|năm
+여섯|num|sáu
+일곱|num|bảy
+여덟|num|tám
+아홉|num|chín
+열|num|mười
+스물|num|hai mươi
+서른|num|ba mươi
+마흔|num|bốn mươi
+쉰|num|năm mươi
+한|det|một (đứng trước đơn vị đếm)
+두|det|hai (đứng trước đơn vị đếm)
+세|det|ba (đứng trước đơn vị đếm)
+네|det|bốn (đứng trước đơn vị đếm)
+스무|det|hai mươi (đứng trước đơn vị đếm)
+일|num|một (số Hán Hàn)
+이|num|hai (số Hán Hàn)
+삼|num|ba (số Hán Hàn)
+사|num|bốn (số Hán Hàn)
+오|num|năm (số Hán Hàn)
+육|num|sáu (số Hán Hàn)
+칠|num|bảy (số Hán Hàn)
+팔|num|tám (số Hán Hàn)
+구|num|chín (số Hán Hàn)
+십|num|mười (số Hán Hàn)
+백|num|trăm
+천|num|nghìn
+만|num|mười nghìn (vạn)
+억|num|trăm triệu (ức)
+영|num|không (số 0)
+공|num|không (số 0, khi đọc số điện thoại)
+첫|det|đầu tiên; thứ nhất
+첫째|n|thứ nhất; con đầu
+반|n|một nửa; lớp
+번|cnt|lần; số (đơn vị đếm lần)
+명|cnt|người (đơn vị đếm)
+분|cnt|vị (người, kính ngữ); phút
+개|cnt|cái (đơn vị đếm)
+마리|cnt|con (đơn vị đếm động vật)
+권|cnt|quyển (đơn vị đếm sách)
+잔|cnt|ly; chén (đơn vị đếm)
+병|cnt|chai (đơn vị đếm)
+살|cnt|tuổi
+시|cnt|giờ (đơn vị thời gian)
+시간|n|thời gian; giờ
+초|cnt|giây
+원|cnt|won (tiền Hàn)
+층|cnt|tầng
+장|cnt|tờ; tấm (đơn vị đếm)
+대|cnt|chiếc (xe, máy)
+# ===== thời gian =====
+오늘|n|hôm nay
+어제|n|hôm qua
+내일|n|ngày mai
+모레|n|ngày kia
+아침|n|buổi sáng; bữa sáng
+점심|n|buổi trưa; bữa trưa
+저녁|n|buổi tối; bữa tối
+밤|n|đêm; buổi tối
+낮|n|ban ngày
+새벽|n|rạng sáng
+오전|n|buổi sáng (trước 12h)
+오후|n|buổi chiều (sau 12h)
+날|n|ngày
+주|n|tuần
+주말|n|cuối tuần
+달|n|tháng; mặt trăng
+월|n|tháng (số Hán Hàn)
+년|n|năm
+해|n|năm; mặt trời
+올해|n|năm nay
+작년|n|năm ngoái
+내년|n|năm sau
+요즘|n|dạo này
+이번|n|lần này
+다음|n|tiếp theo; lần sau
+지난|det|vừa qua; trước
+매일|n|mỗi ngày
+항상|adv|luôn luôn
+늘|adv|luôn; lúc nào cũng
+가끔|adv|thỉnh thoảng
+자주|adv|thường xuyên
+보통|n|thông thường
+벌써|adv|đã … rồi; sớm vậy
+이미|adv|đã; rồi
+먼저|adv|trước; trước tiên
+나중|n|sau này; lát nữa
+아까|adv|lúc nãy
+방금|adv|vừa mới
+곧|adv|sắp; ngay
+금방|adv|ngay; chốc lát
+바로|adv|ngay; chính là
+계속|adv|liên tục; tiếp tục
+처음|n|lần đầu; ban đầu
+마지막|n|cuối cùng
+때|n|lúc; khi; thời điểm
+동안|n|trong suốt; khoảng thời gian
+전|n|trước; trước đây
+후|n|sau; sau này
+이후|n|sau đó; kể từ đó
+이전|n|trước đây
+순간|n|khoảnh khắc
+당시|n|lúc đó; thời đó
+시절|n|thời (thời thơ ấu…)
+옛날|n|ngày xưa
+과거|n|quá khứ
+현재|n|hiện tại
+미래|n|tương lai
+평생|n|cả đời
+영원히|adv|mãi mãi
+갑자기|adv|đột nhiên
+드디어|adv|cuối cùng thì; rốt cuộc cũng
+결국|adv|rốt cuộc; cuối cùng
+이따가|adv|lát nữa
+오래|adv|lâu
+요새|n|dạo này
+당장|adv|ngay lập tức
+하루|n|một ngày
+이틀|n|hai ngày
+며칠|n|vài ngày; mấy ngày
+언젠가|adv|một lúc nào đó
+# ===== liên từ, phó từ, thán từ =====
+그리고|conj|và; rồi
+그런데|conj|nhưng mà; à mà
+근데|conj|nhưng mà (khẩu ngữ)
+하지만|conj|nhưng; tuy nhiên
+그러나|conj|tuy nhiên; nhưng
+그래서|conj|vì vậy; thế nên
+그러니까|conj|cho nên; thế nên
+그러면|conj|vậy thì; nếu thế
+그럼|conj|vậy thì; tất nhiên
+그래도|conj|dù vậy; dẫu thế
+그렇지만|conj|tuy vậy
+또는|conj|hoặc
+왜냐하면|conj|bởi vì
+그러므로|conj|do đó
+게다가|conj|hơn nữa
+아니면|conj|hoặc là; nếu không thì
+만약|adv|nếu; giả sử
+혹시|adv|nhỡ như; liệu có
+설마|adv|chẳng lẽ
+제발|adv|làm ơn; xin
+어서|adv|nhanh lên; mau
+얼른|adv|nhanh lên; mau
+빨리|adv|nhanh; mau
+천천히|adv|chậm rãi; từ từ
+정말|adv|thật sự; thật
+진짜|adv|thật; thật sự
+아주|adv|rất
+매우|adv|rất; vô cùng
+너무|adv|quá; rất
+더|adv|hơn; thêm
+가장|adv|nhất
+제일|adv|nhất
+조금|adv|một chút
+좀|adv|một chút (khẩu ngữ); làm ơn
+많이|adv|nhiều
+잘|adv|giỏi; tốt; kỹ
+못|adv|không thể (phủ định khả năng)
+안|adv|không (phủ định)
+다시|adv|lại; lần nữa
+또|adv|lại; thêm nữa
+아마|adv|có lẽ
+꼭|adv|nhất định; chắc chắn
+반드시|adv|nhất định; bắt buộc
+절대|adv|tuyệt đối (không)
+별로|adv|không … lắm (đi với phủ định)
+전혀|adv|hoàn toàn không
+거의|adv|hầu như
+약간|adv|hơi; một chút
+특히|adv|đặc biệt là
+그냥|adv|cứ; chỉ là; không có lý do gì
+일부러|adv|cố ý
+우연히|adv|tình cờ
+사실|n|sự thật; thật ra
+사실|adv|thật ra
+정말로|adv|thực sự
+오직|adv|chỉ
+겨우|adv|vừa đủ; khó khăn lắm mới
+마치|adv|cứ như
+역시|adv|quả nhiên; đúng là
+물론|adv|tất nhiên
+당연히|adv|đương nhiên
+아마도|adv|có lẽ
+도대체|adv|rốt cuộc là; cái quái gì
+차라리|adv|thà rằng
+다행히|adv|may mắn thay
+하필|adv|đúng lúc; sao lại
+오히려|adv|ngược lại
+너무나|adv|quá đỗi
+꽤|adv|khá
+훨씬|adv|… hơn nhiều
+점점|adv|dần dần
+더욱|adv|hơn nữa; càng
+계속해서|adv|liên tục
+아예|adv|hoàn toàn; hẳn
+제대로|adv|đàng hoàng; cho ra hồn
+분명히|adv|rõ ràng; chắc chắn
+정확히|adv|chính xác
+직접|adv|trực tiếp
+몰래|adv|lén lút
+함부로|adv|tùy tiện; bừa bãi
+가만히|adv|yên lặng; im
+조용히|adv|một cách yên lặng
+같이|adv|cùng; giống
+네|int|vâng; dạ
+예|int|vâng; dạ
+아니요|int|không ạ
+아니|int|không; này (khẩu ngữ)
+응|int|ừ
+어|int|ơ; ừ
+아|int|a; ồ
+아이고|int|ôi trời
+어머|int|ôi chao
+와|int|wow
+우와|int|wow
+글쎄|int|để xem; chưa biết
+맞아|phrase|đúng rồi
+알겠어|phrase|biết rồi; hiểu rồi
+알겠습니다|phrase|tôi hiểu rồi (trang trọng)
+안녕|int|chào; tạm biệt (thân mật)
+안녕하세요|phrase|xin chào
+안녕히|adv|bình an (안녕히 가세요: đi nhé; 안녕히 계세요: ở lại nhé)
+감사합니다|phrase|cảm ơn (trang trọng)
+고맙습니다|phrase|cảm ơn (trang trọng)
+고마워|phrase|cảm ơn (thân mật)
+미안해|phrase|xin lỗi (thân mật)
+미안합니다|phrase|xin lỗi (trang trọng)
+죄송합니다|phrase|xin lỗi (rất trang trọng)
+여보세요|int|alo
+잠깐|n|một lát; chờ chút
+잠시|n|một lát
+참|adv|thật là; à này
+자|int|nào; thôi nào
+야|int|này; ê
+이봐|int|này; ê
+어서|int|nhanh lên
+# ===== người, gia đình, nghề nghiệp =====
+사람|n|người
+남자|n|đàn ông; con trai
+여자|n|phụ nữ; con gái
+아이|n|đứa trẻ; trẻ con
+애|n|đứa bé (rút gọn của 아이)
+어른|n|người lớn
+학생|n|học sinh; sinh viên
+선생님|n|thầy; cô; giáo viên
+의사|n|bác sĩ
+간호사|n|y tá
+경찰|n|cảnh sát
+군인|n|quân nhân; lính
+왕|n|vua
+주인|n|chủ; chủ nhân
+손님|n|khách
+사장|n|giám đốc; ông chủ
+사장님|n|ngài giám đốc; ông chủ
+친구|n|bạn
+가족|n|gia đình
+부모|n|bố mẹ
+엄마|n|mẹ
+아빠|n|bố; ba
+어머니|n|mẹ (trang trọng)
+아버지|n|bố (trang trọng)
+아들|n|con trai
+딸|n|con gái
+형|n|anh (em trai gọi)
+오빠|n|anh (em gái gọi)
+누나|n|chị (em trai gọi)
+언니|n|chị (em gái gọi)
+동생|n|em
+할머니|n|bà
+할아버지|n|ông
+남편|n|chồng
+아내|n|vợ
+부인|n|vợ; phu nhân
+신랑|n|chú rể
+신부|n|cô dâu; linh mục
+애인|n|người yêu
+연인|n|người yêu; tình nhân
+적|n|kẻ thù; địch
+동료|n|đồng nghiệp
+이웃|n|hàng xóm
+환자|n|bệnh nhân
+범인|n|thủ phạm
+도둑|n|kẻ trộm
+기자|n|phóng viên
+작가|n|tác giả; nhà văn
+배우|n|diễn viên
+형사|n|cảnh sát hình sự; thám tử
+변호사|n|luật sư
+선배|n|tiền bối; người đi trước
+후배|n|hậu bối; người đi sau
+아저씨|n|chú; bác (gọi người đàn ông lớn tuổi)
+아줌마|n|dì; cô (gọi phụ nữ trung niên)
+아가씨|n|cô gái; tiểu thư
+청년|n|thanh niên
+소년|n|thiếu niên; cậu bé
+소녀|n|thiếu nữ; cô bé
+노인|n|người già
+외국인|n|người nước ngoài
+일본인|n|người Nhật
+한국인|n|người Hàn
+조선인|n|người Joseon (người Triều Tiên thời xưa)
+중국인|n|người Trung Quốc
+미국인|n|người Mỹ
+인간|n|con người
+괴물|n|quái vật
+크리처|n|sinh vật (creature); quái vật
+악마|n|ác quỷ
+귀신|n|ma
+영웅|n|anh hùng
+신|n|thần
+신|n|giày; thần
+주민|n|cư dân
+시민|n|người dân; thị dân
+동포|n|đồng bào
+친일파|n|phe thân Nhật
+독립군|n|quân độc lập
+순사|n|cảnh sát (thời thuộc địa Nhật)
+헌병|n|hiến binh
+장교|n|sĩ quan
+부하|n|thuộc hạ; cấp dưới
+대장|n|đại tướng; thủ lĩnh
+상관|n|cấp trên
+병사|n|binh lính
+간호원|n|y tá
+의원|n|phòng khám; nghị sĩ
+박사|n|tiến sĩ
+교수|n|giáo sư
+과학자|n|nhà khoa học
+연구원|n|nghiên cứu viên
+기생|n|kỹ nữ (gisaeng)
+하녀|n|người hầu gái
+하인|n|người hầu
+동지|n|đồng chí
+스파이|n|điệp viên
+첩보원|n|điệp viên
+# ===== nơi chốn, phương hướng =====
+집|n|nhà
+학교|n|trường học
+회사|n|công ty
+병원|n|bệnh viện
+시장|n|chợ
+가게|n|cửa hàng; tiệm
+식당|n|nhà hàng; quán ăn
+길|n|đường; con đường
+방|n|phòng
+문|n|cửa
+창문|n|cửa sổ
+나라|n|đất nước; quốc gia
+도시|n|thành phố
+마을|n|làng
+한국|n|Hàn Quốc
+일본|n|Nhật Bản
+중국|n|Trung Quốc
+조선|n|Joseon (Triều Tiên); Hàn Quốc (cách gọi xưa)
+서울|n|Seoul
+경성|n|Gyeongseong (tên gọi Seoul thời thuộc địa Nhật)
+미국|n|Mỹ
+세계|n|thế giới
+하늘|n|bầu trời
+땅|n|đất
+바다|n|biển
+산|n|núi
+강|n|sông
+숲|n|rừng
+밖|n|bên ngoài
+안|n|bên trong
+위|n|trên
+아래|n|dưới
+앞|n|trước (phía trước)
+뒤|n|sau (phía sau)
+옆|n|bên cạnh
+사이|n|giữa; khoảng giữa; mối quan hệ
+속|n|bên trong; trong lòng
+근처|n|gần; vùng lân cận
+쪽|n|phía; hướng
+곳|n|nơi; chỗ
+장소|n|địa điểm
+거리|n|đường phố; khoảng cách
+골목|n|ngõ; hẻm
+다리|n|chân; cầu
+건물|n|tòa nhà
+지하|n|dưới lòng đất; tầng hầm
+지하실|n|tầng hầm
+감옥|n|nhà tù
+경찰서|n|đồn cảnh sát
+연구소|n|viện nghiên cứu
+실험실|n|phòng thí nghiệm
+공장|n|nhà máy
+은행|n|ngân hàng
+역|n|ga
+기차|n|tàu hỏa
+항구|n|cảng
+배|n|bụng; thuyền; quả lê
+전당포|n|tiệm cầm đồ
+극장|n|rạp hát; rạp chiếu phim
+호텔|n|khách sạn
+정원|n|vườn
+마당|n|sân
+창고|n|kho
+사무실|n|văn phòng
+계단|n|cầu thang
+복도|n|hành lang
+부엌|n|nhà bếp
+화장실|n|nhà vệ sinh
+침실|n|phòng ngủ
+지붕|n|mái nhà
+벽|n|tường
+바닥|n|sàn; đáy
+천장|n|trần nhà
+절|n|chùa; cái cúi lạy
+성|n|thành; họ
+궁|n|cung điện
+교회|n|nhà thờ
+무덤|n|mộ
+광장|n|quảng trường
+시골|n|nông thôn; quê
+고향|n|quê hương
+외국|n|nước ngoài
+동네|n|khu phố; xóm
+지역|n|khu vực
+북쪽|n|phía bắc
+남쪽|n|phía nam
+동쪽|n|phía đông
+서쪽|n|phía tây
+방향|n|phương hướng
+왼쪽|n|bên trái
+오른쪽|n|bên phải
+가운데|n|ở giữa
+중간|n|giữa; trung gian
+끝|n|cuối; kết thúc
+입구|n|lối vào
+출구|n|lối ra
+지도|n|bản đồ; sự chỉ đạo
+어디든|adv|bất cứ đâu
+# ===== cơ thể, sức khỏe =====
+몸|n|cơ thể
+머리|n|đầu; tóc
+얼굴|n|khuôn mặt
+눈|n|mắt; tuyết
+코|n|mũi
+입|n|miệng
+귀|n|tai
+목|n|cổ; họng
+손|n|tay (bàn tay)
+발|n|chân (bàn chân)
+팔|n|cánh tay
+가슴|n|ngực; lồng ngực
+등|n|lưng
+마음|n|tấm lòng; tâm trí
+심장|n|tim
+피|n|máu
+뼈|n|xương
+손가락|n|ngón tay
+이름|n|tên
+목소리|n|giọng nói
+숨|n|hơi thở
+땀|n|mồ hôi
+눈물|n|nước mắt
+상처|n|vết thương
+병|n|bệnh
+약|n|thuốc
+힘|n|sức mạnh; sức lực
+건강|n|sức khỏe
+주사|n|tiêm; mũi tiêm
+수술|n|phẫu thuật
+치료|n|điều trị
+머리카락|n|tóc
+피부|n|da
+이빨|n|răng
+무릎|n|đầu gối
+어깨|n|vai
+허리|n|eo; lưng dưới
+# ===== đồ vật, thiên nhiên =====
+물|n|nước
+밥|n|cơm; bữa ăn
+음식|n|đồ ăn
+술|n|rượu
+차|n|trà; xe hơi
+커피|n|cà phê
+돈|n|tiền
+책|n|sách
+편지|n|thư
+전화|n|điện thoại
+옷|n|quần áo
+신발|n|giày dép
+가방|n|cặp; túi xách
+칼|n|dao; kiếm
+총|n|súng
+불|n|lửa; đèn
+꽃|n|hoa
+나무|n|cây; gỗ
+개|n|chó
+고양이|n|mèo
+새|n|chim
+말|n|lời nói; ngựa; tiếng
+소리|n|âm thanh; tiếng
+냄새|n|mùi
+빛|n|ánh sáng
+그림자|n|cái bóng
+비|n|mưa
+바람|n|gió; mong muốn
+별|n|ngôi sao
+꿈|n|giấc mơ; ước mơ
+생각|n|suy nghĩ; ý nghĩ
+이야기|n|câu chuyện
+일|n|việc; công việc; chuyện
+문제|n|vấn đề; câu hỏi
+이유|n|lý do
+방법|n|phương pháp; cách
+거짓말|n|lời nói dối
+비밀|n|bí mật
+진실|n|sự thật; chân thực
+사건|n|vụ việc; sự kiện
+목숨|n|mạng sống
+생명|n|sinh mệnh; sự sống
+죽음|n|cái chết
+삶|n|cuộc sống
+사랑|n|tình yêu
+정신|n|tinh thần; ý thức
+기억|n|ký ức; trí nhớ
+약속|n|lời hứa; cuộc hẹn
+소문|n|tin đồn
+전쟁|n|chiến tranh
+평화|n|hòa bình
+실험|n|thí nghiệm
+연구|n|nghiên cứu
+시체|n|xác chết
+유령|n|ma; bóng ma
+질병|n|bệnh tật
+바이러스|n|vi-rút
+무기|n|vũ khí
+폭탄|n|bom
+사진|n|ảnh
+그림|n|tranh; hình vẽ
+노래|n|bài hát
+영화|n|phim
+나이|n|tuổi
+목적|n|mục đích
+계획|n|kế hoạch
+소식|n|tin tức
+소원|n|điều ước
+기회|n|cơ hội
+위험|n|nguy hiểm
+안전|n|an toàn
+자유|n|tự do
+독립|n|độc lập
+희망|n|hy vọng
+용기|n|dũng khí
+두려움|n|nỗi sợ
+공포|n|nỗi kinh hoàng; nỗi sợ
+분노|n|cơn giận
+슬픔|n|nỗi buồn
+기쁨|n|niềm vui
+행복|n|hạnh phúc
+불행|n|bất hạnh
+외로움|n|sự cô đơn
+고통|n|nỗi đau; sự đau đớn
+복수|n|sự trả thù
+배신|n|sự phản bội
+용서|n|sự tha thứ
+죄|n|tội
+벌|n|hình phạt; con ong
+선택|n|sự lựa chọn
+결정|n|quyết định
+운명|n|số phận
+우연|n|ngẫu nhiên
+거래|n|giao dịch
+값|n|giá; giá trị
+가격|n|giá cả
+선물|n|quà
+열쇠|n|chìa khóa
+상자|n|hộp
+종이|n|giấy
+글|n|chữ; bài viết
+글자|n|chữ
+신문|n|báo
+증거|n|bằng chứng
+단서|n|manh mối
+정보|n|thông tin
+명령|n|mệnh lệnh
+질문|n|câu hỏi
+대답|n|câu trả lời
+답|n|đáp án; câu trả lời
+표정|n|nét mặt; biểu cảm
+웃음|n|nụ cười; tiếng cười
+비명|n|tiếng thét
+어둠|n|bóng tối
+불빛|n|ánh đèn
+총소리|n|tiếng súng
+눈빛|n|ánh mắt
+몸값|n|tiền chuộc
+이익|n|lợi ích
+손해|n|thiệt hại
+책임|n|trách nhiệm
+의미|n|ý nghĩa
+이상|n|trở lên; điều bất thường
+정도|n|mức độ; khoảng
+부분|n|phần
+종류|n|loại
+경우|n|trường hợp
+방식|n|cách thức
+상황|n|tình hình; hoàn cảnh
+모습|n|dáng vẻ; hình ảnh
+느낌|n|cảm giác
+마음속|n|trong lòng
+기분|n|tâm trạng
+감정|n|cảm xúc
+성격|n|tính cách
+관계|n|mối quan hệ
+인생|n|cuộc đời
+세상|n|thế gian; thế giới
+사회|n|xã hội
+정부|n|chính phủ
+군대|n|quân đội
+부대|n|đơn vị quân đội
+일본군|n|quân Nhật
+독립운동|n|phong trào độc lập
+총독부|n|phủ toàn quyền
+친일|n|thân Nhật
+항일|n|kháng Nhật
+희생|n|sự hy sinh
+실종|n|mất tích
+조사|n|điều tra; khảo sát
+수사|n|điều tra (hình sự)
+범죄|n|tội phạm
+사냥|n|săn bắn
+탈출|n|trốn thoát
+도망|n|bỏ chạy
+감염|n|lây nhiễm
+생체실험|n|thí nghiệm trên cơ thể sống
+인체실험|n|thí nghiệm trên người
+괴담|n|truyện ma
+악몽|n|ác mộng
+저주|n|lời nguyền
+진짜|n|đồ thật; hàng thật
+가짜|n|đồ giả
+정체|n|danh tính thật; bản chất
+정답|n|đáp án đúng
+순서|n|thứ tự
+차례|n|lượt; thứ tự
+시작|n|sự bắt đầu
+마음대로|adv|tùy ý
+한국어|n|tiếng Hàn
+일본어|n|tiếng Nhật
+영어|n|tiếng Anh
+중국어|n|tiếng Trung
+공부|n|việc học
+숙제|n|bài tập về nhà
+시험|n|kỳ thi; bài kiểm tra
+수업|n|giờ học
+회의|n|cuộc họp
+여행|n|du lịch
+운동|n|vận động; thể thao
+요리|n|món ăn; việc nấu ăn
+과일|n|trái cây
+고기|n|thịt
+생선|n|cá (để ăn)
+야채|n|rau
+빵|n|bánh mì
+우유|n|sữa
+소금|n|muối
+설탕|n|đường
+라면|n|mì gói
+김치|n|kim chi
+쌀|n|gạo
+국|n|canh
+반찬|n|món ăn kèm
+맥주|n|bia
+방금|n|vừa nãy
+이번엔|adv|lần này thì
+# ===== động từ & tính từ chủ chốt (dạng từ điển) =====
+하다|v|làm; thực hiện; nói; (hậu tố tạo động từ/tính từ)
+있다|v|ở / có; tồn tại
+없다|adj|không có / không ở; không tồn tại
+이다|cop|là
+아니다|adj|không phải là; không phải
+되다|v|trở thành; được; xong
+가다|v|đi
+오다|v|đến; tới (mưa, tuyết: rơi)
+보다|v|nhìn; xem; gặp; thử (trợ động từ -아/어 보다)
+주다|v|cho; đưa; (trợ động từ -아/어 주다: làm giúp)
+알다|v|biết
+모르다|v|không biết
+말하다|v|nói
+생각하다|v|nghĩ
+좋아하다|v|thích
+사랑하다|v|yêu
+싫어하다|v|ghét; không thích
+원하다|v|muốn; mong muốn
+필요하다|adj|cần thiết; cần
+먹다|v|ăn; uống (thuốc); nhận (tuổi)
+마시다|v|uống; hít
+자다|v|ngủ
+일어나다|v|thức dậy; đứng dậy; xảy ra
+앉다|v|ngồi
+서다|v|đứng; dừng
+눕다|v|nằm
+걷다|v|đi bộ
+뛰다|v|chạy; nhảy
+달리다|v|chạy; bị treo
+듣다|v|nghe
+묻다|v|hỏi
+대답하다|v|trả lời
+믿다|v|tin
+받다|v|nhận
+드리다|v|biếu; dâng; (cho — khiêm nhường)
+사다|v|mua
+팔다|v|bán
+만들다|v|làm ra; chế tạo; tạo
+만나다|v|gặp
+헤어지다|v|chia tay; tách ra
+죽다|v|chết
+살다|v|sống
+죽이다|v|giết
+살리다|v|cứu sống; làm sống lại
+구하다|v|cứu; tìm kiếm
+찾다|v|tìm; rút (tiền)
+잃다|v|mất; đánh mất
+잊다|v|quên
+잊어버리다|v|quên mất
+기억하다|v|nhớ; ghi nhớ
+기다리다|v|chờ đợi
+도망가다|v|chạy trốn
+숨다|v|trốn; ẩn nấp
+숨기다|v|giấu
+잡다|v|bắt; nắm; giữ
+놓다|v|đặt; thả; buông
+두다|v|để; đặt; giữ lại
+넣다|v|cho vào; bỏ vào
+꺼내다|v|lấy ra
+열다|v|mở
+닫다|v|đóng
+켜다|v|bật; kéo (đàn)
+끄다|v|tắt
+입다|v|mặc
+벗다|v|cởi
+쓰다|v|viết; dùng; đội; đeo; đắng
+읽다|v|đọc
+배우다|v|học
+가르치다|v|dạy
+공부하다|v|học
+일하다|v|làm việc
+놀다|v|chơi
+웃다|v|cười
+울다|v|khóc
+화내다|v|nổi giận
+부르다|v|gọi; hát
+따라가다|v|đi theo
+따라오다|v|đi theo (đến chỗ người nói)
+돌아오다|v|quay lại; trở về (đến)
+돌아가다|v|quay về; trở lại (đi); mất (tôn kính)
+나가다|v|đi ra
+나오다|v|đi ra; xuất hiện
+들어가다|v|đi vào
+들어오다|v|đi vào (đến chỗ người nói)
+올라가다|v|đi lên
+올라오다|v|đi lên (đến chỗ người nói)
+내려가다|v|đi xuống
+내려오다|v|đi xuống (đến chỗ người nói)
+떠나다|v|rời đi; lên đường
+도착하다|v|đến nơi
+시작하다|v|bắt đầu
+시작되다|v|được bắt đầu
+끝나다|v|kết thúc
+끝내다|v|kết thúc; làm xong
+바꾸다|v|đổi; thay
+변하다|v|thay đổi; biến đổi
+보내다|v|gửi; tiễn; trải qua
+데려가다|v|dẫn đi; đưa đi
+데려오다|v|dẫn đến; đưa đến
+가져가다|v|mang đi
+가져오다|v|mang đến
+도와주다|v|giúp đỡ
+돕다|v|giúp
+부탁하다|v|nhờ; xin
+약속하다|v|hứa; hẹn
+거짓말하다|v|nói dối
+속이다|v|lừa dối
+배신하다|v|phản bội
+싸우다|v|đánh nhau; cãi nhau; chiến đấu
+이기다|v|thắng
+지다|v|thua; rơi; lặn
+쏘다|v|bắn; châm
+때리다|v|đánh
+맞다|v|đúng; bị đánh; hợp
+치료하다|v|chữa trị
+아프다|adj|đau; ốm
+느끼다|v|cảm thấy
+보이다|v|được nhìn thấy; trông có vẻ
+들리다|v|được nghe thấy
+생기다|v|nảy sinh; xuất hiện; trông (có vẻ)
+나타나다|v|xuất hiện
+사라지다|v|biến mất
+열리다|v|được mở
+닫히다|v|bị đóng
+깨다|v|tỉnh dậy; làm vỡ
+깨어나다|v|tỉnh lại
+깨우다|v|đánh thức
+잠들다|v|ngủ thiếp đi
+꿈꾸다|v|mơ
+바라다|v|mong; hy vọng
+바라보다|v|nhìn chăm chú
+쳐다보다|v|nhìn chằm chằm
+지켜보다|v|dõi theo
+돌아보다|v|ngoảnh lại
+살펴보다|v|xem xét kỹ
+찾아가다|v|tìm đến; đến thăm
+찾아오다|v|tìm đến (chỗ người nói)
+쫓다|v|đuổi theo
+쫓아가다|v|đuổi theo
+만지다|v|chạm; sờ
+던지다|v|ném
+끌다|v|kéo; lôi
+밀다|v|đẩy
+당기다|v|kéo
+누르다|v|nhấn; ấn
+자르다|v|cắt
+깎다|v|gọt; cạo
+부수다|v|phá; đập vỡ
+깨뜨리다|v|làm vỡ
+태우다|v|đốt; cho đi nhờ
+타다|v|đi (xe); cháy
+내리다|v|xuống; rơi; hạ
+오르다|v|lên; leo
+떠오르다|v|nổi lên; hiện lên
+흐르다|v|chảy; trôi
+모으다|v|gom; thu thập; tiết kiệm
+쌓다|v|chất; tích lũy
+채우다|v|làm đầy; khóa
+비우다|v|làm trống
+가지다|v|có; cầm
+갖다|v|có; cầm (rút gọn của 가지다)
+지니다|v|mang theo; giữ
+들다|v|cầm; nâng; vào; tốn
+놓치다|v|bỏ lỡ; để tuột
+붙잡다|v|nắm chặt; bắt giữ
+붙이다|v|dán; gắn
+풀다|v|tháo; giải; cởi
+묶다|v|buộc
+감추다|v|giấu; che giấu
+드러나다|v|lộ ra
+밝히다|v|làm sáng tỏ; tiết lộ
+알리다|v|cho biết; thông báo
+전하다|v|truyền đạt; chuyển
+말씀하다|v|nói (kính ngữ)
+말씀드리다|v|thưa; nói (khiêm nhường)
+드시다|v|ăn; dùng (kính ngữ)
+주무시다|v|ngủ (kính ngữ)
+계시다|v|ở; có mặt (kính ngữ của 있다)
+돌아가시다|v|qua đời (kính ngữ)
+모시다|v|phụng dưỡng; đón; hộ tống
+이야기하다|v|nói chuyện; kể chuyện
+운동하다|v|tập thể dục
+요리하다|v|nấu ăn
+전화하다|v|gọi điện
+준비하다|v|chuẩn bị
+연습하다|v|luyện tập
+결혼하다|v|kết hôn
+이해하다|v|hiểu
+설명하다|v|giải thích
+사용하다|v|sử dụng
+노력하다|v|nỗ lực
+포기하다|v|từ bỏ
+후회하다|v|hối hận
+걱정하다|v|lo lắng
+감사하다|adj|biết ơn; cảm ơn
+사과하다|v|xin lỗi
+인정하다|v|thừa nhận
+허락하다|v|cho phép
+반대하다|v|phản đối
+찬성하다|v|tán thành
+선택하다|v|lựa chọn
+결정하다|v|quyết định
+확인하다|v|xác nhận; kiểm tra
+조사하다|v|điều tra
+수사하다|v|điều tra (hình sự)
+연락하다|v|liên lạc
+소개하다|v|giới thiệu
+초대하다|v|mời
+방문하다|v|thăm; viếng
+출발하다|v|xuất phát
+이동하다|v|di chuyển
+탈출하다|v|trốn thoát
+저항하다|v|kháng cự
+협력하다|v|hợp tác
+공격하다|v|tấn công
+보호하다|v|bảo vệ
+희생하다|v|hy sinh
+실험하다|v|thí nghiệm
+연구하다|v|nghiên cứu
+발견하다|v|phát hiện
+주장하다|v|khẳng định; chủ trương
+요구하다|v|yêu cầu
+질문하다|v|đặt câu hỏi
+거절하다|v|từ chối
+용서하다|v|tha thứ
+복수하다|v|trả thù
+의심하다|v|nghi ngờ
+두려워하다|v|sợ hãi
+걱정되다|v|bị lo lắng
+감염되다|v|bị lây nhiễm
+태어나다|v|được sinh ra
+자라다|v|lớn lên; mọc
+늙다|v|già đi
+낫다|v|khỏi (bệnh); tốt hơn
+다치다|v|bị thương
+쓰러지다|v|ngã xuống; gục ngã
+떨어지다|v|rơi; rớt; hết
+넘어지다|v|vấp ngã
+일어서다|v|đứng dậy
+멈추다|v|dừng lại
+그만두다|v|bỏ; nghỉ (việc)
+그만하다|v|thôi; dừng
+계속하다|v|tiếp tục
+참다|v|nhẫn nhịn; chịu đựng
+견디다|v|chịu đựng
+버티다|v|cầm cự
+서두르다|v|vội vàng
+늦다|v|trễ; muộn
+지나가다|v|đi qua
+지나다|v|trôi qua; qua
+건너다|v|băng qua
+넘다|v|vượt; qua
+다니다|v|đi lại; đi (học, làm)
+머물다|v|lưu lại; ở lại
+남다|v|còn lại; ở lại
+남기다|v|để lại
+세다|v|đếm; mạnh
+모이다|v|tụ họp
+모여들다|v|tụ tập lại
+돌다|v|quay; xoay
+돌리다|v|xoay; trả lại
+바라다|v|mong muốn
+부딪치다|v|va chạm
+빠지다|v|rơi vào; rụng; thiếu
+빼다|v|rút; trừ
+뽑다|v|nhổ; rút; chọn
+찍다|v|chụp; in; chấm
+찢다|v|xé
+치다|v|đánh; gõ; chơi (nhạc cụ)
+캐다|v|đào; moi
+파다|v|đào
+피다|v|nở (hoa)
+피우다|v|hút (thuốc); nhóm (lửa)
+흔들다|v|lắc; vẫy
+흔들리다|v|lung lay
+울리다|v|làm khóc; vang lên
+웃기다|v|làm cười
+놀라다|v|giật mình; ngạc nhiên
+놀래다|v|làm giật mình
+속다|v|bị lừa
+믿어주다|v|tin tưởng (cho ai đó)
+참다|v|nhịn
+따르다|v|theo; rót
+치우다|v|dọn dẹp
+정하다|v|định; quyết định
+고르다|v|chọn
+고치다|v|sửa
+갈아입다|v|thay đồ
+갈다|v|thay; mài; xay
+걸다|v|treo; gọi (điện)
+걸리다|v|mắc; bị (bệnh); mất (thời gian)
+굶다|v|nhịn đói
+끊다|v|cắt; ngắt; bỏ (thuốc)
+끌어안다|v|ôm chặt
+안다|v|ôm
+업다|v|cõng
+들이다|v|cho vào; bỏ (công sức)
+받아들이다|v|tiếp nhận; chấp nhận
+알아보다|v|nhận ra; tìm hiểu
+알아듣다|v|nghe hiểu
+알아차리다|v|nhận ra
+깨닫다|v|nhận ra; giác ngộ
+믿어지다|v|có thể tin được
+하소연하다|v|than thở
+외치다|v|hét lên
+소리치다|v|kêu lên; hét
+속삭이다|v|thì thầm
+중얼거리다|v|lẩm bẩm
+물어보다|v|hỏi thử
+말리다|v|ngăn cản; phơi khô
+막다|v|chặn; ngăn
+막히다|v|bị tắc; bị chặn
+지키다|v|giữ; bảo vệ
+도와드리다|v|giúp (khiêm nhường)
+살아남다|v|sống sót
+살아가다|v|sống tiếp
+죽어가다|v|đang chết dần
+죽이려고하다|v|định giết
+사라져버리다|v|biến mất hẳn
+싶다|aux|muốn (… -고 싶다)
+않다|aux|không (… -지 않다)
+말다|aux|đừng; thôi (… -지 마)
+못하다|v|không thể; kém
+버리다|v|vứt; (trợ động từ: làm xong hẳn; lỡ)
+# ===== tính từ =====
+좋다|adj|tốt; hay; thích
+나쁘다|adj|xấu; tệ
+크다|adj|to; lớn
+작다|adj|nhỏ
+많다|adj|nhiều
+적다|adj|ít
+길다|adj|dài
+짧다|adj|ngắn
+높다|adj|cao
+낮다|adj|thấp
+빠르다|adj|nhanh
+느리다|adj|chậm
+쉽다|adj|dễ
+어렵다|adj|khó
+예쁘다|adj|đẹp; xinh
+멋있다|adj|ngầu; bảnh
+맛있다|adj|ngon
+맛없다|adj|không ngon; dở
+재미있다|adj|thú vị; vui
+재미없다|adj|chán; không thú vị
+괜찮다|adj|ổn; không sao; được
+힘들다|adj|vất vả; khó nhọc
+피곤하다|adj|mệt mỏi
+배고프다|adj|đói bụng
+행복하다|adj|hạnh phúc
+슬프다|adj|buồn
+기쁘다|adj|vui; mừng
+무섭다|adj|đáng sợ; sợ
+두렵다|adj|sợ hãi; lo sợ
+위험하다|adj|nguy hiểm
+안전하다|adj|an toàn
+조용하다|adj|yên tĩnh
+시끄럽다|adj|ồn ào
+따뜻하다|adj|ấm áp
+춥다|adj|lạnh (thời tiết)
+덥다|adj|nóng (thời tiết)
+시원하다|adj|mát; sảng khoái
+뜨겁다|adj|nóng bỏng
+차갑다|adj|lạnh lẽo
+무겁다|adj|nặng
+가볍다|adj|nhẹ
+새롭다|adj|mới mẻ
+오래되다|v|cũ; lâu đời
+젊다|adj|trẻ
+같다|adj|giống; như
+다르다|adj|khác
+이상하다|adj|lạ; kỳ lạ
+이렇다|adj|như thế này
+그렇다|adj|như thế; đúng vậy
+저렇다|adj|như thế kia
+어떻다|adj|như thế nào
+중요하다|adj|quan trọng
+불쌍하다|adj|đáng thương
+외롭다|adj|cô đơn
+미안하다|adj|xin lỗi; áy náy
+고맙다|adj|biết ơn; cảm ơn
+죄송하다|adj|xin lỗi (trang trọng)
+반갑다|adj|vui mừng (khi gặp)
+궁금하다|adj|tò mò; thắc mắc
+괴롭다|adj|đau khổ; khó chịu
+어둡다|adj|tối
+밝다|adj|sáng
+깊다|adj|sâu
+얕다|adj|nông
+넓다|adj|rộng
+좁다|adj|hẹp
+멀다|adj|xa
+가깝다|adj|gần
+똑같다|adj|giống hệt
+비슷하다|adj|tương tự
+확실하다|adj|chắc chắn
+분명하다|adj|rõ ràng
+정확하다|adj|chính xác
+솔직하다|adj|thẳng thắn
+용감하다|adj|dũng cảm
+강하다|adj|mạnh
+약하다|adj|yếu
+똑똑하다|adj|thông minh
+바쁘다|adj|bận
+한가하다|adj|rảnh rỗi
+편하다|adj|thoải mái; tiện
+불편하다|adj|bất tiện; khó chịu
+깨끗하다|adj|sạch sẽ
+더럽다|adj|bẩn
+착하다|adj|hiền; tốt bụng
+아름답다|adj|đẹp; tuyệt đẹp
+귀엽다|adj|dễ thương
+끔찍하다|adj|kinh khủng
+신기하다|adj|kỳ diệu; lạ lùng
+놀랍다|adj|đáng ngạc nhiên
+부끄럽다|adj|xấu hổ
+자랑스럽다|adj|tự hào
+불안하다|adj|bất an
+화나다|v|tức giận
+짜증나다|v|bực mình
+심심하다|adj|buồn chán
+졸리다|v|buồn ngủ
+목마르다|adj|khát nước
+배부르다|adj|no bụng
+건강하다|adj|khỏe mạnh
+유명하다|adj|nổi tiếng
+특별하다|adj|đặc biệt
+평범하다|adj|bình thường
+간단하다|adj|đơn giản
+복잡하다|adj|phức tạp
+상관없다|adj|không liên quan; không sao
+대단하다|adj|ghê gớm; tuyệt vời
+훌륭하다|adj|xuất sắc
+가난하다|adj|nghèo
+비싸다|adj|đắt
+싸다|adj|rẻ
+맵다|adj|cay
+달다|adj|ngọt
+짜다|adj|mặn
+시다|adj|chua
+싱겁다|adj|nhạt
+진하다|adj|đậm
+연하다|adj|nhạt; mềm
+굵다|adj|to; dày (sợi)
+가늘다|adj|mảnh
+두껍다|adj|dày
+얇다|adj|mỏng
+단단하다|adj|cứng chắc
+부드럽다|adj|mềm mại
+딱딱하다|adj|cứng
+날카롭다|adj|sắc bén
+위대하다|adj|vĩ đại
+불가능하다|adj|không thể
+가능하다|adj|có thể
+충분하다|adj|đủ
+부족하다|adj|thiếu
+사랑스럽다|adj|đáng yêu
+불길하다|adj|điềm gở
+수상하다|adj|khả nghi
+의심스럽다|adj|đáng ngờ
+어리다|adj|nhỏ tuổi; non
+아쉽다|adj|tiếc nuối
+안타깝다|adj|đáng tiếc; xót xa
+억울하다|adj|oan ức
+무사하다|adj|bình an vô sự
+소중하다|adj|quý giá
+진지하다|adj|nghiêm túc
+당연하다|adj|đương nhiên
+필요없다|adj|không cần
+쓸모없다|adj|vô dụng
+마찬가지다|adj|giống nhau
+이상적이다|adj|lý tưởng
+잔인하다|adj|tàn nhẫn
+냉정하다|adj|lạnh lùng
+외롭다|adj|cô độc
+괜히|adv|vô ích; tự dưng
+## ===== cụm hay gặp trong thoại =====
+괜찮아요|phrase|không sao đâu; ổn mà
+뵙겠습니다|phrase|rất hân hạnh được gặp
+잘 부탁드립니다|phrase|xin nhờ anh/chị giúp đỡ
+수고하세요|phrase|chúc làm việc tốt
+조심하세요|phrase|hãy cẩn thận
+어서 오세요|phrase|chào mừng quý khách
+잘 지내요|phrase|tôi vẫn khỏe
+잘 먹겠습니다|phrase|tôi xin phép ăn
+잘 먹었습니다|phrase|tôi ăn ngon lắm
+
+# ===== bổ sung =====
+싫다|adj|ghét; không thích
+짓다|v|xây; làm; đặt (tên); nấu (cơm); tạo (vẻ mặt)
+붓다|v|đổ; rót; sưng
+잇다|v|nối; tiếp nối
+긋다|v|vạch; kẻ
+낳다|v|sinh; đẻ
+닿다|v|chạm tới; đến nơi
+앓다|v|ốm; mắc bệnh
+옳다|adj|đúng; phải
+그리다|v|vẽ; hình dung
+그립다|adj|nhớ; nhớ nhung
+지내다|v|sống; trải qua; sinh hoạt
+맡다|v|đảm nhận; ngửi
+맡기다|v|giao phó; gửi
+알려주다|v|cho biết; báo cho
+뭔가|adv|cái gì đó; có gì đó
+무언가|adv|cái gì đó
+누군가|pron|ai đó
+어딘가|adv|đâu đó
+어쩌면|adv|có lẽ; biết đâu
+어쨌든|adv|dù sao đi nữa
+하여튼|adv|dù sao
+그러게|int|đúng thế nhỉ; tôi cũng nghĩ thế
+그래|int|ừ; vậy à
+그럼요|int|tất nhiên rồi
+알았어|phrase|biết rồi; được rồi
+알았어요|phrase|tôi biết rồi; được rồi
+모르겠다|phrase|không biết; không hiểu
+모르겠어요|phrase|tôi không biết; không hiểu
+됐어|phrase|thôi đủ rồi; được rồi
+됐어요|phrase|thôi đủ rồi; được rồi
+조심하다|v|cẩn thận
+정신|n|tinh thần; ý thức
+정신차리다|v|tỉnh táo lại
+미치다|v|phát điên; đạt tới
+바보|n|đồ ngốc
+다녀오다|v|đi rồi về; đi một chuyến
+어쩌다|v|làm sao; sao lại
+때문|nbound|vì; do (… 때문에: bởi vì)
+대신|n|thay thế; thay vì
+위해|adv|vì; để (… 를 위해)
+통해|adv|thông qua
+대해|adv|về (… 에 대해)
+수|nbound|khả năng; cách (-ㄹ 수 있다/없다)
+줄|nbound|việc (biết làm); dòng
+데|nbound|nơi; chỗ; việc
+척|nbound|vờ như; giả vờ
+듯|nbound|như thể
+채|nbound|nguyên trạng; cứ thế
+적|nbound|kinh nghiệm (… 적이 있다)
+만큼|nbound|bằng; như; đến mức
+뿐|nbound|chỉ; chỉ có
+무슨일|n|chuyện gì
+잠깐만|phrase|chờ một chút
+기다려|phrase|chờ đã
+살려줘|phrase|cứu tôi với
+도와줘|phrase|giúp tôi với
+도와주세요|phrase|xin hãy giúp tôi
+살려주세요|phrase|xin hãy cứu tôi
+제발요|phrase|làm ơn mà
+정신 차려|phrase|tỉnh lại đi
+어떡해|phrase|làm sao bây giờ
+어떡하죠|phrase|làm sao bây giờ
+무슨 소리야|phrase|nói gì vậy
+왜 그래|phrase|sao vậy
+알겠어요|phrase|tôi hiểu rồi; vâng (đã rõ)
+알겠다|phrase|đã rõ; hiểu rồi
+
+# ===== bổ sung 2: động từ, danh từ, câu thoại hay gặp trong phim kinh dị / cổ trang =====
+도망치다|v|chạy trốn
+달아나다|v|chạy thoát; bỏ chạy
+뛰어가다|v|chạy đi
+뛰어오다|v|chạy đến
+쫓기다|v|bị đuổi theo
+잡히다|v|bị bắt; bị nắm
+갇히다|v|bị nhốt
+가두다|v|nhốt; giam
+풀어주다|v|thả ra; cởi trói
+터지다|v|nổ tung; vỡ ra
+폭발하다|v|phát nổ
+무너지다|v|sụp đổ
+부서지다|v|vỡ nát
+깨지다|v|bị vỡ
+불타다|v|cháy
+젖다|v|bị ướt
+마르다|v|khô; gầy; khát
+씻다|v|rửa; tắm
+닦다|v|lau; chùi
+빨다|v|giặt; mút
+덮다|v|đậy; phủ
+가리다|v|che; chọn lọc
+비추다|v|chiếu sáng
+보여주다|v|cho xem
+가르쳐주다|v|chỉ cho; dạy cho
+설득하다|v|thuyết phục
+협박하다|v|đe dọa
+위협하다|v|uy hiếp; đe dọa
+납치하다|v|bắt cóc
+훔치다|v|ăn trộm
+빼앗다|v|cướp; tước đoạt
+돌려주다|v|trả lại
+빌리다|v|mượn; vay
+빌려주다|v|cho mượn
+갚다|v|trả (nợ); đền đáp
+내다|v|nộp; đưa ra; trả; phát ra
+내놓다|v|đưa ra; bày ra
+맹세하다|v|thề
+다짐하다|v|quyết tâm
+깨어있다|v|thức; tỉnh
+버려지다|v|bị vứt bỏ
+감시하다|v|giám sát; theo dõi
+체포하다|v|bắt giữ
+처형하다|v|hành quyết
+고문하다|v|tra tấn
+심문하다|v|thẩm vấn
+숨쉬다|v|thở
+숨을쉬다|v|thở
+총독|n|toàn quyền
+일제|n|đế quốc Nhật; thời Nhật đô hộ
+식민지|n|thuộc địa
+지배|n|sự cai trị
+해방|n|sự giải phóng
+시대|n|thời đại
+역사|n|lịch sử
+피해자|n|nạn nhân
+희생자|n|nạn nhân; người hy sinh
+생존자|n|người sống sót
+실험체|n|vật thí nghiệm
+약물|n|dược chất; thuốc
+독|n|độc
+돌연변이|n|đột biến
+짐승|n|thú vật
+동물|n|động vật
+늑대|n|sói
+호랑이|n|hổ
+뱀|n|rắn
+쥐|n|chuột
+벌레|n|sâu bọ; côn trùng
+마취|n|gây mê
+해부|n|giải phẫu
+수술실|n|phòng phẫu thuật
+병실|n|phòng bệnh
+침대|n|giường
+의자|n|ghế
+책상|n|bàn học
+거울|n|gương
+시계|n|đồng hồ
+반지|n|nhẫn
+보석|n|đá quý; châu báu
+금|n|vàng
+장부|n|sổ sách
+문서|n|tài liệu; văn bản
+서류|n|hồ sơ; giấy tờ
+계약|n|hợp đồng
+명단|n|danh sách
+자동차|n|ô tô
+우체국|n|bưu điện
+약국|n|hiệu thuốc
+여관|n|nhà trọ
+술집|n|quán rượu
+카페|n|quán cà phê
+세상에|int|trời đất ơi
+맙소사|int|trời ơi
+젠장|int|chết tiệt
+닥쳐|phrase|im đi
+비켜|phrase|tránh ra
+꺼져|phrase|biến đi
+이제야|adv|đến giờ mới
+아직도|adv|vẫn còn
+여전히|adv|vẫn
+절대로|adv|tuyệt đối (không)
+도저히|adv|không thể nào
+결코|adv|nhất quyết (không)
+단지|adv|chỉ là
+그저|adv|chỉ; cứ thế
+무조건|adv|vô điều kiện; nhất định
+어차피|adv|dù sao cũng
+당분간|adv|tạm thời; trong thời gian tới
+또다시|adv|lại một lần nữa
+다시는|adv|không bao giờ nữa
+영영|adv|mãi mãi (không còn)
+한번|adv|một lần
+걱정|n|sự lo lắng
+도움|n|sự giúp đỡ
+부탁|n|sự nhờ vả
+기분이|n|tâm trạng

@@ -1,0 +1,17 @@
+{
+  "name": "linguaflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinguaFlow \u2014 learn languages while watching (Firefox extension, Korean first)",
+  "license": "MIT",
+  "scripts": {
+    "dict": "node scripts/build-dictionary.js",
+    "check": "node scripts/check-syntax.js",
+    "test": "node --test --test-reporter=spec \"tests/**/*.test.js\"",
+    "lint": "bash build.sh --skip-tests --lint",
+    "build": "bash build.sh"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}

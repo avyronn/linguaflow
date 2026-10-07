@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinguaFlow</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body data-mode="tab">
+  <div id="app">
+    <header class="brand">
+      <svg class="logo" viewBox="0 0 128 128" width="34" height="34" aria-hidden="true" focusable="false">
+        <rect width="128" height="128" rx="28" fill="#12151B"/>
+        <path d="M30 22h68a12 12 0 0 1 12 12v40a12 12 0 0 1-12 12H62L38 106V86h-8a12 12 0 0 1-12-12V34a12 12 0 0 1 12-12z" fill="#7FD6C2"/>
+        <path d="M56 40v32l28-16z" fill="#12151B"/>
+        <path d="M18 118q15-14 30 0t30 0 30 0" fill="none" stroke="#F0B44C" stroke-width="6" stroke-linecap="round"/>
+      </svg>
+      <div class="brand-text">
+        <h1>LinguaFlow</h1>
+        <p class="tag">Learn languages while watching.</p>
+      </div>
+      <button id="openTab" class="ghost" type="button" title="Open full page" aria-label="Open full page">⤢</button>
+    </header>
+    <main id="view" aria-live="polite"></main>
+    <nav id="nav" class="nav" aria-label="LinguaFlow"></nav>
+  </div>
+  <script src="../core/util.js"></script>
+  <script src="../core/i18n.js"></script>
+  <script src="../core/settings.js"></script>
+  <script src="../core/language/language-pack.js"></script>
+  <script src="../core/language/language-pack-manager.js"></script>
+  <script src="../core/dictionary/dictionary-provider.js"></script>
+  <script src="../core/dictionary/local-provider.js"></script>
+  <script src="../core/dictionary/dictionary-manager.js"></script>
+  <script src="../core/pronunciation/pronunciation.js"></script>
+  <script src="../core/vocabulary/storage.js"></script>
+  <script src="../core/vocabulary/vocabulary-manager.js"></script>
+  <script src="../core/review/review-engine.js"></script>
+  <script src="../languages/korean/hangul.js"></script>
+  <script src="../languages/korean/particles.js"></script>
+  <script src="../languages/korean/endings.js"></script>
+  <script src="../languages/korean/conjugation.js"></script>
+  <script src="../languages/korean/dictionary.js"></script>
+  <script src="../languages/korean/tokenizer.js"></script>
+  <script src="../languages/korean/morphology.js"></script>
+  <script src="../languages/korean/romanization.js"></script>
+  <script src="../languages/korean/index.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
