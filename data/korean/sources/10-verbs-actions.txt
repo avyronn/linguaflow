@@ -1,0 +1,197 @@
+# ===== động từ: hành động, di chuyển, cơ thể, giao tiếp =====
+가까워지다|v|trở nên gần; đến gần
+멀어지다|v|trở nên xa; xa dần
+건너가다|v|băng qua; sang bên kia
+걸어가다|v|đi bộ đến
+걸어오다|v|đi bộ tới
+기어가다|v|bò đi
+끌려가다|v|bị lôi đi; bị dẫn đi
+나아가다|v|tiến lên; tiến tới
+날다|v|bay
+날아가다|v|bay đi
+날아오다|v|bay tới
+다가가다|v|tiến lại gần
+다가서다|v|bước lại gần
+다가오다|v|tiến đến gần (chỗ người nói)
+달려가다|v|chạy đến
+달려오다|v|chạy tới
+도달하다|v|đạt tới; đến được
+돌아다니다|v|đi lòng vòng; đi khắp nơi
+따라다니다|v|đi theo; bám theo
+떠나가다|v|rời đi
+맴돌다|v|quanh quẩn; xoay quanh
+물러나다|v|lui ra; từ chức
+물러서다|v|lùi lại
+밀려오다|v|ùa tới; dồn đến
+비켜서다|v|tránh sang một bên
+빠져나가다|v|thoát ra; lẻn ra
+빠져나오다|v|thoát ra; tuột ra
+빠져들다|v|chìm đắm; sa vào
+뛰어내리다|v|nhảy xuống
+뛰어들다|v|lao vào; nhảy vào
+뛰어넘다|v|nhảy qua; vượt qua
+뒤쫓다|v|đuổi theo sau
+뒤따르다|v|theo sau
+앞서가다|v|đi trước
+올라타다|v|leo lên (xe, ngựa)
+올라서다|v|bước lên
+외출하다|v|ra ngoài
+이사하다|v|chuyển nhà
+지나치다|v|đi ngang qua; quá mức
+찾아다니다|v|đi tìm khắp nơi
+쳐들어가다|v|xông vào; tấn công vào
+침입하다|v|xâm nhập; đột nhập
+통과하다|v|đi qua; vượt qua (kỳ thi)
+헤매다|v|lang thang; lạc lối
+헤엄치다|v|bơi
+휘청거리다|v|loạng choạng
+거닐다|v|đi dạo
+돌아서다|v|quay người; quay lưng
+돌아눕다|v|trở mình
+들르다|v|ghé qua
+마중하다|v|ra đón
+배웅하다|v|tiễn
+앞장서다|v|dẫn đầu
+오가다|v|qua lại
+이끌다|v|dẫn dắt
+인도하다|v|dẫn đường; hướng dẫn
+출근하다|v|đi làm
+퇴근하다|v|tan làm
+등교하다|v|đến trường
+하교하다|v|tan học
+귀국하다|v|về nước
+출국하다|v|xuất cảnh
+입국하다|v|nhập cảnh
+상륙하다|v|đổ bộ; lên bờ
+도착되다|v|được đến nơi
+접근하다|v|tiếp cận
+접근시키다|v|cho tiếp cận
+돌진하다|v|xông thẳng tới
+비행하다|v|bay (chuyến bay)
+운전하다|v|lái xe
+주차하다|v|đỗ xe
+탑승하다|v|lên (tàu xe máy bay)
+하차하다|v|xuống xe
+내려놓다|v|đặt xuống; bỏ xuống
+들어올리다|v|nhấc lên; nâng lên
+집어들다|v|nhặt lên; cầm lên
+집어넣다|v|nhét vào
+꺼내다|v|lấy ra
+끄집어내다|v|lôi ra; moi ra
+쏟다|v|đổ ra; dồn (tâm sức)
+쏟아지다|v|đổ xuống; tuôn ra
+흘리다|v|làm rơi; làm đổ; rỉ ra
+떨어뜨리다|v|làm rơi
+넘기다|v|chuyển giao; lật (trang); nuốt
+넘겨주다|v|trao lại; giao cho
+건네다|v|đưa; chuyển (đồ vật, lời)
+건네주다|v|đưa cho; chuyển cho
+돌려보내다|v|đuổi về; trả về
+되돌리다|v|đưa trở lại; hoàn lại
+되돌아가다|v|quay trở lại
+되돌아오다|v|quay trở về
+가져다주다|v|mang đến cho
+메다|v|vác; đeo (vai)
+지다|v|gánh; vác; thua; lặn
+싣다|v|chất lên; chở|ㄷ
+나르다|v|chuyển; khuân vác
+옮기다|v|di chuyển; chuyển đi
+옮겨가다|v|chuyển đi chỗ khác
+밀치다|v|xô; đẩy mạnh
+잡아당기다|v|giật; kéo mạnh
+잡아끌다|v|lôi kéo
+붙들다|v|giữ chặt; níu
+부여잡다|v|nắm chặt; ôm chặt
+움켜쥐다|v|nắm chặt; túm
+쥐다|v|nắm
+펴다|v|mở ra; trải ra
+접다|v|gấp
+말다|v|cuộn; thôi; đừng
+감다|v|nhắm (mắt); quấn; gội
+뜨다|v|mở (mắt); nổi; mọc
+깜빡이다|v|chớp (mắt); nhấp nháy
+쳐다보다|v|nhìn lên; nhìn chằm chằm
+노려보다|v|trừng mắt nhìn
+훔쳐보다|v|nhìn trộm
+엿보다|v|rình xem; nhìn lén
+엿듣다|v|nghe lén|ㄷ
+들여다보다|v|nhìn vào; ngó vào
+내려다보다|v|nhìn xuống
+올려다보다|v|nhìn lên
+둘러보다|v|nhìn quanh
+바라보다|v|ngắm nhìn
+관찰하다|v|quan sát
+주시하다|v|chăm chú nhìn
+응시하다|v|nhìn chằm chằm
+살피다|v|xem xét; quan sát kỹ
+확인되다|v|được xác nhận
+맡다|v|ngửi; nhận (việc)
+핥다|v|liếm
+빨아들이다|v|hút vào
+뱉다|v|nhổ; phun
+삼키다|v|nuốt
+씹다|v|nhai
+깨물다|v|cắn
+물다|v|cắn; ngậm
+뜯다|v|xé; gỡ ra; bứt
+찢어지다|v|bị rách
+터뜨리다|v|làm nổ; làm vỡ òa
+무너뜨리다|v|làm sụp đổ
+부러지다|v|bị gãy
+부러뜨리다|v|bẻ gãy
+꺾다|v|bẻ; gập
+꺾이다|v|bị gãy; bị bẻ
+구부리다|v|uốn cong; cúi
+숙이다|v|cúi (đầu)
+기대다|v|dựa vào
+기울다|v|nghiêng
+기울이다|v|nghiêng; dồn (sức)
+엎드리다|v|nằm sấp; quỳ phục
+쪼그리다|v|ngồi xổm; co rúm
+웅크리다|v|co người lại
+절하다|v|cúi lạy
+악수하다|v|bắt tay
+포옹하다|v|ôm
+껴안다|v|ôm chặt
+안아주다|v|ôm (ai đó)
+입맞추다|v|hôn
+키스하다|v|hôn
+쓰다듬다|v|vuốt ve
+두드리다|v|gõ; đập nhẹ
+노크하다|v|gõ cửa
+치다|v|đánh; gõ; chơi (nhạc cụ)
+때려눕히다|v|đánh gục
+쓰러뜨리다|v|đánh ngã
+패다|v|đánh đập
+후려치다|v|quật mạnh
+걷어차다|v|đá
+차다|v|đá; đeo; lạnh
+밟다|v|giẫm lên
+짓밟다|v|giẫm đạp
+누르다|v|ấn; đè
+짓누르다|v|đè nặng; áp chế
+조르다|v|siết; nài nỉ
+찌르다|v|đâm
+베다|v|cắt; chém; gối đầu
+자르다|v|cắt
+썰다|v|thái
+다지다|v|băm; củng cố
+쪼개다|v|chẻ; bổ
+쪼다|v|mổ; đục
+파내다|v|đào ra
+묻다|v|chôn; dính (bẩn)|reg
+묻히다|v|bị chôn; bị dính
+덮치다|v|ập tới; đè lên
+습격하다|v|tập kích
+공격당하다|v|bị tấn công
+방어하다|v|phòng thủ
+막아내다|v|chặn được; ngăn chặn
+피하다|v|tránh
+회피하다|v|né tránh
+숨기다|v|giấu
+숨어들다|v|lẻn vào; ẩn vào
+들키다|v|bị phát hiện
+발각되다|v|bị phát giác
+눈치채다|v|nhận ra; đánh hơi thấy
+알아채다|v|nhận ra
+깨닫다|v|nhận ra; giác ngộ|ㄷ

@@ -70,6 +70,8 @@
         word, lemma: word, pos: raw.pos || null, meanings: Array.isArray(raw.meanings) ? raw.meanings.slice() : [],
         pronunciation: raw.pron || '', examples: Array.isArray(raw.examples) ? raw.examples.slice() : [],
         irregular: raw.irr || null, level: raw.level || null, rank: this.rank(word), confidence: 1, source: this.id,
+        hanja: raw.hanja || null, hanViet: raw.hv || null,
+        altSenses: Array.isArray(raw.alt) ? raw.alt.map((a) => ({ pos: a.pos, meanings: a.meanings.slice() })) : [],
       };
     }
   }

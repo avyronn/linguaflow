@@ -1,0 +1,45 @@
+# ===== danh từ còn thiếu + từ phụ thuộc dùng trong mẫu ngữ pháp =====
+대학|n|đại học; trường đại học
+준비|n|sự chuẩn bị
+경제|n|kinh tế
+문화|n|văn hóa
+과학|n|khoa học
+기술|n|kỹ thuật; công nghệ
+재판|n|phiên tòa; xét xử
+이해|n|sự hiểu; sự thông cảm
+음악|n|âm nhạc
+방송|n|phát sóng; chương trình
+민족|n|dân tộc
+종교|n|tôn giáo
+공원|n|công viên
+도서|n|sách
+교육|n|giáo dục
+정치|n|chính trị
+산업|n|công nghiệp
+환경|n|môi trường
+예술|n|nghệ thuật
+미술|n|mỹ thuật
+운명적|n|mang tính định mệnh
+리|nbound|lẽ nào; khả năng (… ㄹ 리가 없다)
+필요|n|sự cần thiết
+중|nbound|trong lúc; giữa; trong số
+뻔|nbound|suýt (… ㄹ 뻔하다)
+모양|n|hình dạng; vẻ (… ㄴ 모양이다)
+법|nbound|lẽ thường; cách; luật
+김|n|hơi nước; họ Kim; rong biển khô
+나다|v|xảy ra; mọc; toát ra; có (mùi, tiếng)
+만하다|adj|đáng; có thể (… ㄹ 만하다)
+텐데|phrase|chắc là … vậy mà (-ㄹ 텐데: suy đoán + đối lập)
+텐데요|phrase|chắc là … mà (lịch sự)
+테니까|phrase|vì chắc là … nên (-ㄹ 테니까)
+테니|phrase|vì chắc là … nên (rút gọn)
+터|nbound|dự định; hoàn cảnh (… ㄹ 터이다)
+탓|nbound|do; tại (lỗi)
+바|nbound|điều; cách (… ㄴ 바)
+따름|nbound|chỉ là; chỉ có (… ㄹ 따름이다)
+뿐|nbound|chỉ; chỉ có
+만큼|nbound|bằng; đến mức
+대로|nbound|theo; như; đúng như
+채|nbound|nguyên trạng; cứ như thế
+즈음|n|vào khoảng; lúc
+참|n|thật; sự thật

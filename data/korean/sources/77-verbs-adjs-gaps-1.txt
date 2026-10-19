@@ -1,0 +1,91 @@
+# ===== động từ / tính từ còn thiếu (đợt 1: từ phụ đề; hành động, hình sự, quân sự, y khoa) =====
+빌어먹다|v|ăn xin; sống bằng đi xin; (-ㄹ) đáng nguyền rủa, chết tiệt
+멍청하다|adj|ngốc nghếch; đần độn
+유일하다|adj|duy nhất
+뛰어나다|adj|xuất sắc; vượt trội
+사악하다|adj|xấu xa; độc ác
+다물다|v|ngậm (miệng) lại
+질리다|v|phát ngán; sợ xanh mặt
+뒤지다|v|lục lọi; tìm kiếm; thua kém
+망가지다|v|hỏng; bị hư hại
+뭉치다|v|đoàn kết; vón cục; gộp lại
+빚지다|v|mắc nợ; chịu ơn
+겁주다|v|dọa; hù dọa
+겁먹다|v|sợ hãi; hoảng sợ
+얼어붙다|v|đóng băng; cứng đờ (vì sợ)
+소름끼치다|v|nổi da gà; rợn người
+성가시다|adj|phiền toái; làm phiền
+에워싸다|v|bao vây; vây quanh
+바래다|v|phai màu; tiễn; (cách viết sai thường gặp của 바라다)
+납시다|v|(kính ngữ, vua chúa) giá lâm; ngự
+꼬시다|v|dụ dỗ; tán tỉnh
+쑤시다|v|nhức nhối; chọc; xỉa
+호출하다|v|gọi; triệu tập
+작동하다|v|vận hành; hoạt động (máy móc)
+조종하다|v|điều khiển; lái; thao túng
+해킹하다|v|tấn công mạng; xâm nhập (hack)
+협조하다|v|hợp tác; hỗ trợ
+투여하다|v|cho dùng thuốc; truyền
+봉합하다|v|khâu (vết thương); khép lại
+공유하다|v|chia sẻ; cùng sở hữu
+노출하다|v|để lộ; phơi bày
+예언하다|v|tiên tri; dự đoán
+숙청하다|v|thanh trừng
+수색하다|v|lục soát; tìm kiếm
+감금하다|v|giam giữ; nhốt
+도주하다|v|bỏ trốn; tẩu thoát
+추격하다|v|truy đuổi
+침공하다|v|xâm lược; xâm chiếm
+점령하다|v|chiếm đóng; chiếm lĩnh
+항복하다|v|đầu hàng
+폭파하다|v|cho nổ; phá hủy bằng chất nổ
+사격하다|v|bắn (súng)
+저격하다|v|bắn tỉa
+암살하다|v|ám sát
+고발하다|v|tố cáo; tố giác
+기소하다|v|truy tố
+판결하다|v|phán quyết; tuyên án
+석방하다|v|thả tự do; phóng thích
+선고하다|v|tuyên án; tuyên bố
+진술하다|v|khai; trình bày
+자백하다|v|thú tội; khai nhận
+증언하다|v|làm chứng
+목격하다|v|chứng kiến; trông thấy
+승낙하다|v|đồng ý; chấp thuận
+제한하다|v|hạn chế; giới hạn
+통제하다|v|kiểm soát; khống chế
+점검하다|v|kiểm tra; rà soát
+검사하다|v|kiểm tra; xét nghiệm
+검토하다|v|xem xét; cân nhắc
+변경하다|v|thay đổi; sửa đổi
+교체하다|v|thay thế; thay (người, bộ phận)
+대체하다|v|thay thế; thế chỗ
+해명하다|v|giải thích; làm rõ
+만들어내다|v|tạo ra; chế tạo; bịa ra
+생각해내다|v|nghĩ ra
+도피하다|v|trốn chạy; lẩn trốn
+폭로하다|v|vạch trần; phơi bày
+공표하다|v|công bố
+통보하다|v|thông báo; báo
+획득하다|v|giành được; thu được
+확보하다|v|đảm bảo; giữ được
+차지하다|v|chiếm; chiếm giữ
+뺏기다|v|bị cướp; bị tước mất
+도둑질하다|v|ăn trộm
+조작하다|v|thao tác; làm giả; ngụy tạo
+위조하다|v|làm giả; giả mạo
+가장하다|v|giả vờ; ngụy trang
+변장하다|v|hóa trang; cải trang
+흉내내다|v|bắt chước
+모방하다|v|mô phỏng; bắt chước
+베끼다|v|chép; sao chép
+어루만지다|v|vuốt ve; xoa dịu
+업히다|v|được cõng; bị cõng
+쪼개지다|v|bị chẻ ra; bị tách ra
+합쳐지다|v|được hợp lại; gộp lại
+감기다|v|bị cuốn; (mắt) nhắm lại; được quấn
+꽂히다|v|bị cắm vào; bị đâm vào; mê mẩn
+찔리다|v|bị đâm; bị chọc; cảm thấy cắn rứt
+던져지다|v|bị ném; được ném
+돌려받다|v|nhận lại; được trả lại
+되살아나다|v|sống lại; hồi sinh

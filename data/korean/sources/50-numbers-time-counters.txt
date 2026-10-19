@@ -1,0 +1,107 @@
+# ===== số, đơn vị đếm, thời gian, lịch =====
+예순|num|sáu mươi
+일흔|num|bảy mươi
+여든|num|tám mươi
+아흔|num|chín mươi
+스무살|n|hai mươi tuổi
+둘째|n|thứ hai; con thứ hai
+셋째|n|thứ ba
+넷째|n|thứ tư
+다섯째|n|thứ năm
+번째|nbound|thứ … (số thứ tự)
+제|det|của tôi (khiêm nhường, = 저의); thứ (tiền tố số thứ tự: 제일, 제1장)
+절반|n|một nửa
+배|nbound|lần (gấp bao nhiêu lần)
+몇몇|det|một vài
+여러|det|nhiều; một số
+모든|det|mọi; tất cả
+각|det|mỗi
+온|det|cả; toàn
+수십|num|hàng chục
+수백|num|hàng trăm
+수천|num|hàng nghìn
+수만|num|hàng vạn
+몇십|num|vài chục
+몇백|num|vài trăm
+켤레|cnt|đôi (giày, tất)
+송이|cnt|bông; chùm
+그루|cnt|cây (đếm cây)
+채|cnt|căn (nhà); nguyên trạng
+척|cnt|chiếc (tàu thuyền); vờ
+편|cnt|bộ phim; bài; phía
+벌|cnt|bộ (quần áo)
+통|cnt|cuộc (điện thoại); thùng
+군데|cnt|chỗ; nơi
+가지|cnt|loại; thứ
+달러|cnt|đô la
+센티미터|cnt|xen-ti-mét
+미터|cnt|mét
+킬로|cnt|ki-lô
+킬로미터|cnt|ki-lô-mét
+킬로그램|cnt|ki-lô-gam
+리터|cnt|lít
+퍼센트|cnt|phần trăm
+도|cnt|độ
+년대|cnt|thập niên
+세기|n|thế kỷ
+주일|cnt|tuần
+개월|cnt|tháng (đếm số tháng)
+평|cnt|pyeong (đơn vị diện tích)
+인분|cnt|suất ăn
+곡|cnt|bài hát
+방울|cnt|giọt
+조각|cnt|mảnh; miếng
+모금|cnt|ngụm
+걸음|cnt|bước
+세|cnt|tuổi (Hán Hàn)
+월요일|n|thứ hai
+화요일|n|thứ ba
+수요일|n|thứ tư
+목요일|n|thứ năm
+금요일|n|thứ sáu
+토요일|n|thứ bảy
+일요일|n|chủ nhật
+요일|n|thứ (trong tuần)
+달력|n|lịch
+날짜|n|ngày tháng
+정오|n|giữa trưa
+자정|n|nửa đêm
+한밤중|n|giữa đêm
+해질녘|n|lúc hoàng hôn
+오래전|n|lâu rồi
+얼마전|n|cách đây không lâu
+지난주|n|tuần trước
+이번주|n|tuần này
+다음주|n|tuần sau
+지난달|n|tháng trước
+이번달|n|tháng này
+다음달|n|tháng sau
+재작년|n|năm kia
+내후년|n|năm sau nữa
+그저께|n|hôm kia
+엊그제|n|mấy hôm trước
+매주|n|mỗi tuần
+매달|n|mỗi tháng
+매년|n|mỗi năm
+평일|n|ngày thường
+휴일|n|ngày nghỉ
+공휴일|n|ngày lễ
+명절|n|ngày lễ lớn
+설날|n|Tết (âm lịch)
+추석|n|Trung thu
+새해|n|năm mới
+세월|n|năm tháng; thời gian
+평생|n|cả đời
+한평생|n|cả cuộc đời
+일주일|n|một tuần
+한달|n|một tháng
+일년|n|một năm
+반년|n|nửa năm
+하루종일|adv|cả ngày
+밤새|adv|suốt đêm
+아침저녁|n|sáng tối
+낮밤|n|ngày đêm
+오늘밤|n|đêm nay
+어젯밤|n|đêm qua
+내일모레|n|ngày mốt
+오전중|n|trong buổi sáng

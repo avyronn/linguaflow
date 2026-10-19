@@ -1,0 +1,15 @@
+# ===== đơn vị / hậu tố đứng sau số (3일간, 두 번째, 5시경, 30여 명, 한 시간 남짓) =====
+간|nbound|giữa (A 간: giữa A với nhau); trong suốt (khoảng thời gian)
+째|nbound|thứ … (số thứ tự); suốt … liền (사흘째: đã ba ngày)
+경|nbound|khoảng; vào lúc (thời điểm, đi sau số: 5시경)
+여|nbound|hơn; trên (đi sau số: 30여 명)
+남짓|nbound|hơn một chút; xấp xỉ (한 시간 남짓)
+일간|cnt|trong suốt … ngày (3일간)
+주간|n|ban ngày; hằng tuần
+주간|cnt|trong suốt … tuần (3주간)
+분간|n|sự phân biệt (분간하다: phân biệt)
+분간|cnt|trong suốt … phút (10분간)
+달간|cnt|trong suốt … tháng (3달간)
+일|cnt|ngày
+시간|cnt|giờ; tiếng
+월|cnt|tháng

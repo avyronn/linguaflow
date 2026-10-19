@@ -79,11 +79,66 @@ test('storage is only used with the extension storage API (no localStorage / Ind
   for (const f of srcJs) assert.ok(!/localStorage|sessionStorage|indexedDB|document\.cookie/.test(read(f)), f);
 });
 test('required project files exist', () => {
-  for (const f of ['README.md', 'LICENSE', 'build.sh', 'package.json', 'data/korean/dictionary.json', 'data/korean/dictionary.src.txt']) assert.ok(fs.existsSync(path.join(ROOT, f)), f);
+  for (const f of ['README.md', 'README.en.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'THIRD_PARTY_NOTICES.md', 'SECURITY.md', 'LICENSE', 'build.sh', 'package.json', 'data/korean/dictionary.json', 'data/korean/dictionary.src.txt', 'data/korean/hanja.txt']) assert.ok(fs.existsSync(path.join(ROOT, f)), f);
+  for (const f of ['README.md', 'run.js', 'lib/wd.js', 'lib/fake-netflix.js', 'lib/boot.js']) assert.ok(fs.existsSync(path.join(ROOT, 'tests/e2e', f)), 'tests/e2e/' + f);
   for (const d of ['src/core/subtitle', 'src/core/dictionary', 'src/core/vocabulary', 'src/core/review', 'src/core/pronunciation', 'src/core/language', 'src/languages/korean', 'src/content', 'src/popup', 'tests/korean', 'tests/subtitle', 'tests/vocabulary'])
     assert.ok(fs.existsSync(path.join(ROOT, d)), d);
-  for (const f of ['index.js', 'tokenizer.js', 'morphology.js', 'particles.js', 'endings.js', 'conjugation.js', 'dictionary.js']) assert.ok(fs.existsSync(path.join(ROOT, 'src/languages/korean', f)), f);
+  for (const f of ['index.js', 'tokenizer.js', 'morphology.js', 'particles.js', 'endings.js', 'conjugation.js', 'dictionary.js', 'numerals.js', 'patterns.js', 'grammar-patterns.js', 'grammar-guide.js', 'grammar-view.js', 'sentence.js']) assert.ok(fs.existsSync(path.join(ROOT, 'src/languages/korean', f)), f);
+  for (const f of ['build-dictionary.js', 'check-syntax.js', 'gen-numeral-counters.js', 'make-zip.js', 'run-tests.js']) assert.ok(fs.existsSync(path.join(ROOT, 'scripts', f)), f);
   for (const f of ['dictionary-manager.js', 'dictionary-provider.js', 'local-provider.js']) assert.ok(fs.existsSync(path.join(ROOT, 'src/core/dictionary', f)), f);
   for (const f of ['subtitle-manager.js', 'netflix-adapter.js', 'nflxmultisubs-adapter.js', 'subtitle-parser.js']) assert.ok(fs.existsSync(path.join(ROOT, 'src/core/subtitle', f)), f);
   for (const f of ['vocabulary-manager.js', 'storage.js']) assert.ok(fs.existsSync(path.join(ROOT, 'src/core/vocabulary', f)), f);
+});
+
+test('one version everywhere: manifest.json = package.json = package-lock.json = LF.VERSION (shown in the popup and the diagnostics)', () => {
+  const pkg = JSON.parse(read('package.json')), lock = JSON.parse(read('package-lock.json'));
+  const inSource = /LF\.VERSION\s*=\s*'([^']+)'/.exec(read('src/core/util.js'))[1];
+  assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
+  assert.equal(pkg.version, manifest.version); assert.equal(lock.version, manifest.version); assert.equal(lock.packages[''].version, manifest.version); assert.equal(inSource, manifest.version);
+  assert.match(read('src/popup/popup.js'), new RegExp("LF\\.VERSION \\|\\| '" + manifest.version.replace(/\./g, '\\.') + "'"), 'the popup fallback shows the same version');
+});
+test('release documents: the changelog has an entry for this version; the extension zip carries the license and the data notices', () => {
+  assert.match(read('CHANGELOG.md'), new RegExp('^## ' + manifest.version.replace(/\./g, '\\.') + '(\\s|$)', 'm'), 'CHANGELOG.md has no "## ' + manifest.version + '" entry');
+  const { EXT_ITEMS } = require(path.join(ROOT, 'scripts/make-zip.js'));
+  for (const item of ['manifest.json', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'src', 'icons', 'data/korean/dictionary.json']) assert.ok(EXT_ITEMS.includes(item), 'the extension zip must contain ' + item);
+  for (const item of EXT_ITEMS) assert.ok(fs.existsSync(path.join(ROOT, item)), 'EXT_ITEMS lists a missing path: ' + item);
+  // the zip ships only what Firefox needs: no tests, scripts, source dictionary files or node_modules
+  assert.ok(!EXT_ITEMS.some((i) => /^(tests|scripts|node_modules|dist|\.github)\b|dictionary\.src|sources\//.test(i)), 'the extension zip must not contain development files');
+});
+test('authorship: AVYRON is the author in the manifest; the heart icon is plain vector art; every local file the popup pages use exists; the credit links are safe', () => {
+  assert.equal(manifest.author, 'AVYRON');
+  assert.deepEqual(manifest.developer, { name: 'AVYRON' }); // "by AVYRON" on about:addons. (No developer.url: Firefox would then show the profile instead of the project as the add-on's homepage.)
+  assert.equal(manifest.homepage_url, 'https://github.com/avyronn/linguaflow');
+  const svg = read('icons/heart.svg');
+  assert.match(svg, /^<svg[^>]*\sxmlns="http:\/\/www\.w3\.org\/2000\/svg"/);
+  assert.ok(!/<script|<image|<foreignObject|\son[a-z]+\s*=|href\s*=\s*["']?(https?:|data:)/i.test(svg), 'the icon is plain vector art: no script, event handler, bitmap or external reference');
+  for (const html of ['src/popup/popup.html', 'src/popup/page.html']) {
+    const doc = read(html);
+    for (const m of doc.matchAll(/\b(?:src|href)="([^"#]+)"/g)) {
+      if (/^(https?:|mailto:)/.test(m[1])) continue;
+      assert.ok(fs.existsSync(path.join(ROOT, 'src/popup', m[1])), html + ' references a file that does not exist: ' + m[1]);
+    }
+    assert.match(doc, /Made with[\s\S]*icons\/heart\.svg[\s\S]*>by<[\s\S]*>AVYRON</, html + ': the credit line is missing');
+    // a link in an extension page opens only when the person clicks it, in a new tab, without handing this page to the target
+    for (const m of doc.matchAll(/<a\b[^>]*>/g)) assert.match(m[0], /target="_blank" rel="noopener noreferrer"/, html + ': unsafe link ' + m[0]);
+  }
+});
+test('interface texts: Vietnamese and English have exactly the same keys and placeholders; every key the code asks for exists', () => {
+  const { STRINGS } = require(path.join(ROOT, 'src/core/i18n.js'));
+  const vi = Object.keys(STRINGS.vi).sort(), en = Object.keys(STRINGS.en).sort();
+  assert.deepEqual(vi.filter((k) => !(k in STRINGS.en)), [], 'keys missing from English');
+  assert.deepEqual(en.filter((k) => !(k in STRINGS.vi)), [], 'keys missing from Vietnamese');
+  const holes = (s) => (String(s).match(/\{[a-zA-Z]+\}/g) || []).sort().join();
+  assert.deepEqual(vi.filter((k) => holes(STRINGS.vi[k]) !== holes(STRINGS.en[k])), [], 'placeholders differ between languages');
+  for (const k of vi) { assert.ok(String(STRINGS.vi[k]).trim().length > 0 && String(STRINGS.en[k]).trim().length > 0, 'empty text: ' + k); }
+  const used = new Set(), prefixes = new Set();
+  for (const f of walk('src', []).filter((x) => /\.(js|html)$/.test(x))) {
+    const code = read(f);
+    for (const m of code.matchAll(/\bt\('([a-zA-Z0-9_.]*[a-zA-Z0-9_])'/g)) used.add(m[1]); // (a key ending in a dot is the start of a dynamic key: handled below)
+    for (const m of code.matchAll(/\bt\('([a-zA-Z0-9_.]+\.)'\s*\+/g)) prefixes.add(m[1]);
+    for (const m of code.matchAll(/data-i18n(?:-[a-z]+)?="([a-zA-Z0-9_.]+)"/g)) used.add(m[1]);
+  }
+  assert.ok(used.size > 80, 'keys found in the code: ' + used.size);
+  assert.deepEqual([...used].filter((k) => !(k in STRINGS.vi)), [], 'keys used in the code but not defined');
+  for (const p of prefixes) assert.ok(vi.some((k) => k.startsWith(p)), 'no text for the dynamic key ' + p + '…');
 });

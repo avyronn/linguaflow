@@ -1,0 +1,241 @@
+# ===== chức danh, cấp bậc, nghề nghiệp, nhân vật (quân đội, cảnh sát, tòa án, hoàng gia, tôn giáo, huyền ảo) =====
+닥터|n|bác sĩ; tiến sĩ (mượn từ “doctor”, dùng như danh xưng)
+요원|n|đặc vụ; nhân viên (của một cơ quan)
+함장|n|hạm trưởng; thuyền trưởng (tàu chiến)
+부함장|n|phó hạm trưởng
+함선|n|tàu chiến; chiến hạm
+함대|n|hạm đội
+함정|n|tàu chiến; cái bẫy
+대령|n|đại tá
+중령|n|trung tá
+소령|n|thiếu tá
+대위|n|đại úy
+중위|n|trung úy
+소위|n|thiếu úy
+준위|n|chuẩn úy
+하사|n|hạ sĩ
+중사|n|trung sĩ
+상사|n|thượng sĩ; cấp trên
+병장|n|binh trưởng (cấp bậc cao nhất của binh sĩ Hàn Quốc)
+상병|n|thượng binh (cấp bậc binh sĩ, trên 일병)
+일병|n|binh nhất
+이병|n|binh nhì
+장군|n|tướng; đại tướng
+장교|n|sĩ quan
+사병|n|binh sĩ
+사령관|n|tư lệnh; chỉ huy
+사령부|n|bộ tư lệnh
+총사령관|n|tổng tư lệnh
+제독|n|đô đốc
+참모|n|tham mưu
+대장|n|đại tướng; thủ lĩnh; đội trưởng
+중장|n|trung tướng
+소장|n|thiếu tướng; giám đốc (viện, trạm)
+준장|n|chuẩn tướng
+병사|n|binh lính
+군인|n|quân nhân
+군대|n|quân đội
+부대|n|đơn vị quân đội; bộ phận
+전우|n|đồng đội; chiến hữu
+대원|n|thành viên (đội); đội viên
+팀원|n|thành viên trong nhóm
+경관|n|cảnh sát; viên cảnh sát
+경사|n|trung sĩ cảnh sát (cấp bậc); chuyện vui
+경위|n|thanh tra (cấp bậc cảnh sát); đầu đuôi sự việc
+경감|n|thanh tra cao cấp (cấp bậc cảnh sát)
+경정|n|cảnh sát trưởng (cấp bậc cảnh sát)
+서장|n|trưởng đồn; sở trưởng (cảnh sát)
+보안관|n|cảnh sát trưởng (kiểu miền Tây Mỹ); sheriff
+형사|n|cảnh sát hình sự; thám tử
+탐정|n|thám tử
+수사관|n|điều tra viên
+검사|n|công tố viên; sự kiểm tra
+판사|n|thẩm phán
+재판장|n|chánh án; chủ tọa phiên tòa
+변호사|n|luật sư
+배심원|n|bồi thẩm viên
+증인|n|nhân chứng
+피고|n|bị cáo
+피고인|n|bị cáo
+원고|n|nguyên cáo; nguyên đơn; bản thảo
+용의자|n|nghi phạm
+범인|n|thủ phạm
+범죄자|n|tội phạm
+살인자|n|kẻ giết người
+살인범|n|tội phạm giết người
+국장|n|cục trưởng; giám đốc (cơ quan)
+부장|n|trưởng phòng; trưởng ban
+과장|n|trưởng phòng; sự phóng đại
+팀장|n|trưởng nhóm
+반장|n|lớp trưởng; tổ trưởng
+회장|n|chủ tịch (tập đoàn, hội)
+대표|n|đại diện; giám đốc đại diện
+이사|n|giám đốc (thành viên hội đồng quản trị); sự chuyển nhà
+전무|n|giám đốc điều hành
+상무|n|phó giám đốc điều hành
+부사장|n|phó giám đốc; phó chủ tịch
+사원|n|nhân viên
+신입|n|người mới vào; nhân viên mới
+인턴|n|thực tập sinh
+레지던트|n|bác sĩ nội trú
+주치의|n|bác sĩ điều trị chính
+외과의|n|bác sĩ phẫu thuật
+수간호사|n|y tá trưởng
+환자분|n|bệnh nhân (kính ngữ)
+남편분|n|chồng (kính ngữ, nói về chồng người khác)
+아내분|n|vợ (kính ngữ, nói về vợ người khác)
+사모님|n|phu nhân; bà (gọi vợ của người có địa vị)
+여사|n|bà; phu nhân (kính ngữ)
+총리|n|thủ tướng
+총통|n|tổng thống (Đài Loan); lãnh tụ (Quốc xã: Führer)
+주지사|n|thống đốc bang
+의원|n|nghị sĩ; thành viên quốc hội; phòng khám
+의회|n|quốc hội; nghị viện; hội đồng
+상원|n|thượng viện
+하원|n|hạ viện
+대사|n|đại sứ; lời thoại
+대사관|n|đại sứ quán
+영사|n|lãnh sự
+외교관|n|nhà ngoại giao
+정치인|n|chính trị gia
+당국|n|nhà chức trách; cơ quan chức năng
+첩보원|n|điệp viên
+스파이|n|gián điệp
+저격수|n|xạ thủ bắn tỉa
+암살자|n|sát thủ; kẻ ám sát
+암살|n|sự ám sát
+킬러|n|sát thủ
+용병|n|lính đánh thuê
+해적|n|hải tặc; cướp biển
+선장|n|thuyền trưởng
+기장|n|cơ trưởng (máy bay); chiều dài (quần áo); hạt kê
+조종사|n|phi công
+승무원|n|tiếp viên; thành viên phi hành đoàn
+승조원|n|thủy thủ đoàn
+우주비행사|n|phi hành gia
+교황|n|giáo hoàng
+신부|n|linh mục; cô dâu
+수녀|n|nữ tu
+수도사|n|tu sĩ
+목사|n|mục sư
+스님|n|nhà sư; sư thầy
+사부|n|sư phụ; thầy
+백작|n|bá tước
+공작|n|công tước; hoạt động bí mật; âm mưu
+후작|n|hầu tước
+남작|n|nam tước
+영주|n|lãnh chúa
+황제|n|hoàng đế
+황후|n|hoàng hậu
+왕비|n|vương phi; hoàng hậu
+왕자|n|hoàng tử
+공주|n|công chúa
+전하|n|điện hạ (tôn xưng với vua, hoàng tử, công chúa)
+폐하|n|bệ hạ (tôn xưng với vua, hoàng đế)
+각하|n|các hạ; ngài (tôn xưng tổng thống, tướng lĩnh)
+마마|n|nương nương; bệ hạ (cung đình Joseon); bệnh đậu mùa
+대감|n|đại giám; quan lớn (thời Joseon)
+나리|n|ngài; quan lớn (xưng hô thời xưa)
+영감|n|ông già; ông (gọi thân mật đàn ông lớn tuổi); cảm hứng
+양반|n|yangban (tầng lớp quý tộc Joseon); người (kiểu “ông ấy”)
+노비|n|nô tì
+머슴|n|người làm công; kẻ hầu
+노예|n|nô lệ
+도적|n|kẻ trộm; giặc
+산적|n|sơn tặc
+포졸|n|lính canh (thời Joseon)
+장수|n|tướng lĩnh; sự trường thọ; người bán hàng
+무사|n|võ sĩ; chiến binh; sự bình an
+검객|n|kiếm khách
+사무라이|n|samurai
+닌자|n|ninja
+영웅|n|anh hùng
+악당|n|kẻ xấu; nhân vật phản diện
+악마|n|ác quỷ
+천사|n|thiên thần
+마녀|n|phù thủy (nữ)
+마법사|n|pháp sư; phù thủy
+요정|n|nàng tiên; tiên
+요괴|n|yêu quái
+귀신|n|ma quỷ
+유령|n|ma; bóng ma
+좀비|n|xác sống (zombie)
+괴물|n|quái vật
+야수|n|dã thú; quái thú
+흡혈귀|n|ma cà rồng
+늑대인간|n|người sói
+외계인|n|người ngoài hành tinh
+로봇|n|rô-bốt
+사이보그|n|người máy (cyborg)
+슈퍼히어로|n|siêu anh hùng
+슈퍼맨|n|Superman (siêu nhân)
+슈퍼걸|n|Supergirl
+배트맨|n|Batman
+아이언맨|n|Iron Man
+스파이더맨|n|Spider-Man
+조수|n|trợ lý; thủy triều
+비서|n|thư ký
+경호원|n|vệ sĩ
+경비원|n|bảo vệ
+경비|n|bảo vệ; kinh phí
+수위|n|bảo vệ cổng; mức nước; thứ hạng
+집사|n|quản gia; chấp sự (nhà thờ)
+하녀|n|người hầu gái
+시종|n|người hầu cận
+시녀|n|thị nữ
+기사단|n|đoàn hiệp sĩ
+성기사|n|thánh kỵ sĩ
+기수|n|kỵ sĩ; người cầm cờ; khóa (nhập học)
+간수|n|quản ngục; cai tù
+죄수|n|tù nhân
+수감자|n|người bị giam
+탈옥수|n|tù vượt ngục
+포로|n|tù binh
+인질|n|con tin
+납치범|n|kẻ bắt cóc
+강도|n|cướp; cường độ
+도둑|n|kẻ trộm
+소매치기|n|kẻ móc túi
+사기꾼|n|kẻ lừa đảo
+깡패|n|côn đồ; xã hội đen
+조폭|n|xã hội đen (nói tắt của 조직폭력배)
+조직|n|tổ chức; mô
+마피아|n|mafia
+갱|n|băng đảng; gangster
+두목|n|đầu sỏ; trùm
+보스|n|ông chủ; trùm (boss)
+부하|n|thuộc hạ; cấp dưới
+졸개|n|lính quèn; đàn em
+동료|n|đồng nghiệp
+선배|n|đàn anh; tiền bối
+후배|n|đàn em; hậu bối
+동기|n|bạn cùng khóa; động cơ
+상관|n|cấp trên; sự liên quan
+치프|n|trưởng (chief); bác sĩ trưởng nội trú
+과학자|n|nhà khoa học
+연구원|n|nghiên cứu viên
+교수|n|giáo sư
+박사|n|tiến sĩ
+조교|n|trợ giảng
+기자|n|nhà báo; phóng viên
+작가|n|tác giả; nhà văn
+화가|n|họa sĩ
+감독|n|đạo diễn; huấn luyện viên; sự giám sát
+배우|n|diễn viên
+가수|n|ca sĩ
+기술자|n|kỹ thuật viên
+엔지니어|n|kỹ sư
+해커|n|tin tặc
+프로그래머|n|lập trình viên
+조사관|n|điều tra viên
+감시자|n|người theo dõi; giám sát viên
+목격자|n|người chứng kiến
+생존자|n|người sống sót
+희생자|n|nạn nhân
+피해자|n|nạn nhân; người bị hại
+가해자|n|thủ phạm; kẻ gây hại
+승자|n|người thắng
+패자|n|người thua
+침입자|n|kẻ xâm nhập
+기증자|n|người hiến tặng
+환자|n|bệnh nhân

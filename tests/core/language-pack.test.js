@@ -39,6 +39,8 @@ test('The interface is enforced: an incomplete pack fails loudly', () => {
   const b = new Bad();
   for (const m of ['getId', 'getName', 'getNativeName', 'getSpeechLang', 'tokenize', 'analyzeWord', 'getPronunciation', 'getWordForm']) assert.throws(() => b[m]('x'), /not implemented/, m);
   assert.deepEqual(b.getExtraForms('x'), []); assert.deepEqual(b.getExternalLinks('x'), []); assert.equal(b.getBaseForm('x'), 'x');
+  // the grammar part is optional: a pack that has none answers "nothing", and the core simply shows no grammar
+  assert.equal(b.analyzeSentence('x', { focus: null }), null); assert.deepEqual(b.getGrammarReference(), []);
 });
 
 test('Adding a language needs no core change: Japanese pack → subtitles, vocabulary and speech all work', async () => {

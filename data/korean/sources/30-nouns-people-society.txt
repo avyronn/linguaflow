@@ -1,0 +1,258 @@
+# ===== danh từ: con người, gia đình, nghề nghiệp, xã hội, pháp luật, quân sự, lịch sử =====
+가수|n|ca sĩ
+간수|n|cai ngục
+감독|n|đạo diễn; giám sát
+강도|n|cướp; cường độ
+거지|n|người ăn xin
+검사|n|công tố viên; kiểm tra
+경비|n|bảo vệ; chi phí
+경찰관|n|cảnh sát viên
+고모|n|cô (chị em của bố)
+고객|n|khách hàng
+공무원|n|công chức
+관리|n|quan chức; quản lý
+교사|n|giáo viên
+교장|n|hiệu trưởng
+국민|n|quốc dân; người dân
+군수|n|quân nhu; quận trưởng
+권력|n|quyền lực
+귀족|n|quý tộc
+그분|pron|vị ấy (kính ngữ)
+기술자|n|kỹ thuật viên; thợ
+기생충|n|ký sinh trùng
+깡패|n|côn đồ
+남매|n|anh em trai gái
+남동생|n|em trai
+녀석|n|thằng nhóc; cái đồ
+농부|n|nông dân
+누이|n|chị em gái (cũ)
+누님|n|chị (kính ngữ)
+대표|n|đại diện; đại biểu
+대통령|n|tổng thống
+도련님|n|cậu chủ; em chồng
+독립투사|n|chiến sĩ độc lập
+독립운동가|n|nhà hoạt động độc lập
+동무|n|bạn bè; đồng chí
+동창|n|bạn học cũ
+딸아이|n|con gái nhỏ
+막내|n|con út
+말썽꾼|n|kẻ gây rối
+매형|n|anh rể (em trai gọi)
+면접|n|phỏng vấn
+목격자|n|người chứng kiến
+무당|n|thầy cúng; bà đồng
+문제아|n|đứa trẻ có vấn đề
+밀정|n|mật thám; gián điệp
+반역자|n|kẻ phản loạn
+방문객|n|khách đến thăm
+백성|n|dân chúng
+범죄자|n|tội phạm
+변호인|n|người bào chữa
+보호자|n|người giám hộ
+부모님|n|bố mẹ (kính ngữ)
+부자|n|người giàu; cha con
+부하직원|n|nhân viên cấp dưới
+사냥꾼|n|thợ săn
+사위|n|con rể
+사촌|n|anh chị em họ
+상사|n|cấp trên
+상인|n|thương nhân
+새엄마|n|mẹ kế
+생존자|n|người sống sót
+서방|n|chồng (cách gọi cũ)
+선생|n|thầy; ông
+선수|n|vận động viên; tuyển thủ
+세입자|n|người thuê nhà
+소년병|n|lính trẻ
+손녀|n|cháu gái (nội/ngoại)
+손자|n|cháu trai
+순경|n|cảnh sát (cấp thấp)
+스승|n|bậc thầy; sư phụ
+시민|n|thị dân
+시아버지|n|bố chồng
+시어머니|n|mẹ chồng
+신사|n|quý ông
+악당|n|kẻ xấu; ác nhân
+안주인|n|bà chủ nhà
+애들|n|bọn trẻ
+어르신|n|bậc cao niên
+어린이|n|trẻ em
+여동생|n|em gái
+여인|n|người phụ nữ
+여자친구|n|bạn gái
+역적|n|kẻ phản nghịch
+연구원|n|nghiên cứu viên
+영감|n|ông già; cảm hứng
+오라버니|n|anh (cũ)
+외삼촌|n|cậu (ruột)
+요리사|n|đầu bếp
+용의자|n|nghi phạm
+운전사|n|tài xế
+원장|n|viện trưởng; giám đốc
+유족|n|thân nhân người mất
+의뢰인|n|thân chủ; người nhờ
+이모|n|dì (chị em của mẹ)
+인질|n|con tin
+일꾼|n|người làm; thợ
+자매|n|chị em gái
+장교|n|sĩ quan
+장군|n|tướng quân
+장모|n|mẹ vợ
+장인|n|bố vợ; nghệ nhân
+저승사자|n|thần chết; sứ giả cõi âm
+점쟁이|n|thầy bói
+정치인|n|chính trị gia
+조카|n|cháu (con anh chị em)
+조수|n|trợ lý; thủy triều
+주모|n|bà chủ quán rượu
+죄수|n|tù nhân
+증인|n|nhân chứng
+지휘관|n|chỉ huy
+직원|n|nhân viên
+집주인|n|chủ nhà
+짐승|n|thú vật
+처녀|n|thiếu nữ; trinh nữ
+청소부|n|lao công
+총각|n|chàng trai chưa vợ
+촌장|n|trưởng làng
+친구들|n|các bạn
+친척|n|họ hàng
+친형|n|anh ruột
+큰아버지|n|bác (anh của bố)
+큰어머니|n|bác gái
+탐정|n|thám tử
+통역|n|thông dịch
+통역관|n|phiên dịch viên
+포로|n|tù binh
+피의자|n|bị can
+하수인|n|tay sai
+학자|n|học giả
+할망구|n|bà lão (xúc phạm)
+형님|n|anh (kính ngữ)
+형제|n|anh em
+호위무사|n|vệ sĩ (võ sĩ hộ vệ)
+환자들|n|các bệnh nhân
+후계자|n|người kế nghiệp
+# --- pháp luật, trật tự, chiến tranh, chính trị ---
+감시|n|sự giám sát
+검문|n|kiểm tra giấy tờ
+고문|n|tra tấn; cố vấn
+공범|n|đồng phạm
+관할|n|thẩm quyền
+구금|n|giam giữ
+국가|n|quốc gia
+국적|n|quốc tịch
+군복|n|quân phục
+군사|n|quân sự; binh sĩ
+권총|n|súng ngắn
+규칙|n|quy tắc
+금지|n|sự cấm
+기밀|n|bí mật; cơ mật
+내란|n|nội loạn
+단속|n|kiểm soát; xử lý
+대원|n|thành viên đội
+독립군|n|quân độc lập
+동원|n|huy động
+명령서|n|lệnh bằng văn bản
+무장|n|vũ trang
+무죄|n|vô tội
+법|n|luật; phép
+법원|n|tòa án
+병력|n|binh lực
+보고서|n|bản báo cáo
+보안|n|an ninh
+복종|n|sự phục tùng
+봉기|n|khởi nghĩa
+부대원|n|thành viên đơn vị
+사령관|n|tư lệnh
+사형|n|tử hình
+살인|n|giết người
+살인범|n|kẻ giết người
+상관|n|cấp trên
+석방|n|thả tự do
+수배|n|truy nã
+수색|n|lục soát
+수용소|n|trại giam
+습격|n|tập kích
+신분|n|thân phận
+신분증|n|giấy tờ tùy thân
+심문|n|thẩm vấn
+암살|n|ám sát
+애국|n|yêu nước
+억압|n|đàn áp
+연행|n|bắt dẫn đi
+영장|n|lệnh (bắt giữ)
+외교|n|ngoại giao
+유죄|n|có tội
+음모|n|âm mưu
+의병|n|nghĩa binh
+인권|n|nhân quyền
+자백|n|thú tội
+작전|n|chiến dịch; tác chiến
+저항|n|kháng cự
+전범|n|tội phạm chiến tranh
+전선|n|mặt trận
+전투|n|chiến đấu
+정보원|n|tình báo viên
+정부군|n|quân chính phủ
+조국|n|tổ quốc
+조직|n|tổ chức
+죄목|n|tội danh
+증거품|n|vật chứng
+지명수배|n|truy nã
+진압|n|đàn áp; dẹp loạn
+징용|n|cưỡng bức lao động
+체포|n|bắt giữ
+총살|n|xử bắn
+추적|n|truy đuổi
+탈옥|n|vượt ngục
+테러|n|khủng bố
+통치|n|cai trị
+특무대|n|đội đặc nhiệm
+폭동|n|bạo động
+폭력|n|bạo lực
+피난|n|lánh nạn
+학살|n|tàn sát
+항복|n|đầu hàng
+해방|n|giải phóng
+혁명|n|cách mạng
+협박|n|đe dọa
+호송|n|áp giải
+혼란|n|hỗn loạn
+후퇴|n|rút lui
+# --- trường học, công việc, kinh tế ---
+가격표|n|bảng giá
+계약서|n|hợp đồng
+고용|n|thuê mướn
+공부방|n|phòng học
+급여|n|lương
+기업|n|doanh nghiệp
+도서관|n|thư viện
+대학교|n|đại học
+면허|n|giấy phép; bằng lái
+무역|n|thương mại; ngoại thương
+물건|n|đồ vật; hàng hóa
+방학|n|kỳ nghỉ học
+사업|n|việc kinh doanh
+상점|n|cửa hàng
+성적|n|thành tích; điểm
+세금|n|thuế
+수입|n|thu nhập; nhập khẩu
+시험지|n|đề thi
+신입|n|người mới
+월급|n|lương tháng
+유학|n|du học
+은행원|n|nhân viên ngân hàng
+이력서|n|sơ yếu lý lịch
+입학|n|nhập học
+자격|n|tư cách; bằng cấp
+장사|n|buôn bán
+졸업|n|tốt nghiệp
+주식|n|cổ phiếu; món chính
+채무|n|nợ
+출판|n|xuất bản
+투자|n|đầu tư
+파산|n|phá sản
+학비|n|học phí
+학원|n|trung tâm dạy thêm
+회계|n|kế toán

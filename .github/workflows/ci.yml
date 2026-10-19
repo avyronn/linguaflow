@@ -1,0 +1,27 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - name: Syntax, dictionary, unit tests, packaging, web-ext lint
+        run: bash build.sh --lint
+      - name: Dictionary is committed in sync with its source
+        run: git diff --exit-code data/korean/dictionary.json
+      - uses: actions/upload-artifact@v4
+        if: matrix.node == 22
+        with:
+          name: linguaflow-zips
+          path: dist/*.zip

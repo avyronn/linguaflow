@@ -1,0 +1,343 @@
+# ===== y khoa, khoa học, vũ trụ, công nghệ (từ vựng phim truyền hình y khoa, khoa học viễn tưởng, tội phạm kỹ thuật) =====
+출혈|n|sự chảy máu; xuất huyết
+내출혈|n|xuất huyết nội
+종양|n|khối u
+악성|n|ác tính
+양성|n|lành tính; dương tính
+암세포|n|tế bào ung thư
+세포|n|tế bào
+혈압|n|huyết áp
+혈액|n|máu (thuật ngữ); huyết dịch
+혈관|n|mạch máu
+혈류|n|dòng máu
+혈액형|n|nhóm máu
+수혈|n|sự truyền máu
+동맥|n|động mạch
+대동맥|n|động mạch chủ
+정맥|n|tĩnh mạch
+동맥류|n|phình động mạch
+심장|n|tim
+심장마비|n|đau tim; ngừng tim
+심근경색|n|nhồi máu cơ tim
+심박수|n|nhịp tim
+맥박|n|mạch đập
+호흡|n|hơi thở; sự hô hấp
+심호흡|n|hít thở sâu
+인공호흡|n|hô hấp nhân tạo
+폐|n|phổi
+간|n|gan; độ mặn
+신장|n|thận; chiều cao (người)
+췌장|n|tuyến tụy
+비장|n|lá lách; (tính cách) bi tráng
+위|n|dạ dày; trên
+장|n|ruột; chương; chợ phiên
+대장|n|ruột già; đại tướng; thủ lĩnh
+방광|n|bàng quang
+자궁|n|tử cung
+난소|n|buồng trứng
+척수|n|tủy sống
+척추|n|cột sống
+두개골|n|hộp sọ
+뇌|n|não
+뇌출혈|n|xuất huyết não
+뇌진탕|n|chấn động não
+뇌사|n|chết não
+신경|n|thần kinh; sự bận tâm
+근육|n|cơ bắp
+관절|n|khớp
+인대|n|dây chằng
+연골|n|sụn
+골절|n|gãy xương
+뼈|n|xương
+흉부|n|ngực; vùng ngực
+복부|n|bụng; vùng bụng
+복통|n|đau bụng
+두통|n|đau đầu
+치통|n|đau răng
+고열|n|sốt cao
+열|n|nhiệt; sốt; cơn giận
+체온|n|thân nhiệt
+기침|n|ho
+재채기|n|hắt hơi
+구토|n|nôn mửa
+설사|n|tiêu chảy
+소변|n|nước tiểu; sự tiểu tiện
+대변|n|phân; sự đại tiện
+오줌|n|nước tiểu
+똥|n|phân
+방귀|n|rắm
+시력|n|thị lực
+청력|n|thính lực
+마비|n|sự tê liệt; liệt
+발작|n|cơn co giật; cơn phát bệnh
+경련|n|co giật; chuột rút
+기절|n|sự ngất xỉu
+혼수상태|n|trạng thái hôn mê
+쇼크|n|sốc
+과다복용|n|dùng quá liều
+중독|n|nghiện; ngộ độc
+금단현상|n|triệu chứng cai nghiện
+알레르기|n|dị ứng
+감염|n|sự nhiễm trùng
+염증|n|viêm
+바이러스|n|vi-rút
+세균|n|vi khuẩn
+백신|n|vắc-xin
+항생제|n|thuốc kháng sinh
+진통제|n|thuốc giảm đau
+진정제|n|thuốc an thần
+마취|n|sự gây mê; gây tê
+마취제|n|thuốc mê
+처방|n|đơn thuốc; sự kê đơn
+처방전|n|đơn thuốc
+투여|n|sự cho dùng thuốc; truyền (thuốc)
+복용|n|sự uống thuốc
+주사|n|mũi tiêm; sự tiêm
+링거|n|dịch truyền
+수액|n|dịch truyền
+알약|n|thuốc viên
+캡슐|n|viên nang
+연고|n|thuốc mỡ
+붕대|n|băng gạc
+반창고|n|băng dán cá nhân
+깁스|n|bó bột
+휠체어|n|xe lăn
+지팡이|n|cây gậy
+들것|n|cáng
+구급차|n|xe cứu thương
+응급실|n|phòng cấp cứu
+응급|n|cấp cứu
+응급처치|n|sơ cứu
+중환자실|n|phòng chăm sóc đặc biệt (ICU)
+수술실|n|phòng mổ
+수술|n|cuộc phẫu thuật
+수술대|n|bàn mổ
+집도|n|sự chủ trì ca mổ
+봉합|n|sự khâu vết thương
+절개|n|sự rạch; đường rạch; khí tiết
+절단|n|sự cắt cụt; cắt đứt
+이식|n|sự cấy ghép
+장기|n|nội tạng; cờ tướng; sở trường
+우회술|n|phẫu thuật bắc cầu (bypass)
+합병증|n|biến chứng
+후유증|n|di chứng
+부작용|n|tác dụng phụ
+증상|n|triệu chứng
+진단|n|sự chẩn đoán
+진료|n|sự khám chữa bệnh
+진료실|n|phòng khám
+검진|n|sự khám sức khỏe
+검사|n|sự kiểm tra; xét nghiệm; công tố viên
+검사실|n|phòng xét nghiệm
+결과|n|kết quả
+엑스레이|n|chụp X-quang
+촬영|n|sự chụp; sự quay phim
+초음파|n|siêu âm
+스캔|n|sự quét (scan)
+시티|n|chụp CT; thành phố (city)
+혈액검사|n|xét nghiệm máu
+소견|n|nhận định; ý kiến chuyên môn
+병력|n|tiền sử bệnh
+병동|n|khu bệnh; khoa nội trú
+병실|n|phòng bệnh
+병원|n|bệnh viện
+입원|n|sự nhập viện
+퇴원|n|sự xuất viện
+면회|n|sự thăm bệnh; thăm gặp
+보호자|n|người giám hộ; người nhà (bệnh nhân)
+간병|n|sự chăm sóc người bệnh
+간호|n|sự điều dưỡng; chăm sóc
+치료|n|sự điều trị
+치료제|n|thuốc điều trị
+치유|n|sự chữa lành
+재활|n|sự phục hồi chức năng
+회복|n|sự hồi phục
+완치|n|sự khỏi hẳn
+사망|n|sự tử vong
+사망자|n|người tử vong
+사인|n|nguyên nhân tử vong; chữ ký
+시신|n|thi thể
+시체|n|xác chết
+부검|n|sự khám nghiệm tử thi
+유해|n|hài cốt; có hại
+방사선|n|tia phóng xạ
+방사능|n|phóng xạ
+화상|n|vết bỏng; hình ảnh
+총상|n|vết thương do đạn
+자상|n|vết đâm
+타박상|n|vết bầm
+상처|n|vết thương; tổn thương
+흉터|n|vết sẹo
+멍|n|vết bầm
+염좌|n|bong gân
+외상|n|chấn thương; sự mua chịu
+트라우마|n|chấn thương tâm lý
+정신과|n|khoa tâm thần
+정신병|n|bệnh tâm thần
+우울증|n|bệnh trầm cảm
+불면증|n|chứng mất ngủ
+치매|n|chứng sa sút trí tuệ
+당뇨|n|bệnh tiểu đường
+고혈압|n|huyết áp cao
+빈혈|n|thiếu máu
+임신|n|sự mang thai
+임신부|n|phụ nữ mang thai
+출산|n|sự sinh nở
+유산|n|sự sảy thai; di sản
+낙태|n|sự phá thai
+불임|n|vô sinh
+산부인과|n|khoa sản phụ
+소아과|n|khoa nhi
+외과|n|khoa ngoại
+내과|n|khoa nội
+치과|n|nha khoa
+안과|n|khoa mắt
+성형외과|n|khoa phẫu thuật thẩm mỹ
+응급의학과|n|khoa cấp cứu
+약국|n|hiệu thuốc
+약사|n|dược sĩ
+약물|n|thuốc; chất thuốc
+마약|n|ma túy
+코카인|n|cocaine
+헤로인|n|heroin
+대마초|n|cần sa
+필로폰|n|methamphetamine (ma túy đá)
+메스|n|dao mổ (scalpel)
+바이탈|n|sinh hiệu (dấu hiệu sống)
+산소|n|oxy
+산소호흡기|n|máy thở oxy
+인공호흡기|n|máy thở
+심전도|n|điện tâm đồ
+제세동기|n|máy khử rung tim
+심폐소생술|n|hồi sức tim phổi (CPR)
+생명|n|sinh mệnh; sự sống
+생명체|n|sinh vật; thực thể sống
+생존|n|sự sống sót
+생존율|n|tỷ lệ sống sót
+유전자|n|gen
+유전|n|di truyền
+돌연변이|n|đột biến
+복제|n|sự nhân bản; sao chép
+실험|n|thí nghiệm
+실험실|n|phòng thí nghiệm
+실험체|n|vật thí nghiệm
+샘플|n|mẫu vật
+표본|n|mẫu; tiêu bản
+가설|n|giả thuyết
+이론|n|lý thuyết
+공식|n|công thức; chính thức
+원소|n|nguyên tố
+분자|n|phân tử
+원자|n|nguyên tử
+입자|n|hạt
+에너지|n|năng lượng
+전력|n|điện lực; công suất điện; toàn lực
+전원|n|nguồn điện; toàn thể thành viên
+배터리|n|pin
+발전기|n|máy phát điện
+연료|n|nhiên liệu
+엔진|n|động cơ
+펌프|n|máy bơm
+센서|n|cảm biến
+레이더|n|ra-đa
+신호|n|tín hiệu; đèn giao thông
+주파수|n|tần số
+전파|n|sóng điện từ; sự lan truyền
+무전기|n|bộ đàm
+통신|n|thông tin liên lạc
+위성|n|vệ tinh
+궤도|n|quỹ đạo; đường ray
+좌표|n|tọa độ
+중력|n|trọng lực
+무중력|n|không trọng lực
+우주|n|vũ trụ
+우주선|n|tàu vũ trụ
+우주정거장|n|trạm vũ trụ
+로켓|n|tên lửa
+발사|n|sự phóng; sự bắn
+착륙|n|sự hạ cánh
+이륙|n|sự cất cánh
+활주로|n|đường băng
+행성|n|hành tinh
+항성|n|ngôi sao (hằng tinh)
+은하|n|thiên hà
+은하계|n|hệ ngân hà
+블랙홀|n|hố đen
+태양계|n|hệ mặt trời
+화성|n|sao Hỏa; thành phố hóa
+금성|n|sao Kim
+목성|n|sao Mộc
+토성|n|sao Thổ
+수성|n|sao Thủy
+천왕성|n|sao Thiên Vương
+해왕성|n|sao Hải Vương
+명왕성|n|sao Diêm Vương
+혜성|n|sao chổi
+유성|n|sao băng
+소행성|n|tiểu hành tinh
+운석|n|thiên thạch
+일식|n|nhật thực
+월식|n|nguyệt thực
+차원|n|chiều (không gian); cấp độ
+시공간|n|không-thời gian
+평행우주|n|vũ trụ song song
+타임머신|n|cỗ máy thời gian
+외계|n|ngoài Trái Đất
+지상|n|trên mặt đất; mặt đất
+지하|n|dưới lòng đất; tầng hầm
+지하실|n|hầm; tầng hầm
+지하철|n|tàu điện ngầm
+컴퓨터|n|máy tính
+노트북|n|máy tính xách tay
+데이터|n|dữ liệu
+데이터베이스|n|cơ sở dữ liệu
+서버|n|máy chủ
+네트워크|n|mạng
+인터넷|n|internet
+웹사이트|n|trang web
+사이트|n|trang web; địa điểm
+블로그|n|blog
+이메일|n|thư điện tử
+메일|n|thư điện tử; thư
+메시지|n|tin nhắn; thông điệp
+메세지|n|tin nhắn; thông điệp
+문자|n|chữ; tin nhắn (SMS)
+비밀번호|n|mật khẩu
+암호|n|mật mã; mật khẩu
+해킹|n|sự xâm nhập (hack)
+소프트웨어|n|phần mềm
+프로그램|n|chương trình
+프로젝트|n|dự án
+시스템|n|hệ thống
+체계|n|hệ thống; hệ
+프로토콜|n|giao thức; quy trình
+코드|n|mã; dòng mã
+알고리즘|n|thuật toán
+인공지능|n|trí tuệ nhân tạo
+드론|n|máy bay không người lái
+카메라|n|máy ảnh; camera
+녹음|n|sự ghi âm
+녹화|n|sự ghi hình
+영상|n|hình ảnh; video; dưới 0 độ
+동영상|n|video
+사진|n|ảnh
+스크린|n|màn hình; màn ảnh
+화면|n|màn hình; hình ảnh
+모니터|n|màn hình máy tính; người giám sát
+휴대폰|n|điện thoại di động
+핸드폰|n|điện thoại di động
+스마트폰|n|điện thoại thông minh
+전화번호|n|số điện thoại
+통화|n|cuộc gọi; tiền tệ
+도청|n|sự nghe lén
+감청|n|sự nghe lén (điện thoại)
+추적|n|sự truy tìm; theo dấu
+위치|n|vị trí
+위치추적|n|truy tìm vị trí
+알람|n|chuông báo thức; báo động
+경보|n|cảnh báo; chuông báo động
+경고|n|lời cảnh báo
+호출|n|sự gọi; sự triệu tập
+버튼|n|nút bấm
+스위치|n|công tắc
+리모컨|n|điều khiển từ xa

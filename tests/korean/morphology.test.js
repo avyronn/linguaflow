@@ -119,7 +119,7 @@ test('Trailing particles on predicate forms: 먹지는, 가기를', () => {
 
 // ---- honesty about uncertainty ---------------------------------------------------------------------------------------
 test('Unknown stems are reported as guesses with low confidence — never as certain', () => {
-  const a = pack.analyzeWord('코끼리가');
+  const a = pack.analyzeWord('쿼카가');
   assert.equal(a.known, false); assert.equal(a.confidenceLabel, 'low'); assert.ok(a.confidence < 0.55);
   assert.ok(a.warnings.includes('stem-not-in-dictionary')); assert.equal(a.summary, '');
   assert.match(a.display[0].gloss, /chưa có trong từ điển/);
@@ -139,7 +139,8 @@ test('LanguagePack interface: id/name/nativeName/lookup/pronunciation/wordForm/b
   assert.equal(pack.getId(), 'ko'); assert.equal(pack.getName(), 'Korean'); assert.equal(pack.getNativeName(), '한국어'); assert.equal(pack.getSpeechLang(), 'ko-KR');
   const l = await pack.lookup('어디에');
   assert.equal(l.lemma, '어디'); assert.deepEqual(l.meanings, ['đâu', 'ở đâu']); assert.equal(l.pronunciation, 'eodi'); assert.ok(l.confidence > 0.9);
-  assert.deepEqual(Object.keys(l).sort(), ['analysis', 'confidence', 'examples', 'lemma', 'meanings', 'pos', 'pronunciation', 'word']);
+  assert.deepEqual(Object.keys(l).sort(), ['analysis', 'confidence', 'etymology', 'examples', 'lemma', 'meanings', 'pos', 'pronunciation', 'word']);
+  assert.equal(l.etymology, null, 'a native word has no etymology line');
   const p = pack.getPronunciation('먹었습니다');
   assert.deepEqual({ lang: p.lang, spoken: p.spoken, rom: p.romanization }, { lang: 'ko-KR', spoken: '머걷씀니다', rom: 'meogeotseumnida' });
   assert.equal(pack.getBaseForm('먹었습니다'), '먹다');
@@ -150,7 +151,7 @@ test('LanguagePack interface: id/name/nativeName/lookup/pronunciation/wordForm/b
   assert.deepEqual(pack.getExtraForms('먹다').map((x) => x.form).slice(0, 2), ['먹어요', '먹었어요']);
 });
 test('Analysis is fast enough for click-time use', () => {
-  const words = ['먹었습니다', '어디에', '도와주세요', '그렇습니다', '만들어요', '아니에요', '가시겠어요', '코끼리가', '알겠습니다', '이상해요'];
+  const words = ['먹었습니다', '어디에', '도와주세요', '그렇습니다', '만들어요', '아니에요', '가시겠어요', '쿼카가', '알겠습니다', '이상해요'];
   const t0 = process.hrtime.bigint();
   for (let i = 0; i < 20; i++) for (const w of words) pack.morphology._cache.clear(), pack.analyzeWord(w);
   const ms = Number(process.hrtime.bigint() - t0) / 1e6 / (20 * words.length);

@@ -1,0 +1,112 @@
+# ===== động từ / tính từ còn thiếu (đợt 2: hành động thường ngày, cảm xúc, quan hệ) =====
+가려내다|v|phân biệt; chọn ra
+감탄하다|v|cảm thán; thán phục
+거르다|v|bỏ qua (bữa ăn); lọc
+거슬리다|v|chướng tai gai mắt; làm khó chịu
+거절당하다|v|bị từ chối
+걸러내다|v|lọc ra
+겨루다|v|tranh tài; thi đấu
+결합하다|v|kết hợp; liên kết
+골라내다|v|chọn ra; lọc ra
+곱씹다|v|nhai đi nhai lại; ngẫm nghĩ
+공급하다|v|cung cấp
+과시하다|v|khoe khoang; phô trương
+굶주리다|v|đói khát
+굴리다|v|lăn; xoay chuyển; vận hành
+굴복하다|v|khuất phục
+긁히다|v|bị trầy; bị xước
+깔보다|v|coi thường; khinh thường
+깜박하다|v|quên mất; chớp (mắt)
+깜빡하다|v|quên mất; chớp (mắt)
+깜짝하다|v|giật mình; chớp (mắt)
+껴입다|v|mặc chồng nhiều lớp
+꼬집다|v|véo; chỉ ra khuyết điểm
+꼬이다|v|rối; xoắn; trục trặc
+꼼짝하다|v|nhúc nhích
+꿇다|v|quỳ; gập (gối)
+꿰매다|v|khâu; vá
+끼얹다|v|dội; tạt
+나누어주다|v|chia cho; phát cho
+낚다|v|câu (cá); dụ
+낚시하다|v|câu cá
+날뛰다|v|nhảy dựng lên; hung hăng
+내걸다|v|treo ra; đưa ra (điều kiện)
+내쫓다|v|đuổi ra; xua đuổi
+내리치다|v|giáng xuống; đập mạnh
+냄새나다|v|có mùi; hôi
+눕히다|v|đặt nằm xuống
+덤비다|v|xông vào; gây sự
+돋보이다|v|nổi bật; trông nổi trội
+동원하다|v|huy động
+두르다|v|quấn; choàng; vây quanh
+두리번거리다|v|nhìn quanh quất
+둘러싸다|v|bao quanh; vây quanh
+뒤집히다|v|bị lật; bị đảo ngược
+뒤바뀌다|v|bị đảo lộn; bị hoán đổi
+들어서다|v|bước vào; đi vào; bắt đầu
+따다|v|hái; mở (nắp); đạt được (bằng cấp)
+딛다|v|đặt chân lên; bước lên
+때려치우다|v|bỏ phắt; nghỉ ngang (thô)
+떼쓰다|v|nằng nặc; đòi cho bằng được
+띄우다|v|thả nổi; cho bay lên; gửi
+띠다|v|mang; mang vẻ; giữ
+말다툼하다|v|cãi nhau
+몰아내다|v|đuổi đi; xua đuổi
+문지르다|v|chà xát; xoa
+물려주다|v|truyền lại; để lại cho
+물리다|v|bị cắn; chán ngấy; lùi lại
+밀어내다|v|đẩy ra; gạt ra
+밀어붙이다|v|ép; đẩy mạnh tới
+박수치다|v|vỗ tay
+받아쓰다|v|chép chính tả
+배달하다|v|giao hàng
+배치하다|v|bố trí; sắp xếp; điều động
+베풀다|v|ban phát; dành cho; tổ chức (tiệc)
+벼르다|v|nhắm tới; chờ cơ hội (làm gì)
+보내주다|v|gửi cho; cho đi
+보태다|v|thêm vào; góp thêm
+부리다|v|sai khiến; giở (thói); thể hiện
+부시다|v|chói mắt; rửa
+부응하다|v|đáp ứng (kỳ vọng)
+부추기다|v|xúi giục; kích động
+비틀거리다|v|loạng choạng
+뿜다|v|phun; xịt; tỏa ra
+사로잡다|v|bắt sống; chiếm lấy (trái tim)
+삭제하다|v|xóa
+상기시키다|v|nhắc nhớ
+서성이다|v|đi đi lại lại; quanh quẩn
+선보이다|v|ra mắt; giới thiệu
+소모하다|v|tiêu hao
+쇠약하다|adj|suy nhược; yếu đuối
+수놓다|v|thêu
+쑤다|v|nấu (cháo, bột)
+엎지르다|v|làm đổ; làm tràn
+우러러보다|v|ngước nhìn; ngưỡng mộ
+원망하다|v|oán trách; hận
+으스대다|v|vênh váo; làm bộ
+일삼다|v|thường xuyên làm (việc xấu)
+일컫다|v|gọi là; xưng là
+장식하다|v|trang trí
+쟁취하다|v|giành lấy; giành được
+전념하다|v|dốc toàn lực; tập trung vào
+조이다|v|siết chặt; thắt chặt
+좇다|v|đuổi theo; theo đuổi; tuân theo
+좌우하다|v|chi phối; quyết định
+주무르다|v|nắn; xoa bóp; thao túng
+지속하다|v|tiếp tục; duy trì
+짜내다|v|vắt ra; nặn ra; nghĩ ra
+짝사랑하다|v|yêu đơn phương
+찢기다|v|bị xé; bị rách
+참조하다|v|tham khảo; tham chiếu
+처하다|v|rơi vào (tình huống); xử (hình phạt)
+추구하다|v|theo đuổi; mưu cầu
+추락하다|v|rơi; rớt (máy bay); sa sút
+침묵하다|v|giữ im lặng
+탈락하다|v|bị loại; rớt
+파고들다|v|chui vào; đào sâu; thấm vào
+한숨쉬다|v|thở dài
+헷갈리다|v|bị lẫn lộn; nhầm lẫn
+헹구다|v|xả; tráng
+휘말리다|v|bị cuốn vào; bị lôi vào
+휘젓다|v|khuấy; vung quậy
+휩싸이다|v|bị bao phủ; bị bao trùm

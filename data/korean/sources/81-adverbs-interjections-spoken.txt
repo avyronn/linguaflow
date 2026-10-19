@@ -1,0 +1,142 @@
+# ===== thán từ, phó từ, đại từ, từ nói tắt khẩu ngữ còn thiếu; danh từ gốc của các từ -적 =====
+헤이|int|này; ê; hey
+어이|int|này; ê (gọi người ngang hàng hoặc nhỏ hơn)
+와우|int|wow; ồ
+오케이|int|OK; được rồi
+워|int|whoa; ôi; này (dừng lại)
+아멘|int|A-men
+아이구|int|ôi chao; trời ơi
+어이구|int|ôi trời; chao ôi
+아이고머니|int|ôi mẹ ơi
+에휴|int|haizz; hừ (tiếng thở dài)
+휴|int|phù (thở phào)
+으음|int|ừm; hừm
+와아|int|oaa; wow
+헐|int|trời ơi; hả (khẩu ngữ, ngạc nhiên)
+대박|n|trúng lớn; tuyệt đỉnh; “đỉnh”
+쯧|int|chậc (tặc lưỡi)
+칫|int|hứ; chậc
+쳇|int|hừ; xì
+앗|int|a!; ối (giật mình)
+자자|int|nào nào; thôi nào
+이봐|int|này; ê
+이봐요|int|này; ê (lịch sự)
+이보세요|int|này (anh/chị ơi) (lịch sự)
+이보쇼|int|này (anh ơi) (thân mật)
+여보게|int|này anh bạn (người lớn gọi người nhỏ hơn)
+엉|int|ừ; ơ
+아무렴|int|dĩ nhiên; tất nhiên
+참말|n|lời nói thật; thật (참말로: thật sự)
+어쨌거나|adv|dù sao đi nữa
+어쨌든지|adv|dù sao đi nữa
+좀처럼|adv|hiếm khi; khó mà (đi với phủ định)
+차근차근|adv|từng bước một; từ tốn
+어김없이|adv|không sai; đúng như thường lệ
+반대로|adv|ngược lại
+흡사|adv|y như; giống hệt
+몸소|adv|đích thân
+혼자서|adv|một mình
+왜냐면|conj|bởi vì (nói tắt)
+더이상|adv|không còn … nữa; thêm nữa
+그나저나|adv|nhân tiện; mà này
+심지어|adv|thậm chí
+조만간|adv|sớm muộn; chẳng mấy chốc
+아무나|pron|bất kỳ ai
+아무데도|adv|không đâu cả
+아무데나|adv|bất cứ đâu
+아무한테나|adv|bất cứ ai
+아무거나|pron|bất cứ cái gì
+아무때나|adv|bất cứ lúc nào
+별거|n|chuyện đặc biệt; điều gì to tát (nói tắt của 별것)
+기꺼이|adv|sẵn lòng; vui vẻ
+엄청|adv|cực kỳ; kinh khủng
+순|adv|toàn; thuần; hoàn toàn là
+지|nbound|kể từ khi; đã … được bao lâu (… -ㄴ 지 N이/가 되다)
+둘다|n|cả hai
+임마|int|này nhóc; thằng kia (thô, từ 이 놈아)
+이따|adv|lát nữa; một lát nữa
+이따가|adv|lát nữa; một lát sau
+그리곤|conj|rồi thì; sau đó (rút gọn của 그리고는)
+그러면서|conj|vừa nói thế vừa; trong khi đó
+이쯤|n|chừng này; đến mức này
+이만|adv|chừng này; thôi (… 이만 가다: tôi đi đây)
+이만큼|adv|chừng này
+이처럼|adv|như thế này
+이토록|adv|đến thế này; đến mức này
+저만큼|adv|chừng kia; xa kia
+저토록|adv|đến thế kia
+얼마든지|adv|bao nhiêu cũng được; thoải mái
+얼마쯤|adv|khoảng bao nhiêu
+언제든지|adv|bất cứ lúc nào
+언제쯤|adv|khoảng khi nào
+어디든지|adv|bất cứ đâu
+아무쪼록|adv|xin hãy; mong sao
+하물며|adv|huống chi
+하필이면|adv|cớ sao lại đúng; đúng lúc không may
+하다못해|adv|thậm chí; ít nhất cũng
+하여간|adv|dù sao; dù gì
+한결같이|adv|một mực; trước sau như một
+한바탕|adv|một trận; một hồi
+한가운데|n|ngay giữa
+한껏|adv|hết mức; dốc hết sức
+한낱|adv|chỉ là; chỉ đơn thuần
+오죽|adv|biết bao; đến mức nào
+오죽하면|adv|đến mức phải; nếu không thì sao
+언뜻|adv|thoáng; thoáng qua
+은근히|adv|ngầm; âm thầm; kín đáo
+곰곰이|adv|kỹ lưỡng; chăm chú suy nghĩ
+골똘히|adv|chăm chú; mải mê suy nghĩ
+구태여|adv|cớ gì phải; cố tình
+기어코|adv|bằng mọi giá; cuối cùng cũng
+끝끝내|adv|đến cùng; cuối cùng vẫn
+쉴새없이|adv|không ngừng nghỉ
+연달아|adv|liên tiếp; nối tiếp
+잇따라|adv|liên tục; kế tiếp
+다시금|adv|một lần nữa; lại
+또한|adv|cũng; hơn nữa
+따라서|conj|do đó; vì vậy
+더구나|adv|hơn nữa; vả lại
+더군다나|adv|hơn nữa; vả lại
+그자|pron|tên đó; gã đó
+자|nbound|kẻ; gã (hàm ý coi thường: 그자, 저자, 이자)
+자네|pron|anh bạn; cậu (người lớn gọi người nhỏ hơn)
+그대|pron|em; người; bạn (văn chương)
+이자|pron|tên này; gã này
+저자|pron|tên kia; gã kia
+내|det|của tôi (= 나의)
+니|det|của bạn (khẩu ngữ, = 네 / 너의)
+니네|pron|nhà cậu; các cậu (khẩu ngữ, = 너희)
+니들|pron|bọn mày; các cậu (khẩu ngữ, = 너희들)
+암튼|adv|dù sao; dù gì (nói tắt của 아무튼)
+걍|adv|cứ; chỉ (nói tắt của 그냥)
+넘|adv|quá; rất (nói tắt của 너무)
+젤|adv|nhất (nói tắt của 제일)
+쫌|adv|một chút (nói tắt của 좀)
+낼|n|ngày mai (nói tắt của 내일)
+구체|n|sự cụ thể
+긍정|n|sự khẳng định; sự tích cực
+소극|n|sự tiêu cực (thiếu chủ động)
+합리|n|sự hợp lý
+객관|n|khách quan
+주관|n|chủ quan; sự phụ trách
+지속|n|sự tiếp diễn; sự duy trì
+비공식|n|không chính thức
+일시|n|tạm thời; ngày giờ
+필연|n|tất yếu; tất nhiên
+압도|n|sự áp đảo
+파괴|n|sự phá hủy
+독창|n|sự độc đáo; sáng tạo
+무의식|n|vô thức
+물리|n|vật lý
+실용|n|thực dụng
+실질|n|thực chất
+외면|n|bề ngoài; sự ngoảnh mặt
+공적|n|công lao; việc công
+사적|n|riêng tư; việc riêng
+합법|n|hợp pháp
+비정상|n|bất thường
+정확|n|chính xác
+수동|n|thủ công; bị động
+저급|n|thấp kém
+학문|n|học vấn; ngành học
+미안|n|sự xin lỗi; sự áy náy

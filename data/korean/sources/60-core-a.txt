@@ -1,0 +1,199 @@
+# ===== từ vựng cơ bản (sơ cấp) bổ sung =====
+갈비|n|sườn; món sườn (galbi)
+검은색|n|màu đen
+게임|n|trò chơi; game
+경치|n|cảnh đẹp; phong cảnh
+계란|n|trứng gà
+계절|n|mùa (trong năm)
+고등학교|n|trường trung học phổ thông
+고등학생|n|học sinh trung học phổ thông
+고프다|adj|đói (bụng)
+공책|n|vở viết
+공항|n|sân bay
+교과서|n|sách giáo khoa
+교실|n|lớp học; phòng học
+교통|n|giao thông
+구경|n|việc ngắm; tham quan
+구두|n|giày da
+구십|num|chín mươi
+구월|n|tháng chín
+그곳|pron|nơi đó
+그날|n|ngày hôm đó
+그쪽|pron|phía đó; bên đó; anh/chị (ở bên đó)
+급|n|cấp; hạng
+기숙사|n|ký túc xá
+남녀|n|nam nữ
+남학생|n|nam sinh
+냉면|n|mì lạnh (naengmyeon)
+냉장고|n|tủ lạnh
+넥타이|n|cà vạt
+노란색|n|màu vàng
+노래하다|v|hát
+노트|n|vở ghi; sổ ghi chép
+뉴스|n|tin tức; bản tin
+단어|n|từ; từ vựng
+담배|n|thuốc lá
+대사관|n|đại sứ quán
+대학생|n|sinh viên đại học
+대화|n|cuộc đối thoại; hội thoại
+도착|n|sự đến nơi
+독일|n|nước Đức
+맛|n|vị; mùi vị
+메뉴|n|thực đơn
+목욕|n|việc tắm
+밑|n|phía dưới; đáy
+바나나|n|chuối
+박물관|n|bảo tàng
+발음|n|phát âm
+백화점|n|cửa hàng bách hóa
+버스|n|xe buýt
+볼펜|n|bút bi
+부부|n|vợ chồng
+불다|v|thổi; (gió) thổi
+비디오|n|video
+비빔밥|n|cơm trộn (bibimbap)
+빨간색|n|màu đỏ
+사십|num|bốn mươi
+사월|n|tháng tư
+사전|n|từ điển; sự chuẩn bị trước
+사탕|n|kẹo
+산책|n|việc đi dạo
+삼십|num|ba mươi
+삼월|n|tháng ba
+색|n|màu sắc
+색깔|n|màu sắc
+샌드위치|n|bánh mì kẹp (sandwich)
+샤워|n|việc tắm vòi sen
+서점|n|hiệu sách
+선물하다|v|tặng quà
+세수|n|việc rửa mặt
+세탁기|n|máy giặt
+소파|n|ghế sofa
+소풍|n|chuyến dã ngoại
+쇠고기|n|thịt bò
+쇼핑|n|việc mua sắm
+수영|n|bơi lội
+수영장|n|bể bơi
+쉬다|v|nghỉ ngơi; thở
+슈퍼마켓|n|siêu thị
+스키|n|trượt tuyết
+스트레스|n|căng thẳng; stress
+스포츠|n|thể thao
+시월|n|tháng mười
+식사하다|v|dùng bữa
+식탁|n|bàn ăn
+신다|v|mang; xỏ (giày, tất)
+실례|n|sự thất lễ
+실례하다|v|thất lễ; xin phép
+십이월|n|tháng mười hai
+십일월|n|tháng mười một
+씨|nbound|anh/chị; ông/bà (đứng sau tên)
+씨|n|hạt giống
+아기|n|em bé
+아이스크림|n|kem
+아주머니|n|cô; bác gái; thím (phụ nữ trung niên)
+아파트|n|chung cư
+안녕하다|adj|bình an; khỏe
+야구|n|bóng chày
+얘기|n|câu chuyện; chuyện (khẩu ngữ của 이야기)
+얘기하다|v|kể chuyện; nói chuyện
+어떠하다|adj|như thế nào
+에어컨|n|máy điều hòa
+여권|n|hộ chiếu
+여러분|pron|các bạn; mọi người
+여학생|n|nữ sinh
+여행하다|v|đi du lịch
+연습|n|sự luyện tập
+연필|n|bút chì
+영국|n|nước Anh
+오래간만|n|lâu rồi mới (gặp lại)
+오랜만|n|lâu rồi mới (gặp lại)
+오렌지|n|cam
+오십|num|năm mươi
+오월|n|tháng năm
+외국어|n|ngoại ngữ
+요즈음|n|dạo này; gần đây
+운동장|n|sân vận động; sân tập
+운동화|n|giày thể thao
+운전|n|việc lái xe
+유월|n|tháng sáu
+육십|num|sáu mươi
+이곳|pron|nơi này
+이때|n|lúc này
+이분|pron|vị này (kính ngữ)
+이십|num|hai mươi
+이쪽|pron|phía này; bên này
+이월|n|tháng hai
+인사|n|lời chào; việc chào hỏi
+인사하다|v|chào hỏi
+인천|n|Incheon
+일월|n|tháng một
+일찍|adv|sớm
+잎|n|lá (cây)
+자리|n|chỗ ngồi; chỗ; vị trí
+자장면|n|mì tương đen (jajangmyeon)
+자전거|n|xe đạp
+잘하다|v|làm tốt; giỏi
+잠|n|giấc ngủ
+잠자다|v|ngủ
+잡지|n|tạp chí
+장미|n|hoa hồng
+재미|n|sự thú vị; niềm vui thích
+저곳|pron|nơi kia
+저쪽|pron|phía kia; bên kia
+전화번호|n|số điện thoại
+점심시간|n|giờ ăn trưa
+정류장|n|bến; trạm (xe)
+졸업하다|v|tốt nghiệp
+주소|n|địa chỉ
+주스|n|nước ép
+중학교|n|trường trung học cơ sở
+중학생|n|học sinh trung học cơ sở
+즐겁다|adj|vui vẻ; thú vị|ㅂ
+지우개|n|cục tẩy
+지우다|v|xóa; tẩy
+지하철|n|tàu điện ngầm
+찌개|n|món hầm (jjigae)
+청바지|n|quần jean
+청소|n|việc dọn dẹp
+청소하다|v|dọn dẹp
+초대|n|lời mời
+초등학교|n|trường tiểu học
+초콜릿|n|sô-cô-la
+추다|v|nhảy; múa
+축구|n|bóng đá
+춤|n|điệu nhảy; múa
+춤추다|v|nhảy múa
+치약|n|kem đánh răng
+친절하다|adj|tử tế; thân thiện
+칠십|num|bảy mươi
+칠월|n|tháng bảy
+칠판|n|bảng đen
+칫솔|n|bàn chải đánh răng
+카드|n|thẻ; thiệp
+캐나다|n|Canada
+콜라|n|cô-la
+크리스마스|n|Giáng sinh
+키|n|chiều cao; vóc dáng
+태권도|n|Taekwondo
+테니스|n|quần vợt
+테이블|n|bàn
+텔레비전|n|tivi
+티브이|n|tivi
+팀|n|đội; nhóm
+파란색|n|màu xanh dương
+파티|n|bữa tiệc
+팔십|num|tám mươi
+팔월|n|tháng tám
+표|n|vé; bảng; dấu hiệu; phiếu
+피아노|n|đàn piano
+피자|n|bánh pizza
+학년|n|năm học; lớp (cấp)
+한국말|n|tiếng Hàn
+한글|n|chữ Hangul
+한자|n|chữ Hán
+핸드폰|n|điện thoại di động
+햄버거|n|bánh hamburger
+호|cnt|số (phòng, kỳ)
+휴지통|n|thùng rác (đựng giấy)
+흰색|n|màu trắng

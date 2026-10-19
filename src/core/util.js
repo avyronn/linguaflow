@@ -2,7 +2,7 @@
 (function (root) {
   'use strict';
   const LF = root.LinguaFlow || (root.LinguaFlow = {});
-  LF.VERSION = '1.0.0';
+  LF.VERSION = '1.1.1';
 
   class EventEmitter {
     constructor() { this._h = new Map(); }

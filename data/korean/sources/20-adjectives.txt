@@ -1,0 +1,264 @@
+# ===== tính từ: đặc điểm, cảm giác, tính cách, trạng thái =====
+가엾다|adj|đáng thương
+간절하다|adj|tha thiết
+간단하다|adj|đơn giản
+갑작스럽다|adj|đột ngột
+거대하다|adj|khổng lồ
+거칠다|adj|thô ráp; dữ dội
+건방지다|adj|xấc xược; láo
+검다|adj|đen
+게으르다|adj|lười biếng
+고요하다|adj|tĩnh lặng
+고달프다|adj|vất vả; cực nhọc
+고독하다|adj|cô độc
+고르다|adj|đều; bằng phẳng
+곤란하다|adj|khó xử
+공손하다|adj|lễ phép
+공평하다|adj|công bằng
+괴상하다|adj|kỳ quái
+굉장하다|adj|ghê gớm; tuyệt vời
+굳다|adj|cứng; vững
+굵다|adj|to; dày
+궁금하다|adj|tò mò
+귀찮다|adj|phiền phức; lười
+그립다|adj|nhớ; nhớ nhung|ㅂ
+급하다|adj|gấp; vội
+긍정적이다|adj|tích cực
+기특하다|adj|đáng khen; ngoan
+깊숙하다|adj|sâu thẳm
+까맣다|adj|đen sì|ㅎ
+깔끔하다|adj|gọn gàng; sạch sẽ
+꼼꼼하다|adj|tỉ mỉ
+끈질기다|adj|dai dẳng; kiên trì
+끔찍하다|adj|kinh khủng
+나약하다|adj|yếu đuối
+낡다|adj|cũ kỹ
+낯설다|adj|xa lạ
+낯익다|adj|quen mặt
+냉정하다|adj|lạnh lùng; điềm tĩnh
+너그럽다|adj|rộng lượng
+넉넉하다|adj|dư dả; rộng rãi
+노랗다|adj|vàng|ㅎ
+놀랍다|adj|đáng kinh ngạc
+눅눅하다|adj|ẩm ướt
+느긋하다|adj|thong thả
+느슨하다|adj|lỏng lẻo
+늦다|adj|muộn
+다양하다|adj|đa dạng
+다정하다|adj|dịu dàng; thân thiết
+단순하다|adj|đơn giản
+단정하다|adj|chỉnh tề
+달콤하다|adj|ngọt ngào
+답답하다|adj|ngột ngạt; bực bội
+당당하다|adj|đường hoàng
+당황스럽다|adj|bối rối
+대견하다|adj|đáng tự hào
+더럽다|adj|bẩn
+도도하다|adj|kiêu kỳ
+독하다|adj|độc; cay nghiệt
+동일하다|adj|đồng nhất
+뚜렷하다|adj|rõ ràng
+뜨겁다|adj|nóng bỏng|ㅂ
+뜻깊다|adj|ý nghĩa
+마땅하다|adj|thích đáng
+막막하다|adj|mờ mịt; bế tắc
+만만하다|adj|dễ dãi; dễ xơi
+많다|adj|nhiều
+말랑하다|adj|mềm dẻo
+맑다|adj|trong; quang đãng
+맛나다|adj|ngon
+매력적이다|adj|quyến rũ
+맹렬하다|adj|dữ dội
+먹먹하다|adj|nghẹn ngào; ù tai
+멀쩡하다|adj|nguyên vẹn; lành lặn
+멋지다|adj|tuyệt; ngầu
+모자라다|adj|thiếu
+모질다|adj|tàn nhẫn
+묘하다|adj|kỳ lạ; huyền diệu
+무겁다|adj|nặng|ㅂ
+무례하다|adj|vô lễ
+무심하다|adj|vô tâm
+무난하다|adj|tạm ổn
+무섭다|adj|đáng sợ|ㅂ
+무책임하다|adj|vô trách nhiệm
+묵직하다|adj|nặng trĩu
+미끄럽다|adj|trơn
+미묘하다|adj|tinh tế; tế nhị
+미안하다|adj|xin lỗi; áy náy
+믿음직하다|adj|đáng tin
+밉다|adj|đáng ghét|ㅂ
+바람직하다|adj|đáng mong muốn
+바르다|adj|ngay thẳng; đúng
+밝다|adj|sáng; tươi
+방대하다|adj|đồ sộ
+배고프다|adj|đói
+번거롭다|adj|rườm rà|ㅂ
+벅차다|adj|quá sức; tràn đầy
+별나다|adj|khác thường
+복잡하다|adj|phức tạp
+부끄럽다|adj|xấu hổ|ㅂ
+부드럽다|adj|mềm mại|ㅂ
+부럽다|adj|ghen tị; ngưỡng mộ|ㅂ
+부지런하다|adj|siêng năng
+부족하다|adj|thiếu
+분하다|adj|uất ức
+불가피하다|adj|không thể tránh
+불쌍하다|adj|đáng thương
+불편하다|adj|bất tiện
+붉다|adj|đỏ thẫm
+비슷하다|adj|giống
+비좁다|adj|chật hẹp
+빠르다|adj|nhanh
+빽빽하다|adj|dày đặc
+뻔하다|adj|rõ ràng; hiển nhiên
+뻔뻔하다|adj|trơ trẽn
+뾰족하다|adj|nhọn
+사나워지다|adj|trở nên dữ
+사납다|adj|dữ tợn|ㅂ
+사소하다|adj|nhỏ nhặt
+산뜻하다|adj|tươi mát
+삼엄하다|adj|nghiêm ngặt
+상냥하다|adj|dịu dàng
+새롭다|adj|mới|ㅂ
+서럽다|adj|tủi thân|ㅂ
+서운하다|adj|buồn; thất vọng
+선명하다|adj|rõ nét
+섭섭하다|adj|tiếc nuối; phật lòng
+성실하다|adj|chăm chỉ; trung thực
+소박하다|adj|giản dị
+소중하다|adj|quý giá
+쉽다|adj|dễ|ㅂ
+슬기롭다|adj|khôn ngoan|ㅂ
+시끄럽다|adj|ồn ào|ㅂ
+시원하다|adj|mát; thoải mái
+신비롭다|adj|huyền bí|ㅂ
+신선하다|adj|tươi
+신중하다|adj|thận trọng
+실망스럽다|adj|đáng thất vọng|ㅂ
+심하다|adj|nghiêm trọng; quá
+싱싱하다|adj|tươi roi rói
+싸늘하다|adj|se lạnh; lạnh lùng
+쌀쌀하다|adj|lành lạnh
+쓸쓸하다|adj|hiu quạnh
+아깝다|adj|tiếc|ㅂ
+아늑하다|adj|ấm cúng
+아득하다|adj|xa xăm
+아련하다|adj|mơ hồ; xa vời
+아름답다|adj|đẹp|ㅂ
+아무렇다|adj|bất kỳ; bình thường|ㅎ
+아쉽다|adj|tiếc nuối|ㅂ
+아찔하다|adj|choáng váng
+악하다|adj|ác
+안타깝다|adj|đáng tiếc|ㅂ
+알맞다|adj|vừa vặn; phù hợp
+암담하다|adj|ảm đạm
+애매하다|adj|mơ hồ
+약하다|adj|yếu
+얌전하다|adj|ngoan ngoãn
+얇다|adj|mỏng
+어둡다|adj|tối|ㅂ
+어리석다|adj|ngu ngốc
+어색하다|adj|ngượng
+엄격하다|adj|nghiêm khắc
+엄숙하다|adj|trang nghiêm
+엄청나다|adj|khủng khiếp; to lớn
+없애다|v|xóa bỏ; loại bỏ
+여리다|adj|mỏng manh
+역겹다|adj|kinh tởm|ㅂ
+연약하다|adj|yếu ớt
+영리하다|adj|lanh lợi
+예민하다|adj|nhạy cảm
+예사롭다|adj|bình thường|ㅂ
+오래되다|adj|lâu đời; cũ
+온화하다|adj|ôn hòa
+완전하다|adj|hoàn toàn
+외롭다|adj|cô đơn|ㅂ
+요란하다|adj|ầm ĩ
+용감하다|adj|dũng cảm
+우습다|adj|buồn cười|ㅂ
+울적하다|adj|u uất
+웅장하다|adj|hùng vĩ
+원망스럽다|adj|đáng oán|ㅂ
+위대하다|adj|vĩ đại
+위태롭다|adj|nguy hiểm; chênh vênh|ㅂ
+유난하다|adj|đặc biệt; khác thường
+유리하다|adj|có lợi
+유별나다|adj|khác thường
+음산하다|adj|u ám; rùng rợn
+의심스럽다|adj|đáng ngờ|ㅂ
+이롭다|adj|có lợi|ㅂ
+이상하다|adj|lạ
+익숙하다|adj|quen thuộc
+인자하다|adj|nhân từ
+잔인하다|adj|tàn nhẫn
+잔잔하다|adj|êm đềm
+잘나다|adj|giỏi giang; bảnh
+잘생기다|adj|đẹp trai
+장하다|adj|đáng khen
+재미나다|adj|thú vị
+적당하다|adj|thích hợp
+적절하다|adj|thích đáng
+점잖다|adj|đứng đắn
+정직하다|adj|trung thực
+정확하다|adj|chính xác
+제멋대로다|adj|tùy tiện
+조급하다|adj|nóng vội
+조그맣다|adj|nhỏ xíu|ㅎ
+존귀하다|adj|cao quý
+좁다|adj|hẹp
+죄송스럽다|adj|áy náy|ㅂ
+줄기차다|adj|bền bỉ
+중대하다|adj|trọng đại
+지겹다|adj|chán ngấy|ㅂ
+지긋지긋하다|adj|ngán ngẩm
+진귀하다|adj|quý hiếm
+진하다|adj|đậm
+질기다|adj|dai
+짜릿하다|adj|rạo rực; điếng người
+짜증스럽다|adj|bực bội|ㅂ
+짧다|adj|ngắn
+쭈글쭈글하다|adj|nhăn nheo
+차분하다|adj|điềm tĩnh
+차갑다|adj|lạnh|ㅂ
+착잡하다|adj|rối bời
+참하다|adj|hiền; nết na
+창백하다|adj|nhợt nhạt
+처참하다|adj|thê thảm
+철저하다|adj|triệt để
+쾌적하다|adj|dễ chịu
+탐스럽다|adj|hấp dẫn|ㅂ
+태평하다|adj|vô tư; thái bình
+튼튼하다|adj|khỏe; vững chắc
+특이하다|adj|đặc biệt
+파랗다|adj|xanh dương|ㅎ
+퍽퍽하다|adj|khô; nghẹn
+편안하다|adj|thoải mái
+평온하다|adj|bình yên
+포근하다|adj|ấm áp; êm ái
+푸르다|adj|xanh
+풍부하다|adj|phong phú
+피곤하다|adj|mệt
+하얗다|adj|trắng|ㅎ
+한가롭다|adj|nhàn nhã|ㅂ
+한결같다|adj|trước sau như một
+행복하다|adj|hạnh phúc
+허무하다|adj|trống rỗng
+허술하다|adj|sơ sài; lỏng lẻo
+허약하다|adj|yếu ớt
+험하다|adj|hiểm trở; dữ dằn
+헛되다|adj|vô ích
+혹독하다|adj|khắc nghiệt
+홀가분하다|adj|nhẹ nhõm
+화려하다|adj|lộng lẫy
+확고하다|adj|vững chắc; kiên quyết
+황당하다|adj|hoang đường; sững sờ
+훌륭하다|adj|xuất sắc
+흉측하다|adj|ghê rợn
+흐리다|adj|âm u; mờ
+흔하다|adj|phổ biến; thường gặp
+희미하다|adj|mờ nhạt
+힘차다|adj|mạnh mẽ; đầy sức sống
+
+신나다|v|hào hứng; vui lên
+탐나다|v|thèm muốn; thích thú
+푸르다|adj|xanh biếc|러

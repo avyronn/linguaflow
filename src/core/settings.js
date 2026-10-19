@@ -11,6 +11,7 @@
     learningMode: true,        // master switch
     clickWords: true,
     morphology: true,
+    grammar: true,             // grammar patterns + sentence structure on the word card
     vocabulary: true,
     pronunciation: true,
     showRomanization: true,

@@ -1,0 +1,223 @@
+# ===== bổ sung (đợt 4c): phó từ, từ tượng thanh / tượng hình, thán từ, khẩu ngữ, đơn vị =====
+건배|n|sự nâng ly; cạn ly (건배!)
+맨날|adv|ngày nào cũng; suốt ngày (khẩu ngữ của 맨날)
+완료|n|sự hoàn tất
+진정|n|sự chân thành; sự thật lòng (진정한: chân chính)
+진정|adv|thật sự; thực sự
+배포|n|sự phân phát; sự phát hành
+의료|n|y tế; y khoa
+연방|n|liên bang
+클리어|n|sự vượt ải; sự dọn sạch (clear)
+싱크|n|bồn rửa; sự đồng bộ (sync)
+딱히|adv|(đi với phủ định) không hẳn; không đặc biệt
+보아하니|adv|nhìn bộ dạng thì; xem ra
+브라보|int|tuyệt vời! (bravo)
+블랙|n|màu đen (black)
+레드|n|màu đỏ (red)
+어느날|adv|một ngày nọ (= 어느 날)
+허나|conj|nhưng; tuy nhiên (văn viết, cổ)
+헌데|conj|nhưng mà; thế nhưng (= 한데, rút gọn của 그런데)
+그쵸|int|đúng không ạ; đúng nhỉ (= 그렇죠)
+뭘요|phrase|có gì đâu ạ; không có chi (đáp lại lời cảm ơn/khen)
+님|nbound|ngài; ông/bà (hậu tố kính trọng gắn sau tên hay chức danh)
+뭔|det|nào; gì (rút gọn của 무슨: 뭔 소리야?)
+그딴|det|cái thứ như thế (thái độ coi thường)
+저따위|det|cái thứ như kia (thái độ coi thường)
+단단히|adv|chắc chắn; chặt; nghiêm khắc
+주여|int|lạy Chúa
+얌전히|adv|ngoan ngoãn; hiền lành
+슬슬|adv|dần dần; từ từ (슬슬 가자: đi thôi nào)
+바짝|adv|sát vào; chặt; (khô) queo
+살살|adv|nhẹ nhàng; từ từ
+석션|n|sự hút (suction)
+댄스|n|điệu nhảy; khiêu vũ
+인마|int|này thằng kia (cách gọi thân mật hoặc thô)
+베이비|n|em bé; cưng (baby)
+마담|n|bà chủ quán; madame
+완벽히|adv|một cách hoàn hảo
+시속|n|tốc độ mỗi giờ (km/h)
+으흠|int|ừm; e hèm
+년간|cnt|trong suốt … năm (몇년간, 십년간)
+개월간|cnt|trong suốt … tháng
+의역|n|sự dịch thoát ý
+짜리|nbound|loại có giá/kích cỡ/số lượng … (오천원짜리)
+오마이갓|int|ôi Chúa ơi (oh my god)
+몽땅|adv|tất cả; hết sạch
+연쇄|n|sự liên hoàn; hàng loạt (연쇄 살인)
+핑크|n|màu hồng (pink)
+현지어|n|ngôn ngữ bản địa
+똑똑히|adv|rõ ràng; rành mạch
+파이팅|int|cố lên! (fighting)
+무단|n|tự ý; không xin phép (무단으로)
+예스|int|vâng; yes
+오역|n|sự dịch sai
+전형적|n|mang tính điển hình
+컷|n|cảnh quay (cut); kiểu cắt (hô “cắt!”)
+아따|int|ôi dào; ôi chao (nhấn mạnh, phương ngữ)
+개소리|n|lời nhảm nhí (thô)
+괜한|det|vô ích; không đâu (괜한 걱정)
+한방|n|một phát; một cú (= 한 방)
+한판|n|một ván; một trận
+엄밀히|adv|nói một cách nghiêm ngặt
+충전|n|sự sạc pin; sự nạp
+개시|n|sự bắt đầu
+카우보이|n|cao bồi
+출동|n|sự xuất kích; sự điều động
+뷰티|n|sắc đẹp (beauty)
+질질|adv|lết đi; lê thê; chảy dài
+무슈|n|ông (tiếng Pháp: monsieur)
+변태|n|kẻ biến thái
+액션|n|hành động; phim hành động
+정작|adv|thực ra; đến lúc quan trọng
+너넨|phrase|tụi bây thì (= 너네는)
+그닥|adv|(đi với phủ định) không … lắm (= 그다지)
+순순히|adv|ngoan ngoãn; không chống cự
+거봐|int|thấy chưa
+간절히|adv|tha thiết
+일명|n|biệt danh; còn gọi là
+해제|n|sự gỡ bỏ; sự hủy bỏ
+팝|n|nhạc pop
+유대인|n|người Do Thái
+유태인|n|người Do Thái (cách viết khác)
+빙고|int|bingo; trúng rồi
+여태껏|adv|cho đến giờ
+이제껏|adv|cho tới nay
+이제부턴|phrase|từ bây giờ trở đi (= 이제부터는)
+조건부|n|có điều kiện
+애완동물|n|thú cưng
+산산조각|n|mảnh vỡ tan tành (산산조각 나다)
+알바|n|việc làm thêm (viết tắt của 아르바이트)
+레이저|n|tia laser
+발포|n|sự nổ súng
+도넛|n|bánh donut
+몇달|n|vài tháng (= 몇 달)
+종료|n|sự kết thúc
+안면|n|gương mặt; sự quen biết
+기상|n|sự thức dậy; khí tượng
+무선|n|không dây
+솔로|n|solo; người độc thân
+베이스|n|bass; căn cứ (base)
+크리켓|n|môn cricket
+표범|n|con báo
+각본|n|kịch bản
+알츠하이머|n|bệnh Alzheimer
+문신|n|hình xăm
+샐러드|n|sa-lát
+전사|n|chiến binh; sự tử trận
+가석방|n|sự tạm tha
+교열|n|sự hiệu đính
+그깟|det|chỉ có chừng đó thôi (coi thường)
+홀딱|adv|hoàn toàn; trọn vẹn (홀딱 반하다)
+서프라이즈|n|sự bất ngờ (surprise)
+전진|n|sự tiến lên
+레몬|n|chanh vàng
+장거리|n|đường dài
+반경|n|bán kính
+어허|int|ê; này này (không đồng tình)
+진흙|n|bùn
+보드카|n|rượu vodka
+매니저|n|quản lý (manager)
+또라이|n|kẻ điên (khẩu ngữ, thô)
+잠자코|adv|im lặng; lặng lẽ
+임상|n|lâm sàng
+제로|n|số không (zero)
+앗싸|int|yeah!; tuyệt! (vui mừng)
+장전|n|sự nạp đạn
+레즈비언|n|người đồng tính nữ
+도난|n|sự mất trộm
+뚱보|n|người béo
+웹|n|web
+죄송|n|sự xin lỗi (죄송하다)
+똑같이|adv|giống hệt; như nhau
+불행히|adv|không may; bất hạnh thay
+샅샅이|adv|khắp nơi; kỹ lưỡng từng chút
+속속들이|adv|tường tận; từng ngóc ngách
+뜻밖|n|điều bất ngờ (뜻밖의)
+꿈쩍|adv|nhúc nhích (꿈쩍도 안 하다)
+얼씬|adv|lảng vảng (얼씬도 하지 마)
+쥐뿔|n|cái quái gì (쥐뿔도 없다: chẳng có gì)
+개뿔|n|cái quái gì (thô)
+미확인범|n|nghi phạm chưa xác định
+저분|pron|vị kia; ngài kia
+윗층|n|tầng trên (= 위층)
+아랫층|n|tầng dưới (= 아래층)
+제멋대로|adv|tùy tiện; theo ý mình
+멋대로|adv|tùy tiện; tùy ý
+진짜로|adv|thật sự; thực sự
+되게|adv|rất; cực kỳ (khẩu ngữ)
+예를 들어|phrase|ví dụ như; chẳng hạn
+다름 아니라|phrase|chuyện là; không phải gì khác mà là
+요번|n|lần này (= 이번)
+요전|n|hôm nọ; lần trước
+그담|adv|sau đó (= 그다음)
+한참동안|adv|trong một lúc lâu (= 한참 동안)
+빙빙|adv|vòng vòng; xoay tròn
+훨훨|adv|(bay) phấp phới; bay lượn
+펄펄|adv|(sôi) sùng sục; (bay) phấp phới; (sốt) hầm hập
+반짝반짝|adv|lấp lánh; sáng lấp lánh
+두근두근|adv|thình thịch (tim đập)
+번쩍|adv|lóe sáng; (nhấc) bổng lên
+쿵|adv|thịch; rầm (tiếng vật nặng rơi)
+탕|adv|đoàng (tiếng súng)
+꽝|adv|ầm; đùng (tiếng nổ, đóng mạnh)
+쨍|adv|choang; chói chang
+짝짝|adv|bốp bốp (vỗ tay)
+툭|adv|bộp; khẽ chạm; rớt nhẹ
+톡|adv|tách; cạch (gõ nhẹ)
+똑|adv|tách (gãy); cộc cộc (gõ)
+뚝|adv|phụt (dừng); đột ngột; (rơi) tõm
+쑥|adv|vọt lên; thò ra; (lớn) nhanh
+쓱|adv|(lướt) qua nhanh; (lau) nhanh
+쏙|adv|(chui) tọt vào; (rút) gọn ra; rất (đẹp, ngon…)
+은근슬쩍|adv|âm thầm lén lút; khéo léo kín đáo
+조심조심|adv|cẩn thận từng chút
+살금살금|adv|rón rén
+슬금슬금|adv|lén lút từng chút
+허둥지둥|adv|cuống cuồng; hấp tấp
+우물쭈물|adv|ấp úng; ngập ngừng
+머뭇머뭇|adv|do dự; chần chừ
+두리번두리번|adv|nhìn quanh quẩn
+기웃기웃|adv|ngó nghiêng
+힐끔힐끔|adv|liếc nhìn lia lịa
+빤히|adv|nhìn chằm chằm; (rõ) rành rành
+뻔히|adv|rõ mồn một; rành rành
+멍하니|adv|thẫn thờ; ngẩn ngơ
+우두커니|adv|đứng ngây ra; đờ ra
+물끄러미|adv|nhìn chăm chú (lặng lẽ)
+가만가만|adv|khe khẽ; nhẹ nhàng
+소곤소곤|adv|thì thầm; thủ thỉ
+속닥속닥|adv|thì thầm to nhỏ
+중얼중얼|adv|lẩm bẩm
+투덜투덜|adv|càu nhàu
+웅성웅성|adv|xôn xao; rì rầm
+왁자지껄|adv|ồn ào náo nhiệt
+시끌벅적|adv|ồn ã; nhộn nhịp
+북적북적|adv|đông nghịt; chen chúc
+방긋|adv|(cười) tươi
+빙긋|adv|(cười) mỉm
+싱글벙글|adv|(cười) tươi rói
+히죽히죽|adv|(cười) toe toét; cười cợt
+킥킥|adv|khúc khích
+깔깔|adv|(cười) khanh khách
+껄껄|adv|(cười) ha hả
+흑흑|adv|hu hu (khóc)
+엉엉|adv|hu hu (khóc to)
+훌쩍훌쩍|adv|sụt sịt
+꿀꺽|adv|ực (nuốt)
+벌컥|adv|(uống) ừng ực; (nổi giận) phừng phừng
+덥석|adv|(chộp) lấy vội; (cắn) ngoạm
+와락|adv|(ôm) chầm lấy; (xông) ào vào
+홱|adv|(quay, vứt) phắt
+휙|adv|vèo; (quay) phắt
+획|adv|vút
+쫙|adv|(xé) soạt; (trải) ào ra
+좍|adv|ào ào; (xối) xuống
+주르륵|adv|(chảy) ròng ròng
+줄줄|adv|(chảy) ròng ròng; (đọc) trơn tru
+졸졸|adv|róc rách; (đi) lẽo đẽo
+콸콸|adv|ào ào (nước chảy mạnh)
+시급히|adv|gấp; khẩn cấp
+신속히|adv|nhanh chóng
+꼼꼼히|adv|tỉ mỉ; kỹ lưỡng
+즉각|adv|ngay lập tức
+틈틈이|adv|tranh thủ lúc rảnh; thỉnh thoảng

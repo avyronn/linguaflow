@@ -97,6 +97,67 @@ test('Re-rendered identical text refreshes element references (word maps never p
   mgr.stop();
 });
 
+// What a browser does: a Range on a text node that is no longer in the document has no rectangles, so nothing can be hovered or clicked.
+const attachedOnly = { rectsForPiece: (p) => (p.node.isConnected ? [{ left: 10 + p.from * 10, top: 10, right: 10 + p.to * 10, bottom: 30, width: (p.to - p.from) * 10, height: 20 }] : []) };
+
+test('The same line re-rendered into a NEW text node while its container stays (framework re-render, resize): words stay hoverable, no new event', async () => {
+  const { doc, mgr } = await setup({ geometry: attachedOnly });
+  const events = [];
+  mgr.on('subtitle', (s) => events.push(s.primary.text));
+  mgr.start();
+  const box = D.netflixNative(doc, ['그 사람을 찾고 있어요.']);
+  await D.tick(40);
+  const before = mgr.getWordMaps()[0];
+  assert.equal(mgr.hitTest(15, 20).token.text, '그');
+  const line = box.querySelector('span span');
+  const old = line.firstChild;
+  line.textContent = line.textContent; // same characters, a brand-new Text node, the very same elements
+  assert.notEqual(line.firstChild, old);
+  assert.equal(old.isConnected, false);
+  await D.tick(40);
+  const after = mgr.getWordMaps()[0];
+  assert.notEqual(after, before, 'the word map was rebuilt on the new text node');
+  assert.ok(after.segments.every((s) => s.node.isConnected));
+  const hit = mgr.hitTest(15, 20);
+  assert.ok(hit, 'the word under the pointer is found again');
+  assert.equal(hit.token.text, '그');
+  assert.equal(mgr.hitTest(45, 20).token.text, '사람을');
+  assert.deepEqual(events, ['그 사람을 찾고 있어요.'], 'the text did not change: no second "subtitle" event');
+  mgr.stop();
+});
+
+test('...the same for NflxMultiSubs\' SVG <text> that is reused and rewritten with identical text', async () => {
+  const { doc, mgr } = await setup({ geometry: attachedOnly });
+  D.netflixNative(doc, ['Hôm nay bạn đã ở đâu?']);
+  const text = D.multiSubs(doc, ['오늘 어디에 있었어요?']);
+  mgr.start();
+  assert.equal(mgr.getWordMaps()[0].block.kind, 'svg-text');
+  assert.equal(mgr.hitTest(15, 20).token.text, '오늘');
+  const old = text.firstChild;
+  text.textContent = '오늘 어디에 있었어요?';
+  assert.equal(old.isConnected, false);
+  await D.tick(40);
+  const hit = mgr.hitTest(15, 20);
+  assert.ok(hit && hit.token.text === '오늘', 'hit-testing works on the new text node');
+  assert.ok(mgr.getWordMaps()[0].segments.every((s) => s.node.isConnected));
+  mgr.stop();
+});
+
+test('A re-render into new nodes with DIFFERENT text still fires the event and rebuilds the map', async () => {
+  const { doc, mgr } = await setup({ geometry: attachedOnly });
+  const events = [];
+  mgr.on('subtitle', (s) => events.push(s.primary.text));
+  mgr.start();
+  const box = D.netflixNative(doc, ['사람이 많아요.']);
+  await D.tick(40);
+  const line = box.querySelector('span span');
+  line.textContent = '왜 이렇게 늦었어요?';
+  await D.tick(40);
+  assert.deepEqual(events, ['사람이 많아요.', '왜 이렇게 늦었어요?']);
+  assert.equal(mgr.hitTest(15, 20).token.text, '왜');
+  mgr.stop();
+});
+
 test('Hidden duplicate (display:none) is ignored, visible one is used', async () => {
   const { doc, mgr } = await setup();
   const hidden = D.netflixNative(doc, ['오늘 어디에 있었어요?']);

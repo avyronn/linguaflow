@@ -8,8 +8,8 @@
   const doc = root.document;
   const h = (tag, attrs, ...kids) => LF.util.h(tag, attrs, ...kids);
 
-  const NAV = [['home', '⌂', 'nav.home'], ['vocabulary', '☰', 'nav.vocabulary'], ['review', '↻', 'nav.review'], ['settings', '⚙', 'nav.settings']];
-  const S = { settings: null, vocab: null, i18n: null, view: 'home', pron: null, filter: 'all', query: '', review: null, cleanup: null };
+  const NAV = [['home', '⌂', 'nav.home'], ['vocabulary', '☰', 'nav.vocabulary'], ['review', '↻', 'nav.review'], ['grammar', '§', 'nav.grammar'], ['settings', '⚙', 'nav.settings']];
+  const S = { settings: null, vocab: null, i18n: null, view: 'home', pron: null, filter: 'all', query: '', review: null, cleanup: null, gq: '', gsec: 'all' };
   const t = (k, p) => S.i18n.t(k, p);
 
   const $view = () => doc.getElementById('view');
@@ -48,7 +48,7 @@
     renderNav();
     const v = $view();
     clear(v);
-    const node = await ({ home: renderHome, vocabulary: renderVocabulary, review: renderReview, settings: renderSettings }[S.view])();
+    const node = await ({ home: renderHome, vocabulary: renderVocabulary, review: renderReview, grammar: renderGrammar, settings: renderSettings }[S.view])();
     clear(v);
     v.appendChild(node);
   }
@@ -78,7 +78,7 @@
       h('div', { class: 'section' }, h('h2', null, t('home.language')), langList),
       h('div', { class: 'section' },
         switchRow('learningMode', t('opt.learningMode'), t('opt.learningMode.hint')),
-        switchRow('clickWords', t('opt.clickWords')), switchRow('morphology', t('opt.morphology')),
+        switchRow('clickWords', t('opt.clickWords')), switchRow('morphology', t('opt.morphology')), switchRow('grammar', t('opt.grammar'), t('opt.grammar.hint')),
         switchRow('vocabulary', t('opt.vocabulary')), switchRow('pronunciation', t('opt.pronunciation'))),
       h('div', { class: 'stats' }, t('home.stats', { total: stats.total, due: stats.due })),
       h('p', { class: 'muted small' }, t('home.hint', { language: pack() ? pack().getNativeName() : '' })));
@@ -185,6 +185,75 @@
     return box;
   }
 
+  // ---- Grammar reference ---------------------------------------------------------------------------------------
+  // search folding: lower case, Vietnamese diacritics removed (so "nguyen nhan" finds "nguyên nhân"); Hangul syllables are left alone
+  const fold = (x) => String(x || '').toLowerCase().replace(/đ/g, 'd').replace(/[^\uAC00-\uD7AF]+/g, (m) => m.normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
+  const PAGE = 60;
+  function grammarItem(it, lg, sectionTitle) {
+    const hasBody = !!(it.note || (it.examples && it.examples.length));
+    const head = [
+      h('span', { class: 'gtitle', lang: lg }, it.title),
+      it.level ? h('span', { class: 'glv' }, t('card.grammar.level', { n: it.level })) : null,
+      it.tag || it.kind === 'ending' ? h('span', { class: 'gtag' }, it.tag || t('card.grammar.ending')) : null,
+      h('span', { class: 'gsum' }, it.summary),
+      sectionTitle ? h('span', { class: 'gfrom' }, sectionTitle) : null];
+    if (!hasBody) return h('div', { class: 'gitem flat' }, head);
+    const body = h('div', { class: 'gbody' },
+      it.note ? h('p', null, it.note) : null,
+      it.examples && it.examples.length ? h('ul', { class: 'gex' }, it.examples.map((e) => h('li', null, h('span', { class: 'gko', lang: lg }, e.text), e.translation ? h('span', { class: 'gvi' }, e.translation) : null))) : null);
+    return h('details', { class: 'gitem' }, h('summary', null, head), body);
+  }
+  async function renderGrammar() {
+    const p = pack();
+    const ref = p && typeof p.getGrammarReference === 'function' ? p.getGrammarReference() : [];
+    if (!ref.length) return h('div', { class: 'empty' }, t('gram.noPack'));
+    const lg = p.getId();
+    const list = h('div', { class: 'glist' });
+    const count = h('span', { class: 'muted small' });
+    const search = h('input', { type: 'search', placeholder: t('gram.search'), value: S.gq, 'aria-label': t('gram.search') });
+    const sel = h('select', { 'aria-label': t('gram.all') }, h('option', { value: 'all' }, t('gram.all')), ref.map((x) => h('option', { value: x.id }, x.title + ' (' + x.items.length + ')')));
+    sel.value = ref.some((x) => x.id === S.gsec) ? S.gsec : 'all';
+    S.gsec = sel.value;
+    const index = (it, section) => ({ all: fold([it.title, it.summary, section, it.note, it.tag].concat((it.examples || []).map((e) => e.text + ' ' + (e.translation || ''))).join(' ')), title: fold(it.title), summary: fold(it.summary), section: fold(section) });
+    const cache = new Map();
+    let shown = PAGE;
+    function draw() {
+      clear(list);
+      const q = fold(S.gq.trim());
+      const secs = ref.filter((x) => S.gsec === 'all' || x.id === S.gsec);
+      if (q) {
+        const flat = [], words = q.split(/\s+/);
+        for (const x of secs) for (const it of x.items) {
+          if (!cache.has(it)) cache.set(it, index(it, x.title));
+          const c = cache.get(it);
+          if (!words.every((w) => c.all.includes(w))) continue;
+          // relevance: all words in the title > in the section name (the whole topic asked for) > in the summary > only in the explanation / examples (stable within each group)
+          flat.push([x, it, words.every((w) => c.title.includes(w)) ? 4 : words.every((w) => c.section.includes(w)) ? 3.5 : words.every((w) => c.summary.includes(w)) ? 3 : 1]);
+        }
+        flat.sort((a, b) => b[2] - a[2]);
+        count.textContent = t('gram.count', { n: flat.length });
+        if (!flat.length) list.appendChild(h('div', { class: 'empty' }, t('gram.empty')));
+        for (const [x, it] of flat.slice(0, shown)) list.appendChild(grammarItem(it, lg, S.gsec === 'all' ? x.title : ''));
+        if (flat.length > shown) list.appendChild(h('button', { class: 'btn', type: 'button', onClick: () => { shown += PAGE; draw(); } }, t('gram.more')));
+        return;
+      }
+      count.textContent = t('gram.count', { n: secs.reduce((n, x) => n + x.items.length, 0) });
+      if (S.gsec !== 'all') { secs[0].items.slice(0, shown).forEach((it) => list.appendChild(grammarItem(it, lg))); if (secs[0].items.length > shown) list.appendChild(h('button', { class: 'btn', type: 'button', onClick: () => { shown += PAGE; draw(); } }, t('gram.more'))); return; }
+      secs.forEach((x, i) => {
+        const det = h('details', { class: 'gsec' }, h('summary', null, h('b', null, x.title), h('span', { class: 'muted small' }, ' · ' + x.items.length)));
+        let filled = false;
+        const fill = () => { if (filled) return; filled = true; const body = h('div', { class: 'glist' }); x.items.forEach((it) => body.appendChild(grammarItem(it, lg))); det.appendChild(body); };
+        det.addEventListener('toggle', () => { if (det.open) fill(); });
+        if (i === 0) { fill(); det.open = true; }
+        list.appendChild(det);
+      });
+    }
+    search.addEventListener('input', () => { S.gq = search.value; shown = PAGE; draw(); });
+    sel.addEventListener('change', () => { S.gsec = sel.value; shown = PAGE; draw(); });
+    draw();
+    return h('div', null, search, h('div', { class: 'row', style: { margin: '8px 0' } }, h('div', { class: 'grow' }, sel), count), list, h('p', { class: 'muted small' }, t('gram.note')));
+  }
+
   // ---- Settings ------------------------------------------------------------------------------------------------
   async function renderSettings() {
     const uiSel = h('select', { 'aria-label': t('set.ui') }, h('option', { value: 'vi' }, 'Tiếng Việt'), h('option', { value: 'en' }, 'English'));
@@ -201,7 +270,7 @@
     sel.addEventListener('change', () => S.settings.set({ customSelectors: sel.value }));
 
     const stats = await S.vocab.stats(lang());
-    const v = LF.VERSION || '1.0.0';
+    const v = LF.VERSION || '1.1.1';
     return h('div', null,
       h('div', { class: 'section' }, h('h2', null, t('set.ui')), uiSel),
       h('div', { class: 'section' },

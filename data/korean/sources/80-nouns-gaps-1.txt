@@ -1,0 +1,203 @@
+# ===== danh từ còn thiếu (đợt 1, theo tần suất trong phụ đề). Từ thô tục/miệt thị có ghi nhãn để người học nhận ra, không khuyến khích dùng. =====
+섹스|n|quan hệ tình dục (sex)
+똑바로|adv|thẳng; ngay ngắn; đàng hoàng
+여지|n|chỗ; khoảng trống; khả năng (… 여지가 있다)
+아가|n|em bé; bé con (gọi trẻ sơ sinh, gọi con dâu)
+동시|n|đồng thời; cùng lúc
+폭풍|n|bão táp; cơn bão
+가문|n|dòng họ; gia tộc
+유감|n|điều đáng tiếc; sự tiếc nuối
+보트|n|thuyền; xuồng
+파트너|n|đối tác; bạn đồng hành
+요점|n|điểm chính; trọng tâm
+해변|n|bãi biển; bờ biển
+손상|n|sự hư hại; tổn thương
+확률|n|xác suất
+쿠키|n|bánh quy; cookie
+조언|n|lời khuyên
+따위|n|đồ như thế; mấy thứ như (hàm ý coi thường)
+따님|n|con gái (kính ngữ, con gái của người khác)
+드레스|n|váy đầm; váy dạ hội
+선택권|n|quyền lựa chọn
+수치|n|con số; chỉ số; sự xấu hổ
+캠프|n|trại; trại hè
+대상|n|đối tượng; giải thưởng cao nhất
+천만에|int|không có chi; đâu có (nói tắt của 천만에요)
+리스트|n|danh sách
+케이스|n|trường hợp; vỏ hộp
+자비|n|lòng từ bi; sự nhân từ; tiền tự túc
+네놈|pron|thằng kia (thô tục: gọi người đối diện)
+저놈|pron|thằng kia (thô tục)
+쉴드|n|khiên; lá chắn (shield)
+밴드|n|ban nhạc; dây đeo (band)
+광산|n|mỏ; hầm mỏ
+셔츠|n|áo sơ mi
+자국|n|vết; dấu vết
+욕망|n|dục vọng; khát vọng
+의상|n|trang phục; y phục
+장벽|n|bức tường chắn; rào cản
+출처|n|nguồn gốc; xuất xứ
+사항|n|vấn đề; điều khoản
+사막|n|sa mạc
+보물|n|bảo vật; kho báu
+타겟|n|mục tiêu (target)
+타깃|n|mục tiêu (target)
+명성|n|danh tiếng
+여정|n|hành trình
+다음번|n|lần sau; lần tới
+리더|n|người lãnh đạo; trưởng nhóm
+억지|n|sự gượng ép; cố chấp
+조치|n|biện pháp; sự xử lý
+종말|n|sự kết thúc; tận thế
+차트|n|biểu đồ; bảng xếp hạng; hồ sơ bệnh án
+패턴|n|mẫu hình; kiểu mẫu
+압박|n|sự áp lực; sự ép
+본능|n|bản năng
+경로|n|lộ trình; con đường; đường đi
+파워|n|sức mạnh; quyền lực
+마스크|n|khẩu trang; mặt nạ
+뒤쪽|n|phía sau
+튜브|n|ống; săm; phao
+파이|n|bánh pie
+페이지|n|trang
+파이프|n|ống dẫn; ống
+호의|n|thiện ý; lòng tốt
+커플|n|cặp đôi
+곤경|n|tình thế khó khăn; hoàn cảnh khốn khó
+작동|n|sự vận hành; hoạt động
+케이크|n|bánh ngọt; bánh kem
+레스토랑|n|nhà hàng
+와이프|n|vợ (wife)
+표적|n|mục tiêu; bia
+질투|n|sự ghen tị; ghen tuông
+서약|n|lời thề; cam kết
+옷장|n|tủ quần áo
+직감|n|trực giác; linh cảm
+배짱|n|gan dạ; sự bạo gan
+고의|n|sự cố ý
+수수께끼|n|câu đố; điều bí ẩn
+드라마|n|phim truyền hình; kịch
+익명|n|ẩn danh
+로비|n|sảnh; sự vận động hành lang
+자막|n|phụ đề
+타이밍|n|thời điểm; thời cơ
+투어|n|chuyến tham quan; tour
+트롤|n|quỷ khổng lồ (troll); kẻ chọc phá trên mạng
+공룡|n|khủng long
+내면|n|nội tâm; bên trong
+승인|n|sự phê duyệt; chấp thuận
+트렁크|n|cốp xe; va li
+비밀리|n|một cách bí mật (비밀리에)
+인내심|n|lòng kiên nhẫn
+별말씀|n|(lời khách sáo) không có gì đâu (별말씀을요)
+항로|n|đường bay; hải trình
+호스트|n|chủ nhà; người dẫn chương trình (host)
+초대장|n|thiệp mời
+야망|n|tham vọng
+타워|n|tòa tháp
+가호|n|sự phù hộ; che chở
+십자가|n|cây thập tự
+고대|n|cổ đại; thời cổ
+장애|n|trở ngại; khuyết tật
+목적지|n|điểm đến
+애비|n|bố (nói trống không, thô); cha
+마차|n|xe ngựa
+억양|n|ngữ điệu
+차고|n|nhà để xe; ga-ra
+맹세|n|lời thề
+행방|n|tung tích; nơi đi tới
+화물|n|hàng hóa; hàng chở
+표식|n|dấu hiệu; ký hiệu
+토네이도|n|lốc xoáy
+개념|n|khái niệm
+동의|n|sự đồng ý; sự tán thành
+여태|adv|đến giờ; từ trước tới nay
+집게|n|cái kẹp; cái nhíp
+케이블|n|dây cáp
+위안|n|sự an ủi
+스페인어|n|tiếng Tây Ban Nha
+사내|n|đàn ông; gã
+욕조|n|bồn tắm
+파편|n|mảnh vỡ; mảnh đạn
+여부|n|có hay không; việc (có hay không)
+베일|n|tấm màn che; khăn voan
+티켓|n|vé
+일원|n|một thành viên
+본론|n|nội dung chính; vào việc chính
+지분|n|cổ phần; phần góp
+나치|n|Đức Quốc xã (Nazi)
+욕구|n|nhu cầu; ham muốn
+오토바이|n|xe máy
+와중|n|giữa lúc; đang lúc bận rộn
+통째|n|nguyên cả; trọn vẹn
+배후|n|đằng sau; kẻ giật dây
+타인|n|người khác
+응답|n|sự trả lời; hồi đáp
+수익|n|lợi nhuận; thu nhập
+뒷문|n|cửa sau
+잠재력|n|tiềm năng
+자산|n|tài sản
+경매|n|buổi đấu giá
+본보기|n|tấm gương; mẫu mực
+경의|n|sự kính trọng
+복장|n|trang phục; cách ăn mặc
+이쁜이|n|người đẹp; cô xinh xắn (cách gọi trìu mến)
+겁쟁이|n|kẻ nhát gan
+꼬맹이|n|nhóc con; bé tí
+멍청이|n|đồ ngốc
+거짓말쟁이|n|kẻ nói dối
+귀염둥이|n|bé cưng; đứa trẻ đáng yêu
+난쟁이|n|người lùn
+애송이|n|nhóc con; thằng nhóc mới lớn
+깜둥이|n|(miệt thị, xúc phạm) người da đen
+빨갱이|n|(miệt thị) “đồ đỏ”; người cộng sản
+여친|n|bạn gái (nói tắt của 여자친구)
+남친|n|bạn trai (nói tắt của 남자친구)
+개자식|n|đồ chó đẻ (thô tục)
+개새끼|n|đồ chó đẻ (thô tục)
+병신|n|đồ ngu; người tàn tật (thô tục, xúc phạm)
+창녀|n|gái mại dâm (xúc phạm)
+좆|n|(thô tục) dương vật; đồ chết tiệt
+씨발|int|đ.m.; mẹ kiếp (thô tục)
+존나|adv|cực kỳ; đ.m. (thô tục, = 졸라)
+졸라|adv|cực kỳ; (thô tục, = 존나)
+제길|int|chết tiệt; mẹ nó
+빌어먹을|det|chết tiệt; khốn kiếp
+지랄|n|(thô tục) sự điên khùng; làm loạn
+염병|n|bệnh dịch; (thô tục) chết tiệt
+엿|n|kẹo mạch nha; (엿 먹어라: đồ khốn)
+썅|int|(thô tục) mẹ kiếp; con khốn
+계집|n|đàn bà con gái (miệt thị)
+계집애|n|con bé; con ranh
+애기|n|em bé
+늙은이|n|ông già; lão
+벗|n|bạn
+단짝|n|bạn thân; cặp đôi thân thiết
+적수|n|đối thủ
+라이벌|n|đối thủ cạnh tranh
+경쟁자|n|đối thủ cạnh tranh
+동반자|n|bạn đồng hành
+조력자|n|người giúp đỡ
+후원자|n|nhà tài trợ; người bảo trợ
+지지자|n|người ủng hộ
+독자|n|độc giả
+청중|n|thính giả; khán giả
+인민|n|nhân dân
+민중|n|quần chúng; dân chúng
+군중|n|đám đông
+떼|n|bầy; đàn; đám
+패거리|n|phe nhóm; băng đảng
+일당|n|bọn; đồng bọn; lương ngày
+한패|n|cùng phe; cùng bọn
+동행|n|sự đi cùng
+협회|n|hiệp hội
+조합|n|hợp tác xã; công đoàn; tổ hợp
+연맹|n|liên đoàn; liên minh
+동맹국|n|nước đồng minh
+마트|n|siêu thị (mart)
+슈퍼|n|siêu thị nhỏ; siêu (tiền tố)
+모텔|n|nhà nghỉ (motel)
+하숙|n|sự ở trọ
+빌라|n|nhà chung cư thấp tầng (villa)
+단독주택|n|nhà riêng
+원룸|n|phòng đơn (studio)

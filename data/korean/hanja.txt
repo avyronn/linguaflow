@@ -1,0 +1,202 @@
+# word|hanja|Hán-Việt  — Sino-Korean words; the Hán-Việt reading helps Vietnamese learners recognise the root.
+학교|學校|học hiệu (trường học)
+학생|學生|học sinh
+선생|先生|tiên sinh
+선생님|先生님|tiên sinh (thầy/cô)
+대학|大學|đại học
+대학교|大學校|đại học hiệu (trường đại học)
+병원|病院|bệnh viện
+의사|醫師|y sư (bác sĩ)
+환자|患者|hoạn giả (bệnh nhân)
+간호사|看護師|khán hộ sư (y tá)
+약국|藥局|dược cục (hiệu thuốc)
+경찰|警察|cảnh sát
+경찰서|警察署|cảnh sát thự
+군인|軍人|quân nhân
+군대|軍隊|quân đội
+전쟁|戰爭|chiến tranh
+평화|平和|bình hòa (hòa bình)
+자유|自由|tự do
+독립|獨立|độc lập
+정부|政府|chính phủ
+국가|國家|quốc gia
+국민|國民|quốc dân
+대통령|大統領|đại thống lĩnh (tổng thống)
+사회|社會|xã hội
+회사|會社|hội xã (công ty)
+사장|社長|xã trưởng (giám đốc)
+직원|職員|chức viên (nhân viên)
+가족|家族|gia tộc (gia đình)
+부모|父母|phụ mẫu (bố mẹ)
+형제|兄弟|huynh đệ (anh em)
+자매|姉妹|tỷ muội (chị em)
+친구|親舊|thân cựu (bạn bè)
+인간|人間|nhân gian (con người)
+생명|生命|sinh mệnh
+행복|幸福|hạnh phúc
+불행|不幸|bất hạnh
+희망|希望|hy vọng
+용기|勇氣|dũng khí
+공포|恐怖|khủng bố (nỗi sợ)
+위험|危險|nguy hiểm
+안전|安全|an toàn
+비밀|祕密|bí mật
+진실|眞實|chân thật (sự thật)
+사실|事實|sự thực
+이유|理由|lý do
+문제|問題|vấn đề
+방법|方法|phương pháp
+의미|意味|ý vị (ý nghĩa)
+기억|記憶|ký ức
+약속|約束|ước thúc (lời hẹn)
+준비|準備|chuẩn bị
+시작|始作|thủy tác (bắt đầu)
+시간|時間|thời gian
+오전|午前|ngọ tiền
+오후|午後|ngọ hậu
+일요일|日曜日|nhật diệu nhật (chủ nhật)
+월요일|月曜日|nguyệt diệu nhật (thứ hai)
+화요일|火曜日|hỏa diệu nhật (thứ ba)
+수요일|水曜日|thủy diệu nhật (thứ tư)
+목요일|木曜日|mộc diệu nhật (thứ năm)
+금요일|金曜日|kim diệu nhật (thứ sáu)
+토요일|土曜日|thổ diệu nhật (thứ bảy)
+세계|世界|thế giới
+한국|韓國|Hàn quốc
+일본|日本|Nhật Bản
+중국|中國|Trung quốc
+미국|美國|Mỹ quốc
+조선|朝鮮|Triều Tiên
+도시|都市|đô thị
+시장|市場|thị trường (chợ)
+식당|食堂|thực đường (quán ăn)
+음식|飮食|ẩm thực
+운동|運動|vận động
+전화|電話|điện thoại
+전기|電氣|điện khí
+기차|汽車|khí xa (tàu hỏa)
+자동차|自動車|tự động xa (ô tô)
+공장|工場|công trường (nhà máy)
+은행|銀行|ngân hàng
+경제|經濟|kinh tế
+문화|文化|văn hóa
+역사|歷史|lịch sử
+과학|科學|khoa học
+기술|技術|kỹ thuật
+연구|硏究|nghiên cứu
+실험|實驗|thực nghiệm (thí nghiệm)
+연구소|硏究所|nghiên cứu sở (viện nghiên cứu)
+조사|調査|điều tra
+수사|搜査|sưu tra (điều tra hình sự)
+범죄|犯罪|phạm tội
+범인|犯人|phạm nhân
+증거|證據|chứng cứ
+재판|裁判|tài phán (xét xử)
+법원|法院|pháp viện (tòa án)
+변호사|辯護士|biện hộ sĩ (luật sư)
+감옥|監獄|giám ngục (nhà tù)
+죄수|罪囚|tội tù (tù nhân)
+체포|逮捕|đãi bổ (bắt giữ)
+탈출|脫出|thoát xuất (trốn thoát)
+도망|逃亡|đào vong (bỏ chạy)
+복수|復讐|phục thù (trả thù)
+배신|背信|bội tín (phản bội)
+희생|犧牲|hy sinh
+용서|容恕|dung thứ (tha thứ)
+결정|決定|quyết định
+선택|選擇|tuyển trạch (lựa chọn)
+계획|計劃|kế hoạch
+소식|消息|tiêu tức (tin tức)
+정보|情報|tình báo (thông tin)
+명령|命令|mệnh lệnh
+질문|質問|chất vấn (câu hỏi)
+대답|對答|đối đáp (trả lời)
+설명|說明|thuyết minh (giải thích)
+이해|理解|lý giải (hiểu)
+관계|關係|quan hệ
+감정|感情|cảm tình (cảm xúc)
+기분|氣分|khí phân (tâm trạng)
+성격|性格|tính cách
+인생|人生|nhân sinh (cuộc đời)
+생활|生活|sinh hoạt (cuộc sống)
+여행|旅行|lữ hành (du lịch)
+공부|工夫|công phu (việc học)
+숙제|宿題|túc đề (bài tập)
+시험|試驗|thí nghiệm (kỳ thi)
+수업|授業|thụ nghiệp (giờ học)
+졸업|卒業|tốt nghiệp
+입학|入學|nhập học
+유학|留學|lưu học (du học)
+회의|會議|hội nghị (cuộc họp)
+사업|事業|sự nghiệp (kinh doanh)
+무역|貿易|mậu dịch (thương mại)
+가격|價格|giá cách (giá cả)
+선물|膳物|thiện vật (quà)
+편지|便紙|tiện chỉ (thư)
+신문|新聞|tân văn (báo)
+영화|映畫|ánh họa (phim)
+사진|寫眞|tả chân (ảnh)
+음악|音樂|âm nhạc
+방송|放送|phóng tống (phát sóng)
+건강|健康|kiện khang (sức khỏe)
+치료|治療|trị liệu (điều trị)
+수술|手術|thủ thuật (phẫu thuật)
+주사|注射|chú xạ (tiêm)
+증상|症狀|chứng trạng (triệu chứng)
+전염병|傳染病|truyền nhiễm bệnh
+감염|感染|cảm nhiễm (lây nhiễm)
+세균|細菌|tế khuẩn (vi khuẩn)
+폭탄|爆彈|bạo đạn (bom)
+무기|武器|vũ khí
+부대|部隊|bộ đội (đơn vị quân)
+장군|將軍|tướng quân
+장교|將校|tướng hiệu (sĩ quan)
+작전|作戰|tác chiến
+항복|降伏|hàng phục (đầu hàng)
+혁명|革命|cách mạng
+통치|統治|thống trị
+식민지|植民地|thực dân địa (thuộc địa)
+총독|總督|tổng đốc
+총독부|總督府|tổng đốc phủ
+해방|解放|giải phóng
+애국|愛國|ái quốc (yêu nước)
+동포|同胞|đồng bào
+조국|祖國|tổ quốc
+민족|民族|dân tộc
+국적|國籍|quốc tịch
+외교|外交|ngoại giao
+외국|外國|ngoại quốc
+외국인|外國人|ngoại quốc nhân
+고향|故鄕|cố hương (quê hương)
+교회|敎會|giáo hội (nhà thờ)
+종교|宗敎|tông giáo (tôn giáo)
+귀신|鬼神|quỷ thần (ma)
+악마|惡魔|ác ma
+영혼|靈魂|linh hồn
+유령|幽靈|u linh (ma)
+저주|詛咒|trớ chú (lời nguyền)
+운명|運命|vận mệnh
+기적|奇蹟|kỳ tích (phép màu)
+우연|偶然|ngẫu nhiên
+인연|因緣|nhân duyên
+영웅|英雄|anh hùng
+왕|王|vương (vua)
+궁|宮|cung
+성|城|thành
+산|山|sơn (núi)
+강|江|giang (sông)
+공원|公園|công viên
+도서관|圖書館|đồ thư quán (thư viện)
+극장|劇場|kịch trường (rạp hát)
+건물|建物|kiến vật (tòa nhà)
+지하|地下|địa hạ (dưới đất)
+지하실|地下室|địa hạ thất (tầng hầm)
+방향|方向|phương hướng
+장소|場所|trường sở (địa điểm)
+지역|地域|địa vực (khu vực)
+지도|地圖|địa đồ (bản đồ)
+동쪽|東쪽|đông (phía đông)
+서쪽|西쪽|tây (phía tây)
+남쪽|南쪽|nam (phía nam)
+북쪽|北쪽|bắc (phía bắc)
+

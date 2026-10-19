@@ -1,0 +1,333 @@
+# ===== tội phạm, pháp luật, chiến tranh, chính trị, tôn giáo, xã hội (từ phụ đề phim hình sự, chiến tranh, giả tưởng) =====
+알리바이|n|bằng chứng ngoại phạm
+증거|n|bằng chứng
+증언|n|lời khai của nhân chứng; sự làm chứng
+진술|n|lời khai; sự trình bày
+자백|n|sự thú tội
+혐의|n|sự nghi ngờ; tội danh bị nghi
+혐의자|n|nghi phạm
+누명|n|oan khuất; tiếng oan
+범행|n|hành vi phạm tội
+범죄|n|tội phạm; tội ác
+범죄자|n|tội phạm
+죄|n|tội
+죄악|n|tội ác
+죄책감|n|cảm giác tội lỗi
+유죄|n|có tội
+무죄|n|vô tội
+형량|n|mức án
+형벌|n|hình phạt
+징역|n|án tù
+사형|n|án tử hình
+종신형|n|chung thân
+집행|n|sự thi hành
+석방|n|sự thả tự do
+체포|n|sự bắt giữ
+체포영장|n|lệnh bắt
+영장|n|lệnh (bắt, khám xét)
+수색|n|sự lục soát; tìm kiếm
+수색영장|n|lệnh khám xét
+수사|n|sự điều tra (hình sự)
+조사|n|sự điều tra; cuộc khảo sát; trợ từ
+심문|n|sự thẩm vấn
+취조|n|sự thẩm vấn
+신문|n|báo; sự thẩm vấn
+미행|n|sự theo dõi; bám đuôi
+잠복|n|sự mai phục; phục kích
+추격|n|sự truy đuổi
+도주|n|sự bỏ trốn
+탈옥|n|sự vượt ngục
+탈출|n|sự thoát ra; trốn thoát
+납치|n|sự bắt cóc
+유괴|n|sự bắt cóc (trẻ em)
+감금|n|sự giam giữ
+감방|n|phòng giam
+독방|n|phòng giam riêng; biệt giam
+교도소|n|nhà tù
+감옥|n|nhà giam; nhà tù
+구치소|n|trại tạm giam
+경찰서|n|đồn cảnh sát
+파출소|n|đồn công an (khu vực)
+법원|n|tòa án
+법정|n|phòng xử án; tòa
+재판|n|phiên tòa; sự xét xử
+소송|n|vụ kiện
+고소|n|sự khởi tố; kiện
+고발|n|sự tố cáo
+항소|n|sự kháng cáo
+판결|n|bản án; phán quyết
+선고|n|sự tuyên án
+기소|n|sự truy tố
+합의|n|sự thỏa thuận; hòa giải
+조약|n|hiệp ước
+협정|n|hiệp định; thỏa thuận
+협상|n|sự đàm phán
+협조|n|sự hợp tác; hỗ trợ
+동맹|n|đồng minh; liên minh
+휴전|n|sự đình chiến
+정전|n|sự mất điện; đình chiến
+평화|n|hòa bình
+전쟁|n|chiến tranh
+전투|n|trận chiến; chiến đấu
+전장|n|chiến trường
+전선|n|chiến tuyến; dây điện
+전략|n|chiến lược
+전술|n|chiến thuật
+작전|n|chiến dịch; tác chiến
+임무|n|nhiệm vụ
+미션|n|nhiệm vụ (mission)
+공격|n|sự tấn công
+습격|n|sự tập kích
+기습|n|sự tập kích bất ngờ
+침공|n|sự xâm lược
+침략|n|sự xâm lược
+점령|n|sự chiếm đóng
+정복|n|sự chinh phục
+방어|n|sự phòng thủ
+수비|n|sự phòng ngự
+후퇴|n|sự rút lui
+퇴각|n|sự rút lui
+항복|n|sự đầu hàng
+투항|n|sự đầu hàng
+패배|n|sự thất bại
+승리|n|chiến thắng
+적군|n|quân địch
+아군|n|quân ta
+적|n|kẻ thù; địch
+총|n|súng
+총알|n|viên đạn
+총격|n|sự nổ súng; bắn nhau
+총격전|n|cuộc đấu súng
+사격|n|sự bắn; bắn súng
+저격|n|sự bắn tỉa
+권총|n|súng ngắn
+소총|n|súng trường
+기관총|n|súng máy
+산탄총|n|súng săn (shotgun)
+대포|n|đại bác
+폭탄|n|bom
+폭발|n|vụ nổ
+폭발물|n|chất nổ
+폭파|n|sự cho nổ; phá hủy bằng thuốc nổ
+지뢰|n|mìn
+수류탄|n|lựu đạn
+미사일|n|tên lửa (missile)
+핵|n|hạt nhân; hạt nhân (vũ khí)
+핵무기|n|vũ khí hạt nhân
+무기|n|vũ khí
+탄약|n|đạn dược
+화살|n|mũi tên
+활|n|cung
+칼|n|dao; kiếm
+검|n|kiếm
+도끼|n|cái rìu
+창|n|cây giáo; cửa sổ
+방패|n|cái khiên
+갑옷|n|áo giáp
+투구|n|mũ giáp
+헬멧|n|mũ bảo hiểm
+방탄조끼|n|áo chống đạn
+수갑|n|còng tay
+족쇄|n|xiềng xích
+밧줄|n|dây thừng
+독|n|chất độc; vại
+독약|n|thuốc độc
+독극물|n|chất độc hại
+함정|n|cái bẫy; tàu chiến
+덫|n|bẫy
+미끼|n|mồi nhử
+속임수|n|mánh khóe; trò lừa
+사기|n|sự lừa đảo; sĩ khí
+위조|n|sự làm giả
+밀수|n|sự buôn lậu
+밀매|n|sự buôn bán lậu
+뇌물|n|tiền hối lộ
+횡령|n|sự biển thủ
+자금|n|tiền vốn; quỹ
+세탁|n|sự giặt; rửa (tiền)
+돈세탁|n|rửa tiền
+협박|n|sự đe dọa; tống tiền
+공갈|n|sự dọa nạt; lời nói dối
+폭행|n|sự hành hung
+폭력|n|bạo lực
+학대|n|sự ngược đãi
+성폭행|n|sự cưỡng hiếp
+성추행|n|sự quấy rối tình dục
+강간|n|sự hiếp dâm
+살인|n|vụ giết người
+살해|n|sự sát hại
+학살|n|sự tàn sát
+자살|n|sự tự tử
+타살|n|sự bị giết (không phải tự tử)
+암살|n|sự ám sát
+처형|n|sự xử tử
+복수|n|sự trả thù; số nhiều
+원한|n|mối hận
+증오|n|sự căm ghét
+분노|n|cơn giận dữ
+반란|n|cuộc nổi loạn
+혁명|n|cách mạng
+쿠데타|n|cuộc đảo chính
+독립|n|sự độc lập
+독재|n|sự độc tài
+독재자|n|nhà độc tài
+정권|n|chính quyền
+정부|n|chính phủ
+정책|n|chính sách
+정치|n|chính trị
+선거|n|cuộc bầu cử
+투표|n|sự bỏ phiếu
+후보|n|ứng cử viên
+당선|n|sự trúng cử
+공약|n|lời hứa tranh cử
+왕국|n|vương quốc
+제국|n|đế quốc
+제국주의|n|chủ nghĩa đế quốc
+왕위|n|ngôi vua
+왕좌|n|ngai vàng
+왕관|n|vương miện
+궁전|n|cung điện
+궁|n|cung điện; cung (bắn)
+성|n|thành; tính; họ
+성벽|n|tường thành
+요새|n|pháo đài
+기지|n|căn cứ; sự lanh trí
+진지|n|trận địa; nghiêm túc
+본부|n|trụ sở chính
+지휘|n|sự chỉ huy
+지휘관|n|chỉ huy
+명령|n|mệnh lệnh
+복종|n|sự phục tùng
+충성|n|lòng trung thành
+충성심|n|lòng trung thành
+배신|n|sự phản bội
+배신자|n|kẻ phản bội
+반역|n|sự phản nghịch
+반역자|n|kẻ phản nghịch
+첩자|n|gián điệp; kẻ nội gián
+밀고|n|sự tố giác
+내통|n|sự thông đồng với địch
+음모|n|âm mưu
+계략|n|mưu kế
+계획|n|kế hoạch
+책략|n|mưu lược
+숙청|n|sự thanh trừng
+학살자|n|kẻ tàn sát
+난민|n|người tị nạn
+피난|n|sự lánh nạn
+망명|n|sự lưu vong
+국경|n|biên giới
+세관|n|hải quan
+여권|n|hộ chiếu; nữ quyền
+비자|n|thị thực (visa)
+시민|n|công dân; người dân
+시민권|n|quyền công dân; quốc tịch
+국적|n|quốc tịch
+이민|n|sự nhập cư; di dân
+이민자|n|người nhập cư
+종족|n|chủng tộc; bộ tộc
+인종|n|chủng tộc
+인종차별|n|phân biệt chủng tộc
+차별|n|sự phân biệt đối xử
+편견|n|định kiến
+자유|n|tự do
+인권|n|nhân quyền
+권리|n|quyền lợi
+권한|n|quyền hạn
+특권|n|đặc quyền
+의무|n|nghĩa vụ
+책임|n|trách nhiệm
+책임자|n|người chịu trách nhiệm
+권력|n|quyền lực
+지배|n|sự thống trị
+지배자|n|người thống trị
+통치|n|sự cai trị
+통제|n|sự kiểm soát
+감시|n|sự giám sát
+감시카메라|n|camera giám sát
+보안|n|an ninh; bảo mật
+보호|n|sự bảo vệ
+호위|n|sự hộ tống
+경호|n|sự bảo vệ (người quan trọng)
+경비원|n|nhân viên bảo vệ
+방호|n|sự phòng hộ
+안전|n|sự an toàn
+위험|n|sự nguy hiểm
+위협|n|sự đe dọa
+위기|n|cuộc khủng hoảng; nguy cơ
+비상|n|khẩn cấp; bất thường
+비상구|n|cửa thoát hiểm
+재앙|n|tai ương; thảm họa
+재난|n|thiên tai; tai nạn lớn
+참사|n|thảm họa
+사고|n|tai nạn; sự cố; suy nghĩ
+사건|n|vụ án; sự kiện
+사태|n|tình trạng; sự thể
+상황|n|tình hình
+현장|n|hiện trường
+증거물|n|vật chứng
+단서|n|manh mối
+흔적|n|dấu vết
+지문|n|vân tay; đoạn văn
+발자국|n|dấu chân
+핏자국|n|vết máu
+혈흔|n|vết máu
+사체|n|thi thể
+유서|n|di thư
+유언|n|di ngôn
+유품|n|di vật
+묘|n|mộ
+묘지|n|nghĩa địa
+무덤|n|ngôi mộ
+관|n|quan tài; ống; cơ quan
+장례식|n|đám tang
+장례|n|tang lễ
+추도|n|sự truy điệu
+조의|n|lời chia buồn
+조문|n|sự viếng đám tang
+애도|n|sự thương tiếc
+영혼|n|linh hồn
+혼|n|hồn; tâm hồn
+천국|n|thiên đường
+지옥|n|địa ngục
+심판|n|sự phán xét; trọng tài
+천당|n|thiên đường
+저주|n|lời nguyền
+축복|n|lời chúc phúc; phước lành
+기도|n|lời cầu nguyện
+기도하다|v|cầu nguyện
+예배|n|buổi lễ (nhà thờ)
+성경|n|Kinh Thánh
+성당|n|nhà thờ lớn Công giáo
+교회|n|nhà thờ
+절|n|chùa; sự cúi lạy
+사원|n|đền; chùa; nhân viên
+신|n|thần; sự hứng thú
+신앙|n|đức tin
+신전|n|đền thờ
+하나님|n|Thiên Chúa; Chúa
+예수|n|Giê-su
+예수님|n|Chúa Giê-su
+그리스도|n|Chúa Ki-tô
+성령|n|Chúa Thánh Thần
+사탄|n|Sa-tan
+악|n|cái ác
+선|n|điều thiện; đường
+선악|n|thiện và ác
+성자|n|thánh nhân; Chúa Con
+성인|n|thánh; người trưởng thành
+신화|n|thần thoại
+전설|n|truyền thuyết
+예언|n|lời tiên tri
+예언자|n|nhà tiên tri
+점|n|chấm; điểm; sự bói toán
+점쟁이|n|thầy bói
+무당|n|đồng cốt; thầy cúng
+굿|n|lễ cúng của đồng cốt
+부적|n|bùa hộ mệnh
+마법|n|phép thuật
+마술|n|ma thuật; trò ảo thuật
+주문|n|bùa chú; đơn đặt hàng
+초능력|n|siêu năng lực
+능력|n|năng lực
+힘|n|sức mạnh

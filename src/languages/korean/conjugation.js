@@ -25,6 +25,7 @@
   const IRR_D_EXACT = new Set(['묻']);
   const IRR_S_SUFFIX = ['짓', '낫', '붓', '잇', '긋', '젓', '잣'];
   const REG_REU = new Set(['따르', '치르', '들르', '다다르', '우러르', '으르']);
+  const IRR_REO = new Set(['푸르']); // 러-irregular (푸르러); 이르다 'reach' also, but the headword is ambiguous with 르-irregular 이르다 'say early'
   const HON_LEX = new Set(['드시', '계시', '주무시', '잡수시']); // lexical honorific verbs: 드세요, 계세요 ...
 
   function defaultIrr(stem, pos) {
@@ -34,6 +35,7 @@
     if (f === 'ㄷ') return IRR_D_EXACT.has(stem) || IRR_D_SUFFIX.some((w) => stem.endsWith(w)) ? 'ㄷ' : null;
     if (f === 'ㅅ') return IRR_S_SUFFIX.some((w) => stem.endsWith(w)) ? 'ㅅ' : null;
     if (f === 'ㅎ') return pos === 'adj' && last !== '좋' ? 'ㅎ' : null;
+    if (IRR_REO.has(stem)) return '러';
     if (last === '르' && stem.length >= 2 && !REG_REU.has(stem)) return '르';
     if (stem === '푸') return '우';
     return null;
@@ -45,7 +47,7 @@
     if (f === 'ㄷ') out.push('ㄷ');
     if (f === 'ㅅ') out.push('ㅅ');
     if (f === 'ㅎ') out.push('ㅎ');
-    if (last === '르' && stem.length >= 2) out.push('르');
+    if (last === '르' && stem.length >= 2) { out.push('르'); out.push('러'); }
     return out;
   }
 
@@ -68,6 +70,7 @@
       const map = { ㅏ: 'ㅐ', ㅓ: 'ㅐ', ㅑ: 'ㅒ', ㅕ: 'ㅖ' };
       return [swapLast(t, H.build(p.c, map[p.v] || 'ㅐ', ''))];
     }
+    if (irr === '러' && last === '르') return [t + '러']; // 러-irregular: 푸르 -> 푸르러 (not 푸르+어)
     if (irr === '르' && last === '르' && t.length >= 2) { // 모르 -> 몰라, 부르 -> 불러
       const prev = t[t.length - 2];
       return [t.slice(0, -2) + H.withJong(prev, 'ㄹ') + (harmony(prev) === '아' ? '라' : '러')];
@@ -77,6 +80,7 @@
       const prevV = t.length >= 2 ? H.vowel(t.slice(0, -1)) : '';
       return [swapLast(t, H.withVowel(last, isYang(prevV) ? 'ㅏ' : 'ㅓ'))];
     }
+    if (p.f === 'ㅎ' && !irr && last === '놓') return [t + '아', swapLast(t, '놔')]; // 놓아 -> 놔 (놔요, 놨어, 내려놔)
     if (p.f === '') {
       if (last === '하') return [swapLast(t, '해'), t + '여'];
       switch (p.v) {
@@ -112,7 +116,7 @@
     let t = info.text;
     const irr = info.afterPrefinal ? null : info.irr;
     const f = H.jong(t), last = H.last(t), onset = onsetOf(text);
-    if (HON_LEX.has(t) && (text.startsWith('세요') || text.startsWith('십시오'))) t = t.slice(0, -1);
+    if (HON_LEX.has(t) && /^(세요|십시오|시오)/.test(text)) t = t.slice(0, -1); // 드시 + 세요 -> 드세요, 드시 + 시오 -> 드시오
     if (irr === 'ㅂ' && f === 'ㅂ') return join(swapLast(t, H.withoutJong(last)) + '우', text);
     if (irr === 'ㄷ' && f === 'ㄷ') return consInsert(swapLast(t, H.withJong(last, 'ㄹ')), text);
     if (irr === 'ㅅ' && f === 'ㅅ') return consInsert(swapLast(t, H.withoutJong(last)), text);
@@ -129,7 +133,7 @@
     let t = info.text;
     const f = H.jong(t);
     if (f === '') return join(t, v);
-    if (f === 'ㄹ') { if (dropsL(onsetOf(v))) t = H.dropLastJong(t); return join(t, v); }
+    if (f === 'ㄹ') { if (dropsL(onsetOf(v)) || v === '오') t = H.dropLastJong(t); return join(t, v); } // 알 + 오 -> 아오 (하오체)
     return t + c;
   }
   function attachA(info, text) {
@@ -140,11 +144,24 @@
       if (text === '서') outs.push('아니라서');
     }
     for (const F of aoFuseAll(info)) outs.push(F + text);
+    // colloquial 말다: 말아 -> 마, 말아요 -> 마요, 말아라 -> 마라 (하지 마!, 걱정 마요)
+    if (info.text === '말' && !info.afterPrefinal && (text === '' || text === '요' || text === '라')) outs.push('마' + text);
     return outs;
+  }
+  // 하 + ㅈ/ㄱ/ㄷ contracts: 원하지 -> 원치, 간단하게 -> 간단케, 만만하다 -> 만만타; after ㄱ/ㅂ/ㅅ the 하 simply drops: 깨끗하지 -> 깨끗지
+  const ASPIRATED = { 지: '치', 게: '케', 고: '코', 다: '타', 도: '토' };
+  function haContract(info, text) {
+    const t = info.text;
+    if (info.afterPrefinal || t.length < 2 || !t.endsWith('하') || !text || !ASPIRATED[text[0]]) return null;
+    const prev = t[t.length - 2];
+    if (!H.isSyllable(prev)) return null;
+    const f = H.jong(prev);
+    if (f === 'ㄱ' || f === 'ㅂ' || f === 'ㅅ') return t.slice(0, -1) + text;
+    return t.slice(0, -1) + ASPIRATED[text[0]] + text.slice(1);
   }
   function attachFinal(info, spec) {
     switch (spec.mode) {
-      case 'c': return [attachC(info, spec.text)];
+      case 'c': { const alt = haContract(info, spec.text); return alt ? [attachC(info, spec.text), alt] : [attachC(info, spec.text)]; }
       case 'u': return [attachU(info, spec.text)];
       case 'a': return attachA(info, spec.text);
       case 'f': return [attachF(info, spec.text)];
@@ -163,6 +180,7 @@
       return aoFuseAll(info).map((F) => Object.assign({ text: swapLast(F, H.withJong(H.last(F), 'ㅆ')), afterPrefinal: 'ss' }, base));
     }
     if (code === 'F') return [Object.assign({ text: info.text + '겠', afterPrefinal: 'ss' }, base)];
+    if (code === 'R') return aoFuseAll(info).map((F) => Object.assign({ text: F + '야겠', afterPrefinal: 'ss' }, base)); // 가 -> 가야겠-, 먹 -> 먹어야겠-
     return [];
   }
   function chainInfos(info, combo) {
@@ -175,12 +193,26 @@
     return cur;
   }
 
-  // 있다/없다 (맛있다, 재미없다 ...) take the verb-style endings 는/는다/는데.
-  const effectivePos = (info) => (/[있없]$/.test(info.text) ? 'v' : info.pos);
+  // 있다/없다 (맛있다, 재미없다 ...) take the verb-style endings 는/는다/는데. 재밌다 (= 재미있다, spoken) behaves the same.
+  const EXISTENTIAL = /(?:[있없]|재밌)$/;
+  const effectivePos = (info) => (EXISTENTIAL.test(info.text) ? 'v' : info.pos);
+  // spec.bare, when the chain carries no tense marker:
+  //   'v'     -는-type endings: verbs and 있다/없다            'adj' -(으)ㄴ-type endings: real adjectives only
+  //   'v0'    -ㄴ다/는다-type endings: real verbs only          'plain' -다-type endings: adjectives, 이다 and 있다/없다
   function specAllowed(info, combo, spec) {
-    const tensed = combo.includes('P') || combo.includes('F');
+    const tensed = combo.includes('P') || combo.includes('F') || combo.includes('R');
     if (spec.needsBare && tensed) return false;
-    if (spec.bare && !tensed) { const pos = effectivePos(info); if (pos && pos !== spec.bare) return false; }
+    if (spec.only && !spec.only.includes(info.text)) return false;   // endings that exist only for a few stems (아니라서 ...)
+    if (spec.not && spec.not.includes(info.text)) return false;      // endings that a few stems never take (아니다 has no imperative -(으)라)
+    // dual-natured stems (않다, 맞다 ...) and honorific -(으)시- stems take verb- and adjective-type endings alike
+    if (spec.bare && !tensed && !info.dual && !combo.includes('H')) {
+      const exist = EXISTENTIAL.test(info.text);
+      switch (spec.bare) {
+        case 'v0': if ((info.pos && info.pos !== 'v') || exist) return false; break;
+        case 'plain': if (info.pos === 'v' && !exist) return false; break;
+        default: { const pos = effectivePos(info); if (pos && pos !== spec.bare) return false; }
+      }
+    }
     return true;
   }
 

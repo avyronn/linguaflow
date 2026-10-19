@@ -1,0 +1,33 @@
+# ===== định từ (관형사) và vài từ còn thiếu — đứng trước danh từ, không chia đuôi =====
+새|det|mới (새 집 = nhà mới, 새 옷 = áo mới)
+딴|det|khác (딴 사람 = người khác, 딴 생각 = nghĩ chuyện khác)
+별|det|đặc biệt; gì đặc biệt (thường đi với phủ định: 별 일 없어요 = không có gì đặc biệt)
+별별|det|đủ loại; đủ thứ (별별 사람 = đủ loại người)
+별의별|det|đủ mọi loại; đủ thứ trên đời
+약|det|khoảng; xấp xỉ (약 십 분 = khoảng mười phút)
+총|det|tổng cộng (총 오십 명 = tổng cộng năm mươi người)
+전|det|cả; toàn bộ; (cựu) trước đây (전 세계 = toàn thế giới, 전 직원 = toàn bộ nhân viên, 전 대통령 = cựu tổng thống)
+만|det|tròn (tuổi) (만 십팔 세 = tròn mười tám tuổi)
+구|det|cũ (구 시가지 = khu phố cũ)
+신|det|mới (신 제품 = sản phẩm mới)
+본|det|này; hiện tại (văn bản trang trọng: 본 사건 = vụ việc này)
+갖은|det|đủ loại (갖은 고생 = đủ mọi gian khổ)
+허튼|det|vớ vẩn; bậy bạ (허튼 소리 = lời vớ vẩn)
+제반|det|mọi; tất cả các (제반 사항 = mọi hạng mục)
+여타|det|khác; còn lại (여타 국가 = các nước khác)
+이까짓|det|cỡ này mà; chuyện cỏn con thế này
+그까짓|det|cỡ đó mà; chuyện cỏn con như thế
+저까짓|det|cỡ kia mà; chuyện cỏn con kia
+이른바|adv|cái gọi là; thường gọi là
+새삼|adv|một lần nữa; như mới (새삼 놀랐어요 = ngạc nhiên như mới biết lần đầu)
+전세계|n|toàn thế giới
+구시가지|n|khu phố cũ
+전직|n|chức vụ trước đây; cựu (nhân viên, quan chức)
+현직|n|chức vụ hiện tại; đương nhiệm
+전임|n|người tiền nhiệm; sự công tác trước đó
+후임|n|người kế nhiệm
+구형|n|kiểu cũ; đời cũ
+신형|n|kiểu mới; đời mới
+신품|n|hàng mới
+구식|n|kiểu cũ; lỗi thời
+신식|n|kiểu mới; hiện đại

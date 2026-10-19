@@ -10,6 +10,7 @@
 
   const HOST_ID = 'linguaflow-root';
   const CARD_W = 340;
+  const MIN_CARD_H = 120; // the card is never made shorter than this to make room (in a very small player it scrolls inside this height)
 
   class LearningOverlay extends LF.util.EventEmitter {
     /** @param {{document:Document, window?:Window, t?:Function}} o */
@@ -87,50 +88,70 @@
       this.model = model;
       if (anchorRect) this._anchor = anchorRect;
       this._avoid = avoidRect || null;
-      this._renderCard(true);
+      this._renderCard();
     }
     /** Re-render with a changed model (e.g. after "Save") without moving the card. */
     updateCard(patch) {
       if (!this.card) return;
       this.model = Object.assign({}, this.model, patch);
-      this._renderCard(false);
+      this._renderCard();
     }
     hideCard() {
       if (this._toastTimer) { this.window.clearTimeout(this._toastTimer); this._toastTimer = null; }
       if (this.card) { this.card.remove(); this.card = null; }
       this.model = null; this._anchor = null; this._avoid = null;
     }
-    _renderCard(reposition) {
+    _renderCard() {
       const keepScroll = this.card ? this.card.scrollTop : 0;
-      const wasOpen = this.card && this.card.querySelector('details.lf-sent') ? this.card.querySelector('details.lf-sent').open : false;
+      // every <details> the learner opened stays open when the card is redrawn (after "Save", a toast ...); null = first drawing -> defaults
+      const open = this.card ? new Set(Array.from(this.card.querySelectorAll('details[data-key]')).filter((d) => d.open).map((d) => d.getAttribute('data-key'))) : null;
       const old = this.card;
-      const el = this._buildCard(this.model, wasOpen);
+      const el = this._buildCard(this.model, open);
       if (old) old.replaceWith(el); else this.layer.appendChild(el);
       this.card = el;
-      if (reposition || !old) this._place(); else { el.style.left = old.style.left; el.style.top = old.style.top; el.style.visibility = 'visible'; el.scrollTop = keepScroll; }
+      this._place();
+      if (old) el.scrollTop = keepScroll;
     }
+    /** The card goes on the side of the subtitle lines that has room for it - above is preferred, subtitles sit at the bottom of the player - and never over
+     *  them: when it is taller than the room on either side it is shortened (it scrolls inside) instead of being pushed over the subtitles. Called again
+     *  whenever the content changes height (a section is opened, the card is redrawn), so the edge facing the subtitles stays where it was. */
     _place() {
-      const win = this.window, el = this.card, a = this._anchor || { left: 20, top: 20, right: 20, bottom: 20, width: 0, height: 0 };
-      const vw = win.innerWidth || 1280, vh = win.innerHeight || 720, m = 8;
-      const r = el.getBoundingClientRect();
-      const w = r.width || CARD_W, hgt = r.height || 240;
+      const win = this.window, el = this.card;
+      if (!el) return;
+      const a = this._anchor || { left: 20, top: 20, right: 20, bottom: 20, width: 0, height: 0 };
+      const vw = win.innerWidth || 1280, vh = win.innerHeight || 720, m = 8, gap = 10;
       const av = this._avoid;
       const above = av ? Math.min(a.top, av.top) : a.top, below = av ? Math.max(a.bottom, av.bottom) : a.bottom;
-      let top = above - hgt - 10; // subtitles sit near the bottom: open upwards, clear of every subtitle line
-      if (top < m) top = below + 10;
-      top = LF.util.clamp(top, m, Math.max(m, vh - hgt - m));
+      const scroll = el.scrollTop;
+      el.style.maxHeight = ''; // its natural height (the stylesheet still caps it)
+      const r = el.getBoundingClientRect();
+      const w = r.width || CARD_W, natural = r.height || 240;
+      const roomAbove = above - gap - m, roomBelow = vh - below - gap - m;
+      const up = natural <= roomAbove || (natural > roomBelow && roomAbove >= roomBelow);
+      const room = up ? roomAbove : roomBelow;
+      let hgt = natural;
+      if (natural > room) { hgt = Math.max(MIN_CARD_H, Math.floor(room)); el.style.maxHeight = hgt + 'px'; }
+      const top = LF.util.clamp(up ? above - gap - hgt : below + gap, m, Math.max(m, vh - hgt - m));
       const left = LF.util.clamp((a.left + a.right) / 2 - w / 2, m, Math.max(m, vw - w - m));
       el.style.left = Math.round(left) + 'px';
       el.style.top = Math.round(top) + 'px';
       el.style.visibility = 'visible';
+      el.scrollTop = scroll;
     }
 
     _act(type, extra) { this.emit('action', Object.assign({ type, model: this.model }, extra || {})); }
 
-    _buildCard(m, sentenceOpen) {
+    _buildCard(m, openKeys) {
       const t = this.t, doc = this.document;
       const H = (tag, attrs, ...kids) => h(tag, Object.assign({ __doc: doc }, attrs), ...kids);
       const set = m.settings || {};
+      const isOpen = (key, dflt) => (openKeys ? openKeys.has(key) : !!dflt);
+      const fold = (key, dflt, summary, body, cls) => {
+        const d = H('details', { class: cls || 'lf-det', 'data-key': key }, H('summary', null, summary), body);
+        if (isOpen(key, dflt)) d.open = true;
+        d.addEventListener('toggle', () => { if (this.card && this.card.contains(d)) this._place(); }); // opening a section changes the height: keep clear of the subtitles
+        return d;
+      };
       const head = H('div', { class: 'lf-head' },
         H('div', { class: 'lf-title' },
           H('div', { class: 'lf-surface', lang: m.lang || undefined }, m.surface),
@@ -155,6 +176,16 @@
       } else if (m.meanings && m.meanings.length) {
         kids.push(H('ul', { class: 'lf-meanings' }, m.meanings.slice(0, 4).map((x) => H('li', null, x))));
       } else kids.push(H('div', { class: 'lf-meta' }, t('card.notInDict')));
+
+      // ---- where the word comes from (Korean: the Hanja and the Hán-Việt reading, which let a Vietnamese learner recognise Sino-Korean words); text comes from the pack ----
+      const ety = m.etymology;
+      if (ety && ety.text) {
+        kids.push(H('div', { class: 'lf-ety' },
+          ety.label ? H('span', { class: 'lf-ek' }, ety.label) : null,
+          H('span', { class: 'lf-et', lang: m.lang || undefined }, ety.text),
+          ety.reading ? H('span', { class: 'lf-er' }, ety.reading) : null,
+          ety.root ? H('span', { class: 'lf-eroot' }, '(' + (ety.rootLabel ? ety.rootLabel + ': ' : ''), H('span', { lang: m.lang || undefined }, ety.root), ')') : null));
+      }
 
       // ---- confidence + "show base form" ----
       if (m.confidenceLabel && m.confidenceLabel !== 'high') {
@@ -184,9 +215,27 @@
       if (m.sentence) {
         const body = H('div', { class: 'lf-sentbody' }, this._highlightSentence(m.sentence, m.surface, H));
         if (m.translation) body.appendChild(H('div', { class: 'lf-trans' }, m.translation));
-        const det = H('details', { class: 'lf-sent' }, H('summary', null, t('card.sentence')), body);
-        if (sentenceOpen) det.open = true;
-        kids.push(det);
+        kids.push(fold('sent', false, t('card.sentence'), body, 'lf-det lf-sent'));
+      }
+
+      // ---- grammar: the patterns the clicked word belongs to first, the rest of the sentence collapsed, then the structure of the sentence ----
+      const g = m.grammar;
+      if (set.grammar !== false && g && (g.patterns.length || g.words.length)) {
+        const rank = (p) => (p.kind === 'ending' ? 1 : 0);
+        const mine = g.patterns.filter((p) => p.focus).sort((a, b) => rank(a) - rank(b));
+        const rest = g.patterns.filter((p) => !p.focus).sort((a, b) => rank(a) - rank(b));
+        if (g.patterns.length) {
+          const body = H('div', { class: 'lf-gbody' });
+          if (g.sentenceCount > 1) body.appendChild(H('div', { class: 'lf-meta' }, t('card.sentenceN', { i: g.sentenceIndex + 1, n: g.sentenceCount }) + ': ' + g.text));
+          if (mine.length) mine.forEach((p, i) => body.appendChild(this._patternBlock(p, 'm' + i, H, fold, m.lang)));
+          else body.appendChild(H('div', { class: 'lf-meta' }, t('card.grammar.empty')));
+          kids.push(fold('gram', true, t('card.grammar') + (mine.length ? ' · ' + mine.length : ''), body, 'lf-det lf-gram'));
+        }
+        if (rest.length) {
+          kids.push(fold('gramOther', false, t('card.grammar.other') + ' · ' + rest.length,
+            H('div', { class: 'lf-gbody' }, rest.map((p, i) => this._patternBlock(p, 'o' + i, H, fold, m.lang))), 'lf-det lf-gram'));
+        }
+        kids.push(fold('struct', false, t('card.structure'), this._structureBody(g, H, m.lang), 'lf-det lf-gram'));
       }
 
       // ---- actions ----
@@ -203,6 +252,52 @@
       const card = H('div', { class: 'lf-card', role: 'dialog', 'aria-label': 'LinguaFlow' }, kids);
       card.style.visibility = 'hidden';
       return card;
+    }
+    /** One grammar pattern: form · level · confidence, meaning, the words it matched, and (collapsed) explanation + examples. */
+    _patternBlock(p, key, H, fold, lang) {
+      const t = this.t;
+      const kids = [
+        H('div', { class: 'lf-pt' },
+          H('span', { class: 'lf-pform' }, p.title),
+          p.level ? H('span', { class: 'lf-lv' }, t('card.grammar.level', { n: p.level })) : null,
+          p.kind === 'ending' ? H('span', { class: 'lf-tag' }, t('card.grammar.ending')) : null,
+          p.confidence && p.confidence !== 'high' ? H('span', { class: 'lf-pill ' + p.confidence }, t('card.grammar.conf.' + p.confidence)) : null),
+        H('div', { class: 'lf-pm' }, p.meaning)];
+      if (p.text) kids.push(H('div', { class: 'lf-ptext' }, t('card.grammar.matched') + ': ', H('span', { class: 'lf-ko', lang: lang || undefined }, p.text)));
+      for (const n of p.notes || []) kids.push(H('div', { class: 'lf-pnote' }, n));
+      const ex = p.examples || [];
+      if (p.note || ex.length) {
+        kids.push(fold('pat:' + key, false, t('card.grammar.detail'), H('div', { class: 'lf-pbody' },
+          p.note ? H('p', null, p.note) : null,
+          ex.length ? H('ul', { class: 'lf-exs' }, ex.map((e) => H('li', null, H('span', { class: 'lf-ko', lang: lang || undefined }, e.text), e.translation ? H('span', { class: 'lf-exvi' }, e.translation) : null))) : null), 'lf-det lf-pdet'));
+      }
+      return H('div', { class: 'lf-pat' + (p.focus ? ' focus' : '') }, kids);
+    }
+    /** What can be read from the sentence as a whole: facts, clauses, the role of each word, the order skeleton. */
+    _structureBody(g, H, lang) {
+      const t = this.t;
+      const box = H('div', { class: 'lf-sbody' });
+      if (g.facts.length) {
+        box.appendChild(H('div', { class: 'lf-sh' }, t('card.structure.facts')));
+        box.appendChild(H('dl', { class: 'lf-facts' }, g.facts.map((f) => [H('dt', null, f.label), H('dd', null, f.value, f.hint ? H('small', null, f.hint) : null)])));
+      }
+      if (g.clauses.length > 1) {
+        box.appendChild(H('div', { class: 'lf-sh' }, t('card.structure.clauses')));
+        box.appendChild(H('ol', { class: 'lf-clauses' }, g.clauses.map((c) => H('li', null, H('span', { class: 'lf-ko', lang: lang || undefined }, c.text),
+          H('small', null, [c.kindLabel, c.relationLabel].filter(Boolean).join(' · '))))));
+      }
+      if (g.words.length) {
+        box.appendChild(H('div', { class: 'lf-sh' }, t('card.structure.words')));
+        box.appendChild(H('div', { class: 'lf-roles' }, g.words.map((w) => [
+          H('span', { class: 'lf-rw' + (w.focus ? ' focus' : ''), lang: lang || undefined }, w.text),
+          H('span', { class: 'lf-rr', title: w.roleHint || undefined }, w.roleLabel + (w.gloss ? ' — ' + w.gloss : ''))])));
+      }
+      if (g.structure.length) {
+        box.appendChild(H('div', { class: 'lf-sh' }, t('card.structure.order')));
+        box.appendChild(H('div', { class: 'lf-skel' }, g.structure.map((s, i) => [i ? H('span', { class: 'lf-arrow' }, '→') : null, H('span', { class: 'lf-chip' }, s.label)])));
+      }
+      box.appendChild(H('div', { class: 'lf-meta lf-sn' }, t('card.structure.note')));
+      return box;
     }
     _highlightSentence(sentence, word, H) {
       const i = word ? sentence.indexOf(word) : -1;

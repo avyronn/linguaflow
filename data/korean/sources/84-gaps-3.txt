@@ -1,0 +1,44 @@
+# ===== bổ sung (đợt 3): danh từ + động từ N-하다 còn thiếu, từ công nghệ, văn phòng, đời sống =====
+펜|n|bút (bút bi, bút mực); cây bút
+메모하다|v|ghi chú lại
+수영하다|v|bơi
+입장하다|v|vào (cửa, phòng, sân); nhập trường
+숙제하다|v|làm bài tập về nhà
+산책하다|v|đi dạo
+쇼핑하다|v|mua sắm
+세탁하다|v|giặt giũ
+샤워하다|v|tắm vòi sen
+결제|n|sự thanh toán
+결제하다|v|thanh toán
+취직|n|việc xin được việc; việc đi làm
+취직하다|v|xin được việc làm; đi làm
+퇴사|n|việc nghỉ việc ở công ty
+퇴사하다|v|nghỉ việc (ở công ty)
+시청하다|v|xem (truyền hình, video)
+검색|n|sự tìm kiếm (trên mạng)
+검색하다|v|tìm kiếm (trên mạng)
+저장|n|sự lưu; sự cất giữ
+저장하다|v|lưu; cất giữ
+다운로드|n|sự tải xuống
+다운로드하다|v|tải xuống
+업로드|n|sự tải lên
+업로드하다|v|tải lên
+접속|n|sự kết nối; truy cập
+접속하다|v|kết nối; truy cập (mạng, trang web)
+로그인|n|đăng nhập
+로그인하다|v|đăng nhập
+등록|n|sự đăng ký; sự ghi danh
+등록하다|v|đăng ký; ghi danh
+탈퇴|n|việc rút khỏi (hội, trang web); hủy tư cách thành viên
+탈퇴하다|v|rút khỏi; hủy tài khoản; ra khỏi hội
+구독|n|sự đặt mua; sự đăng ký theo dõi
+구독하다|v|đăng ký theo dõi; đặt mua (báo, kênh)
+필기|n|việc ghi chép
+필기하다|v|ghi chép
+인쇄하다|v|in ấn
+수리|n|sự sửa chữa
+회의하다|v|họp; bàn bạc
+상담하다|v|tư vấn; bàn bạc
+문의|n|sự hỏi; câu hỏi (về dịch vụ, sản phẩm)
+문의하다|v|hỏi (về dịch vụ, sản phẩm); liên hệ hỏi
+조심|n|sự cẩn thận

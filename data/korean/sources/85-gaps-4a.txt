@@ -1,0 +1,211 @@
+# ===== bổ sung (đợt 4a): danh từ thường gặp trong phụ đề phim/truyền hình còn thiếu (đo trên bảng tần suất phụ đề) =====
+모험|n|cuộc phiêu lưu; sự mạo hiểm
+보답|n|sự đền đáp; sự báo đáp
+둥지|n|tổ (chim)
+요소|n|yếu tố
+시동|n|sự khởi động (động cơ); nổ máy xe
+의대|n|trường/khoa y
+평판|n|danh tiếng; tiếng tăm (tốt hoặc xấu)
+대안|n|giải pháp thay thế; phương án khác
+주둥이|n|mỏ; mồm (cách nói thô)
+뱃속|n|trong bụng; bụng
+팔찌|n|vòng tay
+고래|n|cá voi
+광대|n|anh hề; người làm trò
+극도|n|mức cực độ; tột cùng
+일전|n|hôm trước; ngày trước
+존경|n|sự kính trọng
+외곽|n|vùng ngoại vi; vành ngoài
+자켓|n|áo khoác (jacket)
+재킷|n|áo khoác ngắn (jacket)
+집사람|n|vợ tôi (cách gọi vợ mình); người nhà
+생사|n|sống chết
+노릇|n|vai trò; việc phải làm; (…는 노릇이다: thật là…)
+용건|n|việc cần nói; việc cần giải quyết
+업적|n|thành tựu; công trạng
+결함|n|khuyết điểm; lỗi (của sản phẩm)
+재단|n|quỹ; tổ chức (foundation)
+주목|n|sự chú ý; sự để mắt tới
+타격|n|cú đánh; sự thiệt hại nặng
+악취|n|mùi hôi thối
+변기|n|bồn cầu
+클리닉|n|phòng khám
+칠면조|n|gà tây
+헬리콥터|n|máy bay trực thăng
+은총|n|ân sủng; ơn huệ
+가망|n|hy vọng; triển vọng
+가면|n|mặt nạ
+미지|n|điều chưa biết; ẩn số
+룸메이트|n|bạn cùng phòng
+스카프|n|khăn quàng
+탱크|n|xe tăng; bình chứa
+버전|n|phiên bản
+안심|n|sự yên tâm; thăn (thịt)
+기반|n|nền tảng; cơ sở
+노출|n|sự phơi bày; sự để lộ
+인력|n|nhân lực
+비결|n|bí quyết
+수트|n|bộ com-lê; bộ vest
+오두막|n|túp lều; chòi
+다이아몬드|n|kim cương
+여분|n|phần dư; phần dự phòng
+사이즈|n|kích cỡ
+금발|n|tóc vàng
+어미|n|mẹ (của loài vật); (ngữ pháp) đuôi từ
+은혜|n|ân huệ; ơn
+자발적|n|mang tính tự nguyện
+도박|n|cờ bạc
+원수|n|kẻ thù; mối thù
+말썽|n|rắc rối; chuyện lôi thôi
+난장판|n|cảnh hỗn loạn; cảnh lộn xộn
+망토|n|áo choàng
+머리통|n|cái đầu (cách nói thô)
+성분|n|thành phần
+포스|n|khí chất; sức hút; (force)
+리듬|n|nhịp điệu
+성과|n|thành quả
+멋쟁이|n|người sành điệu
+지장|n|trở ngại; sự cản trở
+스토리|n|câu chuyện
+은신처|n|nơi ẩn náu
+동전|n|đồng xu
+원칙|n|nguyên tắc
+장치|n|thiết bị; cơ cấu
+자아|n|cái tôi; bản ngã
+비법|n|bí quyết (bí truyền)
+드라이브|n|chuyến lái xe đi chơi
+대의|n|đại nghĩa; chính nghĩa
+양육권|n|quyền nuôi con
+사물함|n|tủ khóa cá nhân (locker)
+브레이크|n|phanh; thắng xe
+호감|n|thiện cảm
+풍선|n|bóng bay
+승산|n|khả năng thắng
+트레일러|n|xe rơ-moóc; nhà di động; (phim) trailer
+조끼|n|áo gi-lê
+펭귄|n|chim cánh cụt
+후드|n|mũ trùm; áo có mũ (hood)
+육지|n|đất liền
+구슬|n|hạt cườm; viên bi
+품위|n|phẩm cách; vẻ lịch lãm
+동감|n|sự đồng tình; sự đồng cảm
+오류|n|lỗi; sai sót
+취급|n|sự xử lý; cách đối xử
+명복|n|(명복을 빌다) cầu cho người đã khuất yên nghỉ
+착오|n|sự nhầm lẫn
+요양원|n|viện dưỡng lão; nhà điều dưỡng
+동작|n|động tác
+고리|n|cái vòng; móc
+세력|n|thế lực
+낙인|n|dấu sắt nung; sự gán ô danh
+갑판|n|boong tàu
+액체|n|chất lỏng
+유모|n|vú nuôi
+보모|n|người giữ trẻ; bảo mẫu
+타이어|n|lốp xe
+수프|n|súp
+들러리|n|phù dâu; phù rể
+불어|n|tiếng Pháp
+부두|n|bến tàu; cầu cảng
+창자|n|ruột
+구원자|n|vị cứu tinh
+막대|n|cái que; thanh gậy
+죗값|n|cái giá của tội lỗi
+여생|n|quãng đời còn lại
+시술|n|thủ thuật y khoa
+관리인|n|người quản lý; người trông coi
+유골|n|tro cốt; hài cốt
+전속력|n|tốc độ tối đa
+근방|n|vùng lân cận
+사후|n|sau khi chết; sau sự việc
+서재|n|phòng đọc sách; thư phòng
+은퇴|n|sự nghỉ hưu; sự giải nghệ
+라인|n|đường; tuyến (line)
+무전|n|bộ đàm; liên lạc vô tuyến
+거북이|n|con rùa
+뚜껑|n|nắp
+드릴|n|máy khoan
+전쟁터|n|chiến trường
+가장자리|n|mép; rìa
+판단력|n|khả năng phán đoán
+무작위|n|ngẫu nhiên
+대우|n|sự đãi ngộ; cách đối xử
+유니폼|n|đồng phục
+양손|n|hai tay
+주도권|n|quyền chủ động; quyền dẫn dắt
+묵비권|n|quyền giữ im lặng
+일련|n|một loạt
+만찬|n|bữa tiệc tối; tiệc chiêu đãi
+보드|n|bảng (board)
+증명|n|sự chứng minh
+스케쥴|n|lịch trình (= 스케줄)
+보초|n|lính gác; sự canh gác
+축배|n|ly rượu chúc mừng
+덩치|n|vóc dáng to lớn
+알러지|n|dị ứng (= 알레르기)
+동공|n|đồng tử; con ngươi
+끝장|n|sự kết thúc; đường cùng
+수면제|n|thuốc ngủ
+스피드|n|tốc độ
+포르노|n|phim/ảnh khiêu dâm
+리허설|n|buổi tập dượt
+추수감사절|n|lễ Tạ ơn
+추기경|n|hồng y giáo chủ
+잿더미|n|đống tro tàn
+구축함|n|tàu khu trục
+디저트|n|món tráng miệng
+영생|n|sự sống vĩnh hằng
+자질|n|tư chất; phẩm chất
+미녀|n|mỹ nữ
+설교|n|bài giảng đạo; sự giáo huấn
+체스|n|cờ vua
+훈장|n|huân chương
+존경심|n|lòng kính trọng
+바람둥이|n|kẻ trăng hoa
+구실|n|cớ; lý do viện dẫn; vai trò
+파운드|n|pound (đơn vị đo)
+체크|n|sự kiểm tra; họa tiết caro
+최적|n|sự tối ưu
+호르몬|n|hormone
+밸브|n|van
+전갈|n|bọ cạp; lời nhắn
+발언|n|phát ngôn
+법안|n|dự luật
+계정|n|tài khoản (trực tuyến)
+일리|n|lý lẽ (일리가 있다: có lý)
+저택|n|dinh thự; nhà lớn
+산타|n|ông già Noel
+궁지|n|tình thế bí; thế khó (궁지에 몰리다)
+풋볼|n|bóng bầu dục
+즉흥적|n|mang tính ngẫu hứng
+원격|n|từ xa
+세례|n|lễ rửa tội
+미치광이|n|kẻ điên; người điên rồ
+교신|n|sự liên lạc (vô tuyến)
+절제술|n|phẫu thuật cắt bỏ
+고해성사|n|bí tích giải tội
+오디션|n|buổi thử giọng; thử vai
+상부|n|cấp trên; phần trên
+폭격|n|sự ném bom
+파멸|n|sự diệt vong; sự suy sụp
+제보|n|sự cung cấp tin; tố giác
+전송|n|sự gửi đi; truyền dữ liệu
+유대감|n|cảm giác gắn bó
+가명|n|tên giả; bút danh
+감수|n|sự chấp nhận (chịu đựng)
+우측|n|bên phải
+폭풍우|n|bão tố
+코앞|n|ngay trước mũi; rất gần
+드래곤|n|con rồng
+동의서|n|giấy đồng ý
+플래시|n|đèn flash
+위스키|n|rượu whisky
+사상자|n|người thương vong
+삽관|n|thủ thuật đặt ống
+성기|n|cơ quan sinh dục
+검시관|n|giám định viên pháp y
+할로윈|n|lễ Halloween
+악어|n|cá sấu
+독수리|n|chim kền kền; đại bàng
+임상시험|n|thử nghiệm lâm sàng
+집중력|n|khả năng tập trung

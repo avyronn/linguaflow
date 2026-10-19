@@ -1,0 +1,181 @@
+# ===== địa danh nước ngoài và vùng miền thường gặp (phiên âm sang Hangeul) =====
+러시아|n|Nga
+소련|n|Liên Xô
+영국|n|Anh; nước Anh
+미국|n|Mỹ; nước Mỹ
+프랑스|n|Pháp
+독일|n|Đức
+이탈리아|n|Ý
+스페인|n|Tây Ban Nha
+포르투갈|n|Bồ Đào Nha
+네덜란드|n|Hà Lan
+벨기에|n|Bỉ
+스위스|n|Thụy Sĩ
+오스트리아|n|Áo
+스웨덴|n|Thụy Điển
+노르웨이|n|Na Uy
+덴마크|n|Đan Mạch
+핀란드|n|Phần Lan
+아일랜드|n|Ireland
+폴란드|n|Ba Lan
+체코|n|Séc
+헝가리|n|Hungary
+루마니아|n|Romania
+그리스|n|Hy Lạp
+터키|n|Thổ Nhĩ Kỳ
+이집트|n|Ai Cập
+이스라엘|n|Israel
+이란|n|Iran
+이라크|n|Iraq
+사우디아라비아|n|Ả Rập Xê Út
+인도|n|Ấn Độ
+파키스탄|n|Pakistan
+아프가니스탄|n|Afghanistan
+중국|n|Trung Quốc
+일본|n|Nhật Bản
+대만|n|Đài Loan
+홍콩|n|Hồng Kông
+몽골|n|Mông Cổ
+태국|n|Thái Lan
+베트남|n|Việt Nam
+필리핀|n|Philippines
+인도네시아|n|Indonesia
+말레이시아|n|Malaysia
+싱가포르|n|Singapore
+캄보디아|n|Campuchia
+라오스|n|Lào
+미얀마|n|Myanmar
+호주|n|Úc
+뉴질랜드|n|New Zealand
+캐나다|n|Canada
+멕시코|n|Mexico
+브라질|n|Brazil
+아르헨티나|n|Argentina
+칠레|n|Chile
+콜롬비아|n|Colombia
+페루|n|Peru
+쿠바|n|Cuba
+베네수엘라|n|Venezuela
+남아프리카|n|Nam Phi
+나이지리아|n|Nigeria
+케냐|n|Kenya
+에티오피아|n|Ethiopia
+유럽|n|châu Âu
+아시아|n|châu Á
+아프리카|n|châu Phi
+북미|n|Bắc Mỹ
+남미|n|Nam Mỹ
+중동|n|Trung Đông
+동남아|n|Đông Nam Á
+런던|n|London
+파리|n|Paris
+베를린|n|Berlin
+로마|n|Roma
+마드리드|n|Madrid
+바르셀로나|n|Barcelona
+암스테르담|n|Amsterdam
+브뤼셀|n|Brussels
+빈|n|Vienna; (tiếng Hàn) trống rỗng
+프라하|n|Praha
+모스크바|n|Moscow
+상트페테르부르크|n|Saint Petersburg
+이스탄불|n|Istanbul
+카이로|n|Cairo
+예루살렘|n|Jerusalem
+두바이|n|Dubai
+뉴욕|n|New York
+워싱턴|n|Washington
+시카고|n|Chicago
+보스턴|n|Boston
+마이애미|n|Miami
+시애틀|n|Seattle
+로스앤젤레스|n|Los Angeles
+샌프란시스코|n|San Francisco
+라스베이거스|n|Las Vegas
+뉴올리언스|n|New Orleans
+필라델피아|n|Philadelphia
+애틀랜타|n|Atlanta
+휴스턴|n|Houston
+댈러스|n|Dallas
+디트로이트|n|Detroit
+볼티모어|n|Baltimore
+피츠버그|n|Pittsburgh
+하와이|n|Hawaii
+알래스카|n|Alaska
+캘리포니아|n|California
+플로리다|n|Florida
+텍사스|n|Texas
+애리조나|n|Arizona
+오하이오|n|Ohio
+뉴저지|n|New Jersey
+네바다|n|Nevada
+콜로라도|n|Colorado
+오리건|n|Oregon
+버지니아|n|Virginia
+조지아|n|Georgia
+할렘|n|Harlem
+브루클린|n|Brooklyn
+맨해튼|n|Manhattan
+브롱크스|n|Bronx
+할리우드|n|Hollywood
+토론토|n|Toronto
+밴쿠버|n|Vancouver
+몬트리올|n|Montreal
+도쿄|n|Tokyo
+오사카|n|Osaka
+교토|n|Kyoto
+베이징|n|Bắc Kinh
+상하이|n|Thượng Hải
+방콕|n|Bangkok
+하노이|n|Hà Nội
+사이공|n|Sài Gòn
+호치민|n|Hồ Chí Minh (thành phố / tên người)
+마닐라|n|Manila
+자카르타|n|Jakarta
+델리|n|Delhi
+뭄바이|n|Mumbai
+시드니|n|Sydney
+멜버른|n|Melbourne
+리우|n|Rio
+메데인|n|Medellín
+보고타|n|Bogotá
+아바나|n|La Habana
+고담|n|Gotham (thành phố hư cấu)
+윈터펠|n|Winterfell (địa danh hư cấu)
+킹스랜딩|n|King's Landing (địa danh hư cấu)
+엠파이어|n|Empire (đế chế); toà nhà Empire State
+대서양|n|Đại Tây Dương
+태평양|n|Thái Bình Dương
+인도양|n|Ấn Độ Dương
+지중해|n|Địa Trung Hải
+북극|n|Bắc Cực
+남극|n|Nam Cực
+사하라|n|Sahara
+알프스|n|dãy Alps
+히말라야|n|dãy Himalaya
+아마존|n|Amazon (sông / rừng)
+서울|n|Seoul
+부산|n|Busan
+인천|n|Incheon
+대구|n|Daegu
+대전|n|Daejeon
+광주|n|Gwangju
+울산|n|Ulsan
+수원|n|Suwon
+제주|n|Jeju
+제주도|n|đảo Jeju
+강남|n|Gangnam (khu Gangnam ở Seoul)
+강북|n|bắc sông Hàn (Gangbuk)
+명동|n|Myeongdong
+이태원|n|Itaewon
+홍대|n|Hongdae (khu Đại học Hongik)
+한강|n|sông Hàn
+한라산|n|núi Halla
+독도|n|Dokdo
+경성|n|Gyeongseong (tên Seoul thời Nhật thuộc)
+조선|n|Joseon (triều đại Joseon, 1392–1897); Triều Tiên
+고려|n|Goryeo (triều đại Goryeo, 918–1392)
+신라|n|Silla
+백제|n|Baekje
+고구려|n|Goguryeo
+한반도|n|bán đảo Triều Tiên

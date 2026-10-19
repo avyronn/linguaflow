@@ -11,6 +11,9 @@
   'use strict';
   const LF = root.LinguaFlow || (root.LinguaFlow = {});
   const P = () => LF.SubtitleParser;
+  /** The text nodes a block was read from (what Range / SVG geometry is computed on) — a re-render replaces them even when the element and the text stay the same. */
+  const textNodes = (block) => (block.textMap ? block.textMap.segments.map((s) => s.node) : []);
+  const sameNodes = (a, b) => a.length === b.length && a.every((n, i) => n === b[i]);
 
   class SubtitleManager extends LF.util.EventEmitter {
     /**
@@ -102,9 +105,10 @@
       const activeIds = this.adapters.filter((a) => { try { return a.isActive(); } catch (e) { return false; } }).map((a) => a.id).join('+');
       if (activeIds !== this._activeIds) { this._activeIds = activeIds; this.emit('adapters', activeIds ? activeIds.split('+') : []); }
       const sig = blocks.map((b) => b.adapter + '|' + b.kind + '|' + b.text).join('\u0001');
-      const sameEls = blocks.length === this._blocks.length && blocks.every((b, i) => b.element === this._blocks[i].element);
+      // same elements AND same text nodes? (a player may keep the container and swap the text node inside it, or the whole container)
+      const sameDom = blocks.length === this._blocks.length && blocks.every((b, i) => b.element === this._blocks[i].element && sameNodes(textNodes(b), textNodes(this._blocks[i])));
       if (sig === this._sig) { // same text re-rendered into new nodes: refresh references silently (no event)
-        if (!sameEls) { this._blocks = blocks; this._classified = P().classify(blocks, this.pack, { nativeLanguage: this.nativeLanguage }); }
+        if (!sameDom) { this._blocks = blocks; this._classified = P().classify(blocks, this.pack, { nativeLanguage: this.nativeLanguage }); }
         return this._current;
       }
       this._sig = sig;
@@ -132,14 +136,15 @@
 
     // ---- API used by the learning layer ---------------------------------------------------------------------
     getCurrentSubtitle() { return this._current; }
-    /** Word maps of the blocks that contain learning-language text (cached per element + text). */
+    /** Word maps of the blocks that contain learning-language text (cached per element + text + the text nodes they point to). */
     getWordMaps() {
       if (!this._classified || !this._classified.primary) return [];
       const maps = [];
       for (const b of this._classified.primary.blocks) {
         let slot = this._maps.get(b.element);
-        if (!slot || slot.text !== b.text) {
-          slot = { text: b.text, map: P().buildWordMap(b, this.pack, this.geometry) };
+        const nodes = textNodes(b);
+        if (!slot || slot.text !== b.text || !sameNodes(slot.nodes, nodes)) { // (a map on detached text nodes has no geometry: nothing could be hovered or clicked)
+          slot = { text: b.text, nodes, map: P().buildWordMap(b, this.pack, this.geometry) };
           this._maps.set(b.element, slot);
         }
         maps.push(slot.map);

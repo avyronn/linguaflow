@@ -79,7 +79,7 @@
 한|det|một (đứng trước đơn vị đếm)
 두|det|hai (đứng trước đơn vị đếm)
 세|det|ba (đứng trước đơn vị đếm)
-네|det|bốn (đứng trước đơn vị đếm)
+네|det|bốn (đứng trước đơn vị đếm); của bạn (= 너의, khẩu ngữ đọc là 니)
 스무|det|hai mươi (đứng trước đơn vị đếm)
 일|num|một (số Hán Hàn)
 이|num|hai (số Hán Hàn)
@@ -102,7 +102,7 @@
 반|n|một nửa; lớp
 번|cnt|lần; số (đơn vị đếm lần)
 명|cnt|người (đơn vị đếm)
-분|cnt|vị (người, kính ngữ); phút
+분|cnt|phút; vị (người, kính ngữ)
 개|cnt|cái (đơn vị đếm)
 마리|cnt|con (đơn vị đếm động vật)
 권|cnt|quyển (đơn vị đếm sách)
@@ -223,7 +223,7 @@
 조금|adv|một chút
 좀|adv|một chút (khẩu ngữ); làm ơn
 많이|adv|nhiều
-잘|adv|giỏi; tốt; kỹ
+잘|adv|tốt; giỏi; kỹ
 못|adv|không thể (phủ định khả năng)
 안|adv|không (phủ định)
 다시|adv|lại; lần nữa
@@ -288,7 +288,7 @@
 알겠습니다|phrase|tôi hiểu rồi (trang trọng)
 안녕|int|chào; tạm biệt (thân mật)
 안녕하세요|phrase|xin chào
-안녕히|adv|bình an (안녕히 가세요: đi nhé; 안녕히 계세요: ở lại nhé)
+안녕히|adv|bình an; yên ổn (안녕히 가세요: đi nhé, 안녕히 계세요: ở lại nhé)
 감사합니다|phrase|cảm ơn (trang trọng)
 고맙습니다|phrase|cảm ơn (trang trọng)
 고마워|phrase|cảm ơn (thân mật)
@@ -500,7 +500,6 @@
 입구|n|lối vào
 출구|n|lối ra
 지도|n|bản đồ; sự chỉ đạo
-어디든|adv|bất cứ đâu
 # ===== cơ thể, sức khỏe =====
 몸|n|cơ thể
 머리|n|đầu; tóc
@@ -671,7 +670,6 @@
 상황|n|tình hình; hoàn cảnh
 모습|n|dáng vẻ; hình ảnh
 느낌|n|cảm giác
-마음속|n|trong lòng
 기분|n|tâm trạng
 감정|n|cảm xúc
 성격|n|tính cách
@@ -1061,7 +1059,7 @@
 않다|aux|không (… -지 않다)
 말다|aux|đừng; thôi (… -지 마)
 못하다|v|không thể; kém
-버리다|v|vứt; (trợ động từ: làm xong hẳn; lỡ)
+버리다|v|vứt; (trợ động từ: làm xong hẳn, lỡ)
 # ===== tính từ =====
 좋다|adj|tốt; hay; thích
 나쁘다|adj|xấu; tệ
@@ -1259,7 +1257,6 @@
 됐어요|phrase|thôi đủ rồi; được rồi
 조심하다|v|cẩn thận
 정신|n|tinh thần; ý thức
-정신차리다|v|tỉnh táo lại
 미치다|v|phát điên; đạt tới
 바보|n|đồ ngốc
 다녀오다|v|đi rồi về; đi một chuyến
@@ -1278,7 +1275,6 @@
 적|nbound|kinh nghiệm (… 적이 있다)
 만큼|nbound|bằng; như; đến mức
 뿐|nbound|chỉ; chỉ có
-무슨일|n|chuyện gì
 잠깐만|phrase|chờ một chút
 기다려|phrase|chờ đã
 살려줘|phrase|cứu tôi với
@@ -1342,7 +1338,6 @@
 고문하다|v|tra tấn
 심문하다|v|thẩm vấn
 숨쉬다|v|thở
-숨을쉬다|v|thở
 총독|n|toàn quyền
 일제|n|đế quốc Nhật; thời Nhật đô hộ
 식민지|n|thuộc địa

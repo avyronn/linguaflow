@@ -1,0 +1,108 @@
+# ===== bổ sung (đợt 4d): tính từ còn thiếu (cảm xúc, tính cách, vị giác, ngoại hình, hoàn cảnh) =====
+갑갑하다|adj|bức bối; ngột ngạt
+쑥스럽다|adj|ngượng ngùng; bẽn lẽn|ㅂ
+민망하다|adj|ngượng; thấy khó xử vì xấu hổ
+뿌듯하다|adj|tự hào; mãn nguyện
+흐뭇하다|adj|hài lòng; mãn nguyện
+불만스럽다|adj|bất mãn; không hài lòng|ㅂ
+이쁘다|adj|xinh; đẹp (= 예쁘다)
+어마어마하다|adj|to lớn khủng khiếp; khổng lồ
+쓰리다|adj|xót; rát
+저리다|adj|tê (chân tay); nhói đau
+가렵다|adj|ngứa|ㅂ
+시리다|adj|buốt; lạnh buốt
+뻐근하다|adj|mỏi nhừ; căng cứng (cơ)
+개운하다|adj|sảng khoái; nhẹ nhõm; thanh vị
+냉담하다|adj|lạnh nhạt; thờ ơ
+소심하다|adj|nhút nhát; rụt rè
+오만하다|adj|kiêu ngạo
+거만하다|adj|ngạo mạn; kiêu căng
+버릇없다|adj|vô lễ; hỗn láo
+야비하다|adj|hèn hạ; đê tiện
+교활하다|adj|xảo quyệt
+괴팍하다|adj|kỳ quặc; khó tính
+까다롭다|adj|khó tính; kén chọn; phức tạp|ㅂ
+깐깐하다|adj|khắt khe; tỉ mỉ; khó tính
+수줍다|adj|e thẹn; bẽn lẽn
+예의바르다|adj|lịch sự; lễ phép
+인색하다|adj|keo kiệt
+엄하다|adj|nghiêm khắc
+난폭하다|adj|thô bạo; hung bạo
+수다스럽다|adj|lắm lời; hay nói|ㅂ
+과묵하다|adj|ít nói; trầm lặng
+유쾌하다|adj|vui vẻ; dễ chịu
+명랑하다|adj|tươi vui; hoạt bát
+쾌활하다|adj|vui vẻ; hoạt bát
+침울하다|adj|u sầu; ủ rũ
+음침하다|adj|âm u; thâm hiểm
+음흉하다|adj|thâm hiểm; gian xảo
+능글맞다|adj|trơ tráo; lọc lõi
+괘씸하다|adj|đáng ghét; đáng giận (vì vô ơn)
+어이없다|adj|ngớ người; sững sờ; vô lý hết sức
+어처구니없다|adj|sửng sốt; vô lý hết sức
+허탈하다|adj|chán nản; hụt hẫng; trống rỗng
+절망적|n|đầy tuyệt vọng; mang tính tuyệt vọng
+난처하다|adj|khó xử; lúng túng
+당혹스럽다|adj|bối rối; ngỡ ngàng|ㅂ
+께름칙하다|adj|áy náy; bứt rứt; ngờ ngợ
+찜찜하다|adj|khó chịu; vương vấn trong lòng
+징그럽다|adj|ghê rợn; rùng mình (vì ghê)|ㅂ
+끔찍스럽다|adj|khủng khiếp; kinh khủng|ㅂ
+섬뜩하다|adj|rợn người
+오싹하다|adj|rùng mình; ớn lạnh
+으스스하다|adj|rờn rợn; lành lạnh
+푹신하다|adj|mềm mại; êm
+끈적끈적하다|adj|dính nhớp nháp
+미지근하다|adj|âm ấm; không nóng cũng không lạnh
+후덥지근하다|adj|oi bức; nóng ẩm
+느끼하다|adj|ngấy; béo ngậy
+담백하다|adj|thanh đạm; nhạt thanh
+구수하다|adj|thơm bùi; đậm đà (như cơm cháy)
+향기롭다|adj|thơm; ngát hương|ㅂ
+구리다|adj|thối; tệ; quê mùa (khẩu ngữ)
+새콤하다|adj|chua chua
+쌉쌀하다|adj|đăng đắng
+얼큰하다|adj|cay nồng ấm bụng
+칼칼하다|adj|cay the; khô rát cổ
+짭짤하다|adj|mằn mặn; béo bở (lợi nhuận)
+새까맣다|adj|đen sì|ㅎ
+새빨갛다|adj|đỏ lòm; đỏ chót (새빨간 거짓말: lời nói dối trắng trợn)|ㅎ
+새파랗다|adj|xanh lè; xanh thẫm|ㅎ
+샛노랗다|adj|vàng chóe|ㅎ
+수월하다|adj|dễ dàng; suôn sẻ
+불공평하다|adj|không công bằng
+공정하다|adj|công bằng; ngay thẳng
+여유롭다|adj|thong thả; dư dả|ㅂ
+유용하다|adj|hữu dụng
+무익하다|adj|vô ích
+대수롭다|adj|đáng kể; quan trọng (대수롭지 않다: chẳng đáng gì)|ㅂ
+치명적|n|chí mạng; gây tử vong
+위독하다|adj|nguy kịch
+날씬하다|adj|thon thả; mảnh mai
+뚱뚱하다|adj|béo; mập
+통통하다|adj|mũm mĩm; phúng phính
+포동포동하다|adj|mập mạp; mũm mĩm
+늘씬하다|adj|thon dài; cao ráo
+풍요롭다|adj|sung túc; phong phú|ㅂ
+부유하다|adj|giàu có
+궁핍하다|adj|túng thiếu; nghèo khó
+저렴하다|adj|rẻ; giá phải chăng
+서먹하다|adj|ngượng ngập; xa cách (chưa thân)
+은근하다|adj|âm ỉ; kín đáo
+휘다|v|cong; bị uốn cong
+네모나다|adj|vuông; hình chữ nhật
+무디다|adj|cùn; chậm hiểu
+한적하다|adj|vắng vẻ; thanh tĩnh
+수수하다|adj|giản dị; mộc mạc
+사치스럽다|adj|xa xỉ; hoa mỹ|ㅂ
+원통하다|adj|oan ức; uất hận
+애석하다|adj|đáng tiếc; tiếc nuối
+측은하다|adj|đáng thương; thương hại
+애처롭다|adj|thảm thương; đáng thương|ㅂ
+유감스럽다|adj|đáng tiếc|ㅂ
+다행스럽다|adj|may mắn; đáng mừng|ㅂ
+아이러니하다|adj|trớ trêu; mỉa mai
+엄밀하다|adj|nghiêm ngặt; chặt chẽ
+거스르다|v|làm trái; đi ngược lại; (거스름돈: tiền thối)
+두근거리다|v|hồi hộp; (tim) đập thình thịch
+재밌다|adj|thú vị; vui (khẩu ngữ của 재미있다)

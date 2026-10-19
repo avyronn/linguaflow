@@ -1,0 +1,269 @@
+# ===== phó từ, liên từ, từ nối hội thoại, thán từ, cụm cố định, kính ngữ =====
+가급적|adv|nếu có thể
+가까스로|adv|vừa vặn; khó khăn lắm mới
+가령|adv|chẳng hạn
+간신히|adv|vừa kịp; khó khăn lắm
+갈수록|adv|càng ngày càng
+거듭|adv|lặp đi lặp lại
+거의|adv|hầu như
+건너편|n|phía đối diện
+걸핏하면|adv|hơi tí là
+결국|adv|rốt cuộc
+계속|adv|liên tục
+고스란히|adv|nguyên vẹn
+곧바로|adv|ngay lập tức
+굳이|adv|cố tình; nhất thiết
+그나마|adv|dù sao cũng còn
+그다지|adv|không … lắm
+그동안|n|trong thời gian đó
+그때|n|lúc đó
+그래도|conj|dù vậy
+그러다가|conj|rồi thì; đang thế thì
+그러자|conj|thế là; liền sau đó
+그러게|int|đúng thế
+그런대로|adv|tạm được
+그제야|adv|đến lúc đó mới
+그제서야|adv|đến lúc đó mới
+그저|adv|chỉ; cứ
+그치만|conj|nhưng mà
+근데|conj|mà này
+금세|adv|chẳng mấy chốc
+기어이|adv|cuối cùng cũng; bằng mọi giá
+깜빡|adv|quên mất; chợp
+꼭|adv|nhất định
+꼴|n|hình dạng; cảnh (xấu)
+나란히|adv|song song
+나름|nbound|theo cách riêng
+낱낱이|adv|từng chút một
+너무나|adv|quá đỗi
+널리|adv|rộng rãi
+넌지시|adv|ngầm; gợi ý
+노상|adv|luôn luôn; thường xuyên
+누구나|pron|bất kỳ ai
+다름없이|adv|không khác gì
+다만|adv|chỉ là; có điều
+단번에|adv|một lần là xong
+단연|adv|rõ ràng là
+대개|adv|thường thì
+대뜸|adv|đột ngột; ngay lập tức
+대체|adv|rốt cuộc; ngay từ đầu
+덕분에|adv|nhờ có
+도무지|adv|hoàn toàn không
+돌연|adv|đột nhiên
+되도록|adv|càng … càng tốt
+뒤늦게|adv|muộn màng
+드물게|adv|hiếm khi
+들|nbound|(hậu tố số nhiều)
+따로|adv|riêng
+딱|adv|đúng; vừa khít
+때때로|adv|đôi khi
+때마침|adv|đúng lúc
+마냥|adv|cứ; mãi
+마저|adv|ngay cả; cuối cùng
+막상|adv|khi thực sự
+만일|adv|nếu
+말끔히|adv|sạch sẽ
+말없이|adv|không nói gì
+매번|adv|mỗi lần
+맨|det|nhất; ngay
+머지않아|adv|chẳng bao lâu nữa
+모처럼|adv|hiếm hoi lắm mới
+무려|adv|tới tận
+무사히|adv|bình an
+묵묵히|adv|lặng lẽ
+미리|adv|trước; sẵn
+바싹|adv|sát; khô
+반면|n|trái lại
+방금|adv|vừa mới
+번번이|adv|lần nào cũng
+보다|adv|hơn; càng
+본래|adv|vốn dĩ
+부디|adv|xin hãy; làm ơn
+불쑥|adv|bất ngờ; đột ngột
+비록|adv|dù cho
+빠짐없이|adv|không sót
+빙그레|adv|mỉm cười
+사뭇|adv|hoàn toàn khác
+살며시|adv|nhẹ nhàng
+생각보다|adv|hơn tưởng tượng
+서서히|adv|từ từ
+선뜻|adv|sẵn lòng; không ngần ngại
+설령|adv|dù cho
+소리없이|adv|không tiếng động
+순식간에|adv|trong chớp mắt
+슬며시|adv|lặng lẽ; khẽ
+실은|adv|thực ra
+싹|adv|sạch; hết
+쓸데없이|adv|vô ích
+아까|adv|lúc nãy
+아무래도|adv|dù sao thì; chắc là
+아무리|adv|dù thế nào
+아직껏|adv|đến giờ vẫn
+애당초|adv|ngay từ đầu
+어느새|adv|không hay từ lúc nào
+어디선가|adv|đâu đó
+어떻게든|adv|bằng mọi giá
+어쨌든|adv|dù sao đi nữa
+어쩐지|adv|hèn gì
+언제나|adv|luôn luôn
+얼마나|adv|bao nhiêu; biết bao
+얼핏|adv|thoáng qua
+엄연히|adv|rõ ràng; hiển nhiên
+여간|adv|không phải thường
+여전히|adv|vẫn
+역시|adv|quả nhiên
+열심히|adv|chăm chỉ
+오로지|adv|chỉ duy nhất
+온통|adv|khắp; toàn bộ
+완전히|adv|hoàn toàn
+왠지|adv|chẳng hiểu sao
+우선|adv|trước hết
+워낙|adv|vốn dĩ; quá
+원래|adv|vốn; nguyên
+유독|adv|riêng; đặc biệt
+이래저래|adv|thế này thế nọ
+이리저리|adv|đây đó
+이미|adv|đã
+이윽고|adv|rồi sau đó
+일단|adv|trước hết; tạm thời
+일부러|adv|cố ý
+일제히|adv|đồng loạt
+자꾸|adv|cứ; liên tục
+자연스럽게|adv|một cách tự nhiên
+잠시|adv|một lát
+잠깐|adv|một chút
+장차|adv|sau này
+저절로|adv|tự nhiên; tự động
+점점|adv|dần dần
+정말|adv|thật
+제법|adv|khá
+조금씩|adv|từng chút
+조용히|adv|lặng lẽ
+종종|adv|thỉnh thoảng
+주로|adv|chủ yếu
+줄곧|adv|suốt; liền
+즉시|adv|ngay lập tức
+지금껏|adv|đến tận bây giờ
+지긋이|adv|điềm đạm
+진작|adv|sớm hơn
+차츰|adv|dần dần
+참으로|adv|thật là
+처음부터|adv|ngay từ đầu
+천천히|adv|chậm rãi
+철저히|adv|triệt để
+촉촉이|adv|ẩm ướt
+쾅|adv|rầm
+탁|adv|bốp; phựt
+톡톡히|adv|đáng kể; ra trò
+틀림없이|adv|chắc chắn
+팍|adv|phập
+펄쩍|adv|nhảy dựng
+하마터면|adv|suýt nữa
+하염없이|adv|không dứt
+한꺼번에|adv|cùng một lúc
+한참|adv|một lúc lâu
+함부로|adv|tùy tiện
+항상|adv|luôn luôn
+헛|det|vô ích
+혹시나|adv|nhỡ đâu
+홀로|adv|một mình
+확실히|adv|chắc chắn
+후다닥|adv|vội vàng
+훨씬|adv|… hơn nhiều
+흔히|adv|thường thấy
+힘껏|adv|hết sức
+힘들게|adv|một cách vất vả
+# --- từ nối hội thoại, thán từ ---
+그니까|conj|thì là; ý là
+그러니|conj|vậy nên
+그러니까요|int|đúng thế mà
+그러면은|conj|vậy thì
+그럼에도|conj|dù vậy
+그리하여|conj|vì thế
+글쎄요|int|để xem; không chắc
+나참|int|thật tình
+내참|int|thật là
+너무하다|adj|quá đáng
+뭐랄까|int|nói sao nhỉ
+뭐야|int|gì vậy
+뭡니까|int|cái gì vậy (trang trọng)
+아냐|int|không phải
+아뇨|int|không ạ
+아니야|int|không phải đâu
+아이참|int|ôi dào
+아차|int|chết rồi; ối
+아휴|int|ôi; hà
+악|int|á
+어라|int|ơ kìa
+어머나|int|ôi chao
+어휴|int|ôi; hà
+에이|int|thôi nào; xì
+역시나|int|quả đúng thế
+오|int|ồ
+오호|int|ồ hô
+옳지|int|đúng rồi đấy
+우와|int|oa
+으악|int|á á
+음|int|ừm
+이런|int|ôi trời; chết thật
+있잖아|int|này; nè
+잠깐만요|phrase|xin chờ một chút
+저기요|int|xin lỗi (gọi ai đó)
+저런|int|ôi; tiếc quá
+제기랄|int|chết tiệt
+참나|int|thật là
+체|int|xì
+컥|int|hự
+하|int|ha
+하하|int|ha ha
+허|int|hử
+허참|int|hừ thật
+헉|int|hả
+호호|int|hô hô
+후|int|phù
+흑|int|hức
+흠|int|hừm
+히히|int|hi hi
+# --- lời chào, câu giao tiếp ---
+고마워요|phrase|cảm ơn (lịch sự)
+괜찮으세요|phrase|bạn có ổn không (kính ngữ)
+괜찮아|phrase|không sao
+기다리세요|phrase|xin hãy đợi
+다녀오겠습니다|phrase|con đi đây ạ
+다녀왔습니다|phrase|con về rồi ạ
+다행이다|phrase|may quá
+당연하죠|phrase|đương nhiên rồi
+도와주세요|phrase|xin hãy giúp tôi
+들어가세요|phrase|xin mời vào / chúc về an toàn
+말씀하세요|phrase|xin cứ nói
+메리크리스마스|phrase|giáng sinh vui vẻ
+미안해요|phrase|xin lỗi (lịch sự)
+부탁해요|phrase|nhờ bạn nhé
+살려줘|phrase|cứu tôi với
+수고하셨습니다|phrase|bạn đã vất vả rồi
+실례합니다|phrase|xin phép; xin lỗi
+알겠습니다|phrase|tôi hiểu rồi
+앉으세요|phrase|xin mời ngồi
+어서오세요|phrase|chào mừng
+여보|int|mình ơi (vợ chồng gọi nhau)
+오랜만이에요|phrase|lâu rồi không gặp
+정말요|phrase|thật sao
+조심하세요|phrase|xin cẩn thận
+죄송해요|phrase|xin lỗi (lịch sự)
+축하해요|phrase|chúc mừng
+천만에요|phrase|không có chi
+힘내세요|phrase|cố lên nhé
+# --- kính ngữ & khiêm nhường ---
+계십니다|phrase|có mặt (kính ngữ, trang trọng)
+댁|n|nhà (kính ngữ)
+말씀|n|lời nói (kính ngữ)
+생신|n|sinh nhật (kính ngữ)
+성함|n|quý danh
+소생|pron|tiểu nhân; tôi (khiêm xưng cũ)
+약주|n|rượu (kính ngữ)
+연세|n|tuổi (kính ngữ)
+영광|n|vinh dự
+진지|n|bữa cơm (kính ngữ)
+잡수시다|v|ăn (kính ngữ)
+편찮으시다|adj|không khỏe (kính ngữ)
+뵙다|v|gặp (khiêm nhường)|ㅂ

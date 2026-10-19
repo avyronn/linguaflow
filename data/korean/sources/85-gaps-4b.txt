@@ -1,0 +1,310 @@
+# ===== bổ sung (đợt 4b): danh từ thường gặp trong phụ đề còn thiếu (tiếp) =====
+일부분|n|một phần; một bộ phận
+펀치|n|cú đấm; cái bấm lỗ
+행세|n|sự giả danh; làm ra vẻ
+염두|n|trong đầu; sự để tâm (염두에 두다)
+통제권|n|quyền kiểm soát
+규율|n|kỷ luật; quy tắc
+육신|n|thể xác
+위장|n|sự ngụy trang; dạ dày
+청혼|n|lời cầu hôn
+눈알|n|nhãn cầu; tròng mắt
+포옹|n|cái ôm
+작자|n|gã; thằng cha (có ý coi thường)
+면역|n|sự miễn dịch
+스테이크|n|bít tết
+곰팡이|n|nấm mốc
+바텐더|n|người pha chế rượu
+모욕|n|sự lăng mạ; sự sỉ nhục
+동력|n|động lực; năng lượng vận hành
+논란|n|cuộc tranh cãi
+패치|n|miếng dán; bản vá
+트랙|n|đường đua; bài hát (track)
+임상실험|n|thử nghiệm lâm sàng
+임산부|n|phụ nữ mang thai
+기저귀|n|tã lót
+레버|n|cần gạt
+박동|n|nhịp đập (của tim)
+가운|n|áo choàng (áo blouse)
+내시경|n|nội soi
+구덩이|n|cái hố
+멤버|n|thành viên
+파악|n|sự nắm bắt; sự hiểu rõ
+고인|n|người đã khuất
+기존|n|cái vốn có; hiện có
+황금|n|vàng; hoàng kim
+약혼|n|sự đính hôn
+샴페인|n|rượu sâm-panh
+케익|n|bánh kem (= 케이크)
+도처|n|khắp nơi
+절호|n|cực kỳ tốt (절호의 기회: cơ hội ngàn vàng)
+저승|n|thế giới bên kia; âm phủ
+사제|n|linh mục
+티비|n|tivi
+아티스트|n|nghệ sĩ
+마님|n|bà chủ; phu nhân (cách gọi cũ)
+거인|n|người khổng lồ
+카운티|n|hạt (đơn vị hành chính ở Mỹ)
+사본|n|bản sao
+악령|n|ác quỷ; linh hồn xấu
+과부|n|góa phụ
+불륜|n|ngoại tình; mối quan hệ bất chính
+생계|n|kế sinh nhai
+큐브|n|khối lập phương
+불멸|n|sự bất diệt
+자문|n|sự tư vấn (자문을 구하다)
+조짐|n|dấu hiệu; điềm báo
+메달|n|huy chương
+절친|n|bạn thân (viết tắt của 절친한 친구)
+부국장|n|phó cục trưởng
+담보|n|sự thế chấp; vật bảo đảm
+태블릿|n|máy tính bảng; viên thuốc
+선악과|n|trái cấm (thiện ác)
+배역|n|vai diễn
+여자분|n|quý cô; người phụ nữ (cách nói lịch sự)
+뒷조사|n|sự điều tra ngầm
+성향|n|khuynh hướng; thiên hướng
+성전|n|thánh chiến; đền thờ
+상실|n|sự mất đi
+혼돈|n|sự hỗn độn
+레벨|n|cấp độ
+나사|n|ốc vít
+짓거리|n|trò; hành vi (mang ý chê)
+제왕절개|n|mổ lấy thai
+뒷마당|n|sân sau
+순찰|n|sự tuần tra
+고아|n|trẻ mồ côi
+면상|n|cái mặt (cách nói thô)
+성관계|n|quan hệ tình dục
+자제력|n|khả năng tự kiềm chế
+양수|n|nước ối
+쪽지|n|mẩu giấy ghi chú
+휴대전화|n|điện thoại di động
+피드백|n|phản hồi
+충동|n|sự thôi thúc; sự bốc đồng
+셰프|n|đầu bếp
+대열|n|hàng ngũ
+광란|n|sự điên cuồng
+이벤트|n|sự kiện
+게이트|n|cổng
+등급|n|cấp bậc; hạng
+통찰력|n|khả năng nhìn thấu
+막판|n|phút cuối; giai đoạn cuối
+얼룩|n|vết bẩn
+주입|n|sự bơm vào; sự truyền vào
+변호|n|sự biện hộ
+호민관|n|quan hộ dân (La Mã cổ đại)
+항해사|n|hoa tiêu; sĩ quan hàng hải
+커터|n|dao rọc; máy cắt
+수작|n|mánh khóe (수작을 부리다)
+사명|n|sứ mệnh
+소동|n|sự náo động
+원점|n|điểm xuất phát (원점으로 돌아가다)
+노크|n|sự gõ cửa
+쇼핑몰|n|trung tâm mua sắm
+약효|n|hiệu lực của thuốc
+행적|n|dấu vết hành tung
+거미|n|con nhện
+원자로|n|lò phản ứng hạt nhân
+바비큐|n|tiệc nướng
+결실|n|thành quả; sự kết trái
+로프|n|dây thừng
+프로필|n|hồ sơ cá nhân (profile)
+벙커|n|hầm trú ẩn
+요법|n|liệu pháp
+칵테일|n|cocktail
+귀환|n|sự trở về
+총기|n|súng ống
+숙모|n|thím; mợ
+수중|n|dưới nước; trong tay
+과다출혈|n|mất máu quá nhiều
+결투|n|cuộc đấu tay đôi
+의장|n|chủ tịch (hội đồng)
+스틱|n|que; gậy
+점장|n|cửa hàng trưởng
+뒤통수|n|gáy; phía sau đầu
+절제|n|sự điều độ; sự cắt bỏ
+루트|n|tuyến đường; nguồn (route)
+세부사항|n|chi tiết
+모드|n|chế độ (mode)
+부류|n|loại; nhóm
+생전|n|lúc còn sống
+정찰|n|sự trinh sát
+선의|n|thiện ý
+아드레날린|n|adrenaline
+귀걸이|n|bông tai
+갤러리|n|phòng triển lãm
+정각|n|đúng giờ; đúng (… giờ)
+중대장|n|đại đội trưởng
+먹칠|n|sự bôi nhọ
+설득력|n|sức thuyết phục
+우위|n|ưu thế
+교차|n|sự giao nhau
+측면|n|mặt bên; khía cạnh
+와플|n|bánh quế
+설계도|n|bản thiết kế
+답례|n|lời đáp lễ
+약자|n|kẻ yếu
+발진|n|phát ban; sự phóng đi
+트로피|n|cúp
+병가|n|nghỉ ốm
+뱃지|n|huy hiệu
+궁극|n|cuối cùng; tối hậu
+패스|n|sự chuyền bóng; sự vượt qua
+기부|n|sự quyên góp
+옥새|n|ấn ngọc
+라이브|n|buổi biểu diễn trực tiếp
+모욕감|n|cảm giác bị sỉ nhục
+낮잠|n|giấc ngủ trưa
+최면|n|thôi miên
+혈종|n|khối máu tụ
+이교|n|tà giáo
+구절|n|câu; đoạn (trong văn bản)
+단도직입적|n|thẳng thắn; đi thẳng vào vấn đề
+의향|n|ý định
+디자인|n|thiết kế
+매듭|n|nút thắt
+설계|n|sự thiết kế
+허공|n|không trung
+모르핀|n|morphine
+치킨|n|gà rán
+블록|n|khối; dãy nhà (block)
+혈통|n|dòng máu
+몬스터|n|quái vật
+포털|n|cổng thông tin
+면전|n|trước mặt (면전에서)
+시비|n|sự gây sự; sự đúng sai
+프로포즈|n|lời cầu hôn
+요트|n|du thuyền
+호스|n|ống dẫn
+클립|n|kẹp giấy
+방세|n|tiền thuê phòng
+여편네|n|mụ vợ; đàn bà (cách nói thô)
+혈안|n|máu mắt (혈안이 되다: hăm hở dữ dội)
+일거리|n|công việc
+봉쇄|n|sự phong tỏa
+함교|n|cầu tàu (chỉ huy)
+타협|n|sự thỏa hiệp
+보유|n|sự sở hữu
+상공|n|trên không
+재활원|n|trung tâm phục hồi chức năng
+베이컨|n|thịt xông khói
+녹초|n|trạng thái kiệt sức (녹초가 되다)
+현찰|n|tiền mặt
+사면|n|sự ân xá
+좌현|n|mạn trái
+핸들|n|tay lái
+영토|n|lãnh thổ
+피난처|n|nơi lánh nạn
+오밤중|n|nửa đêm
+숨소리|n|tiếng thở
+가책|n|sự day dứt (양심의 가책)
+마스터|n|bậc thầy; chủ
+차질|n|sự trục trặc; sự gián đoạn
+나팔|n|kèn
+노고|n|công sức vất vả
+매사|n|mọi việc
+복수심|n|lòng thù hận
+항해|n|sự đi biển
+대피소|n|nơi trú ẩn
+기금|n|quỹ
+이의|n|sự phản đối; ý kiến khác (이의 있습니다: tôi phản đối)
+여력|n|sức dư; khả năng dư dả
+성부|n|Đức Chúa Cha
+수법|n|thủ đoạn
+카르텔|n|các-ten
+시뮬레이션|n|sự mô phỏng
+맹장|n|ruột thừa
+보복|n|sự trả thù
+루머|n|tin đồn
+방화벽|n|tường lửa
+점프|n|cú nhảy
+거물|n|nhân vật tầm cỡ
+머리띠|n|băng đô
+일진|n|côn đồ học đường; vận trong ngày
+프로듀서|n|nhà sản xuất
+징후|n|dấu hiệu
+지휘권|n|quyền chỉ huy
+횃불|n|ngọn đuốc
+나체|n|thân thể khỏa thân
+암흑|n|bóng tối
+미로|n|mê cung
+자유자재|n|tự do tự tại; thoải mái
+안보|n|an ninh
+타투|n|hình xăm
+행진|n|cuộc diễu hành
+코스튬|n|trang phục hóa trang
+구매자|n|người mua
+도장|n|con dấu; võ đường
+무적|n|vô địch
+상심|n|nỗi đau lòng
+대본|n|kịch bản
+계시|n|sự mặc khải
+면허증|n|giấy phép; bằng lái
+평안|n|bình an
+소관|n|thẩm quyền; phận sự
+화약|n|thuốc súng
+유인원|n|loài vượn người
+경과|n|quá trình; diễn biến
+총성|n|tiếng súng
+채찍|n|cái roi
+정황|n|tình hình; hoàn cảnh
+플러그|n|phích cắm
+마일|n|dặm
+속보|n|tin nhanh
+선로|n|đường ray
+시가|n|xì gà; giá thị trường
+추파|n|ánh mắt tán tỉnh (추파를 던지다)
+대모|n|mẹ đỡ đầu
+박쥐|n|con dơi
+코빼기|n|cái mũi (cách nói thô, 코빼기도 안 보이다: chẳng thấy bóng dáng)
+스테로이드|n|steroid
+체인|n|dây xích
+화해|n|sự hòa giải
+군단|n|quân đoàn
+직책|n|chức vụ
+해고|n|sự sa thải
+백조|n|thiên nga
+젤리|n|thạch
+또래|n|người cùng tuổi
+금속|n|kim loại
+독성|n|độc tính
+입양|n|sự nhận nuôi
+패닉|n|sự hoảng loạn
+변수|n|biến số; điều bất ngờ
+발명품|n|vật phát minh
+형상|n|hình dáng
+부츠|n|giày bốt
+왕권|n|vương quyền
+순결|n|sự trong trắng
+인자|n|nhân tố
+서문|n|lời nói đầu
+강철|n|thép
+속력|n|tốc độ
+캠핑|n|cắm trại
+대성당|n|nhà thờ lớn
+커밍아웃|n|sự công khai xu hướng tính dục
+압통|n|đau khi ấn vào
+나락|n|vực thẳm; địa ngục
+범벅|n|sự lẫn lộn; bê bết
+뱀파이어|n|ma cà rồng
+군주|n|quân chủ; vua
+옵션|n|tùy chọn
+결점|n|khuyết điểm
+젖꼭지|n|núm vú
+급습|n|cuộc đột kích
+레코드|n|đĩa nhạc; kỷ lục
+피라미드|n|kim tự tháp
+일기장|n|sổ nhật ký
+공화국|n|nước cộng hòa
+서신|n|thư từ
+치어리더|n|nữ hoạt náo viên
+우회로|n|đường vòng
+소식통|n|nguồn tin
+텐트|n|lều
+수다|n|sự tám chuyện; sự nói luyên thuyên
+지형|n|địa hình
+우두머리|n|người đứng đầu; trùm
+동물원|n|sở thú
+카지노|n|sòng bạc
+중지|n|sự dừng lại; ngón giữa

@@ -44,6 +44,28 @@ test('the card shows the word, romanization, morpheme rows and the composed mean
   assert.equal($(overlay, '.lf-card').style.visibility, 'visible');
   assert.equal($(overlay, '.lf-pill'), null, 'no confidence warning when confidence is high');
 });
+test('Sino-Korean words: a line with the Hanja and the Hán-Việt reading (+ the root word of a derived verb); nothing when there is none', () => {
+  const { overlay } = setup();
+  overlay.showCard(Object.assign(MODEL(), { surface: '학교에서', lemma: '학교', etymology: { label: 'Hán tự · Hán-Việt', text: '學校', reading: 'học hiệu (trường học)' } }), RECT);
+  assert.equal($(overlay, '.lf-ek').textContent, 'Hán tự · Hán-Việt');
+  assert.equal($(overlay, '.lf-et').textContent, '學校');
+  assert.equal($(overlay, '.lf-et').getAttribute('lang'), 'ko');
+  assert.equal($(overlay, '.lf-er').textContent, 'học hiệu (trường học)');
+  assert.equal($(overlay, '.lf-eroot'), null);
+  overlay.showCard(Object.assign(MODEL(), { etymology: { label: 'Hán tự · Hán-Việt', text: '準備', reading: 'chuẩn bị', root: '준비', rootLabel: 'từ gốc' } }), RECT);
+  assert.equal($(overlay, '.lf-eroot').textContent, '(từ gốc: 준비)');
+  overlay.showCard(MODEL(), RECT);
+  assert.equal($(overlay, '.lf-ety'), null);
+});
+test('...it is generic (any pack can give an etymology; label and root label are optional) and its text is text, never HTML', () => {
+  const { overlay } = setup();
+  overlay.showCard(Object.assign(MODEL(), { etymology: { text: '日本語', reading: '<img src=x onerror=alert(1)>', root: '日本' } }), RECT);
+  assert.equal($(overlay, '.lf-ek'), null);
+  assert.equal($(overlay, '.lf-et').textContent, '日本語');
+  assert.equal($(overlay, '.lf-er').textContent, '<img src=x onerror=alert(1)>');
+  assert.equal($(overlay, '.lf-er img'), null);
+  assert.equal($(overlay, '.lf-eroot').textContent, '(日本)');
+});
 test('buttons emit actions: speak, save, known, close — and saved state flips to unsave', () => {
   const { overlay, actions } = setup();
   overlay.showCard(MODEL(), RECT);
@@ -131,4 +153,62 @@ test('debug panel toggles and shows the given info', () => {
   assert.match($(overlay, '.lf-debug pre').textContent, /"a": 1/);
   overlay.updateDebug('hello'); assert.equal($(overlay, '.lf-debug pre').textContent, 'hello');
   assert.equal(overlay.toggleDebug(), false); assert.equal($(overlay, '.lf-debug'), null);
+});
+
+// ---- placement of a TALL card: it must never be pushed over the subtitle lines -----------------------------------------------------
+// (found by the real-browser run: the grammar sections made the card taller than the room above a subtitle in a small player, and the old
+// placement fell back to "clamp into the viewport", which put the card on top of the very subtitle the learner was reading)
+function stubCardHeight(dom, heightOf) {
+  const proto = dom.window.HTMLElement.prototype, orig = proto.getBoundingClientRect;
+  proto.getBoundingClientRect = function () {
+    if (this.classList && this.classList.contains('lf-card')) {
+      const cap = parseInt(this.style.maxHeight, 10);
+      const h = Math.min(heightOf(this), Number.isNaN(cap) ? Infinity : cap);
+      return { left: 0, top: 0, right: 340, bottom: h, width: 340, height: h };
+    }
+    return orig.call(this);
+  };
+}
+const boxOf = (o) => { const c = $(o, '.lf-card'), top = parseInt(c.style.top, 10), cap = parseInt(c.style.maxHeight, 10); return { top, cap, c }; };
+const LINES = { left: 250, top: 440, right: 700, bottom: 520, width: 450, height: 80 }; // two subtitle lines; the word clicked is on the first
+const WORD = { left: 300, top: 440, right: 380, bottom: 470, width: 80, height: 30 };
+
+test('placement: a card that fits above the subtitle goes above it, at its natural height', () => {
+  const { overlay, dom } = setup();
+  stubCardHeight(dom, () => 300);
+  overlay.showCard(MODEL(), WORD, LINES);
+  const { top, cap, c } = boxOf(overlay);
+  assert.equal(top, 440 - 10 - 300); assert.ok(Number.isNaN(cap), 'no height cap when it fits'); assert.equal(c.style.maxHeight, '');
+});
+test('placement: taller than the room above and the room below -> it takes the larger side, is shortened (scrolls inside) and does not touch the subtitles', () => {
+  const { overlay, dom } = setup();
+  stubCardHeight(dom, () => 600); // innerHeight in jsdom is 768: room above = 440-18 = 422, room below = 768-520-18 = 230
+  overlay.showCard(MODEL(), WORD, LINES);
+  const { top, cap } = boxOf(overlay);
+  assert.equal(cap, 422); assert.equal(top, 8);
+  assert.ok(top + cap <= LINES.top - 10, 'bottom edge ' + (top + cap) + ' is clear of the first subtitle line');
+});
+test('placement: no room above (subtitle near the top) -> below, shortened to the room there', () => {
+  const { overlay, dom } = setup();
+  stubCardHeight(dom, () => 900);
+  const lines = { left: 250, top: 60, right: 700, bottom: 140, width: 450, height: 80 };
+  overlay.showCard(MODEL(), { left: 300, top: 60, right: 380, bottom: 90, width: 80, height: 30 }, lines);
+  const { top, cap } = boxOf(overlay);
+  assert.equal(top, 140 + 10); assert.equal(cap, 768 - 140 - 18); assert.ok(top + cap <= 768 - 8);
+});
+test('placement: opening a section re-places the card - the edge facing the subtitles stays where it was, the card grows away from them', () => {
+  const { overlay, dom } = setup();
+  stubCardHeight(dom, (el) => 300 + 120 * el.querySelectorAll('details[open]').length);
+  overlay.showCard(MODEL(), WORD, LINES);
+  const before = boxOf(overlay);
+  assert.equal(before.top + 300, 430);
+  const det = $(overlay, 'details.lf-sent');
+  det.open = true; det.dispatchEvent(new dom.window.Event('toggle'));
+  const after = boxOf(overlay);
+  assert.equal(after.top + 420, 430, 'grew upwards: its bottom edge is still 10px above the subtitle');
+  assert.ok(after.top < before.top);
+  // and a redraw (Save ...) keeps the open section and the clearance
+  overlay.updateCard({ saved: true });
+  const redrawn = boxOf(overlay);
+  assert.equal(redrawn.top + 420, 430); assert.equal($(overlay, 'details.lf-sent').open, true);
 });

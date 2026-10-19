@@ -1,0 +1,138 @@
+# ===== tính từ còn thiếu (đợt 1) =====
+가닿다|v|chạm tới; tới nơi
+가련하다|adj|đáng thương; tội nghiệp
+가소롭다|adj|nực cười; đáng cười
+가파르다|adj|dốc đứng
+간결하다|adj|ngắn gọn; súc tích
+간지럽다|adj|nhột; buồn buồn
+거룩하다|adj|thiêng liêng; thánh thiện
+거세다|adj|dữ dội; mạnh mẽ
+걸맞다|adj|xứng với; phù hợp
+검소하다|adj|giản dị; tiết kiệm
+겸손하다|adj|khiêm tốn
+경건하다|adj|thành kính; sùng kính
+고단하다|adj|mệt mỏi; nhọc nhằn
+고약하다|adj|xấu tính; tồi tệ (mùi, tính)
+고유하다|adj|vốn có; đặc trưng riêng
+과감하다|adj|táo bạo; quyết đoán
+관대하다|adj|khoan dung; độ lượng
+그윽하다|adj|sâu lắng; thoang thoảng (hương)
+근사하다|adj|tuyệt; tuyệt vời; ra dáng
+기괴하다|adj|kỳ quái
+기나길다|adj|dài dằng dặc
+기다랗다|adj|dài ngoẵng
+기묘하다|adj|kỳ lạ; kỳ diệu
+깍듯하다|adj|lễ phép; chu đáo
+깜깜하다|adj|tối đen; mù tịt
+꺼림칙하다|adj|áy náy; khó chịu (trong lòng)
+껄끄럽다|adj|khó chịu; thô ráp; ngại
+능숙하다|adj|thành thạo; điêu luyện
+다급하다|adj|cấp bách; vội vã
+단호하다|adj|dứt khoát; kiên quyết
+달갑다|adj|vừa lòng; vui lòng (thường dùng phủ định)
+대담하다|adj|táo bạo; gan dạ
+둔하다|adj|chậm chạp; cùn; đần
+뒤숭숭하다|adj|bồn chồn; rối bời
+드물다|adj|hiếm; ít khi
+듬직하다|adj|đáng tin cậy; vững chãi
+따분하다|adj|chán ngắt; tẻ nhạt
+따갑다|adj|rát; nóng rát
+딱하다|adj|đáng thương; khó xử
+떳떳하다|adj|đường hoàng; ngay thẳng
+막강하다|adj|rất mạnh; hùng mạnh
+매끄럽다|adj|trơn láng; mượt mà
+매섭다|adj|sắc lạnh; gay gắt
+모호하다|adj|mơ hồ; mập mờ
+무관하다|adj|không liên quan
+무기력하다|adj|bất lực; thiếu sinh lực
+무모하다|adj|liều lĩnh; thiếu suy nghĩ
+무뚝뚝하다|adj|cộc cằn; lạnh nhạt
+무수하다|adj|vô số
+무시무시하다|adj|kinh hoàng; đáng sợ
+무안하다|adj|ngượng; xấu hổ
+미덥다|adj|đáng tin
+미세하다|adj|nhỏ li ti; vi tế
+미심쩍다|adj|đáng ngờ
+미약하다|adj|yếu ớt; mong manh
+미숙하다|adj|non nớt; chưa thạo
+번잡하다|adj|ồn ào; náo nhiệt; rườm rà
+번쩍이다|v|lấp lánh; lóe sáng
+보잘것없다|adj|chẳng đáng kể; tầm thường
+볼품없다|adj|trông tồi tàn; không ra gì
+봉긋하다|adj|nhô lên; phồng nhẹ
+부정확하다|adj|không chính xác
+부담스럽다|adj|nặng nề; cảm thấy gánh nặng
+불쾌하다|adj|khó chịu; không vui
+비겁하다|adj|hèn nhát; bỉ ổi
+비밀스럽다|adj|bí ẩn; bí mật
+비참하다|adj|thảm hại; bi thảm
+빈약하다|adj|nghèo nàn; yếu ớt
+살갑다|adj|thân thiện; ân cần
+새하얗다|adj|trắng tinh
+생생하다|adj|sống động; rõ mồn một
+섣부르다|adj|vội vàng; thiếu chín chắn
+섬세하다|adj|tinh tế; mảnh mai
+세심하다|adj|tỉ mỉ; cẩn thận
+소란스럽다|adj|ồn ào; náo loạn
+습하다|adj|ẩm ướt
+시원섭섭하다|adj|vừa nhẹ nhõm vừa tiếc nuối
+심술궂다|adj|hay ác ý; xấu tính
+안락하다|adj|thoải mái; an nhàn
+알차다|adj|chắc chắn; nội dung phong phú
+앙증맞다|adj|xinh xắn; nhỏ nhắn đáng yêu
+애틋하다|adj|da diết; thương xót
+야무지다|adj|đảm đang; chắc chắn
+어렴풋하다|adj|mơ hồ; lờ mờ
+언짢다|adj|khó chịu; không vui
+얄궂다|adj|trớ trêu; éo le
+엉망|n|tình trạng lộn xộn; hỏng bét
+열악하다|adj|tồi tệ; kém (điều kiện)
+원활하다|adj|trôi chảy; thuận lợi
+유익하다|adj|có ích; bổ ích
+유치하다|adj|trẻ con; ấu trĩ
+육중하다|adj|đồ sộ; nặng nề
+은밀하다|adj|bí mật; kín đáo
+의젓하다|adj|chững chạc; điềm đạm
+자잘하다|adj|vụn vặt; nhỏ nhặt
+잠잠하다|adj|yên lặng; lặng gió
+장엄하다|adj|hùng vĩ; trang nghiêm
+재빠르다|adj|nhanh nhẹn; mau lẹ
+저급하다|adj|thấp kém; hạ cấp
+절실하다|adj|tha thiết; cấp thiết
+정답다|adj|thân thiết; tình cảm
+정당하다|adj|chính đáng
+존엄하다|adj|tôn nghiêm; cao quý
+졸렬하다|adj|hèn kém; thấp kém
+지독하다|adj|ghê gớm; khốc liệt; tàn nhẫn
+쫀쫀하다|adj|chặt chẽ; keo kiệt; dẻo dai
+쩌렁쩌렁하다|adj|vang dội (âm thanh)
+찌뿌둥하다|adj|nặng nề; khó chịu (người)
+찬란하다|adj|rực rỡ; huy hoàng
+처량하다|adj|thê lương; buồn thảm
+천박하다|adj|thô tục; hèn hạ
+청결하다|adj|sạch sẽ; vệ sinh
+초라하다|adj|tồi tàn; thảm hại
+촉촉하다|adj|ẩm ướt; ươn ướt
+추잡하다|adj|đê tiện; bẩn thỉu
+추하다|adj|xấu xí; dơ bẩn
+축축하다|adj|ẩm ướt; ẩm thấp
+치사하다|adj|hèn hạ; bủn xỉn
+친근하다|adj|thân thiện; gần gũi
+칙칙하다|adj|xỉn màu; ảm đạm
+터무니없다|adj|vô lý; không có căn cứ
+팍팍하다|adj|khô khốc; vất vả (cuộc sống)
+푸근하다|adj|ấm áp; êm dịu
+풍성하다|adj|phong phú; dồi dào
+하찮다|adj|không đáng kể; tầm thường
+한심하다|adj|đáng thương hại; thảm hại
+허전하다|adj|trống trải; hụt hẫng
+헐겁다|adj|lỏng; rộng
+험악하다|adj|dữ tợn; hung dữ
+현명하다|adj|khôn ngoan; sáng suốt
+혼란스럽다|adj|rối loạn; bối rối
+황홀하다|adj|say đắm; mê hồn
+후련하다|adj|nhẹ nhõm; khoan khoái
+후하다|adj|hào phóng; dày dặn
+흐릿하다|adj|mờ; âm u
+흡족하다|adj|hài lòng; thỏa mãn
+희귀하다|adj|hiếm có; quý hiếm

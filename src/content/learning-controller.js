@@ -127,21 +127,39 @@
       const pron = this.pack.getPronunciation(surface);
       const saved = await this.vocab.find(this.lang, analysis.lemma).catch(() => null);
       if (seq !== this._seq) return; // a newer click superseded this one
+      const sentence = oneLine(sub.primary && sub.primary.text);
       const model = {
         lang: this.lang, surface, lemma: analysis.lemma, pos: analysis.pos, posLabel: analysis.posLabel, romanization: pron.romanization,
         lines: analysis.display, summary: analysis.summary, meanings: lookup ? lookup.meanings : [],
         confidence: analysis.confidence, confidenceLabel: analysis.confidenceLabel, alternatives: analysis.alternatives,
+        etymology: lookup ? lookup.etymology || null : null,
         forms: analysis.type === 'predicate' || analysis.type === 'word' ? this.pack.getExtraForms(analysis.lemma) : [],
-        sentence: oneLine(sub.primary && sub.primary.text), translation: oneLine(sub.secondary && sub.secondary.text),
+        sentence, translation: oneLine(sub.secondary && sub.secondary.text), grammar: this._grammarFor(sentence, hit),
         saved: !!saved, known: !!(saved && saved.known), settings: this._cardSettings(),
         externalLinks: this.settings.value('allowExternalLinks') ? this.pack.getExternalLinks(analysis.lemma || surface) : [],
       };
       this._analysis = analysis;
       this.overlay.showCard(model, hit.rect, this.subtitles.getBlocksRect ? this.subtitles.getBlocksRect() : null);
     }
+    /** Grammar of the sentence that holds the clicked word, or null (setting off, language without a grammar module, analysis failed). */
+    _grammarFor(sentence, hit) {
+      if (!sentence || this.settings.value('grammar') === false || typeof this.pack.analyzeSentence !== 'function') return null;
+      try { return this.pack.analyzeSentence(sentence, { focus: this._focusIn(sentence, hit) }) || null; } catch (e) { LF.log.error('analyzeSentence failed', e); return null; }
+    }
+    /** Where the clicked token sits in the one-line sentence: the n-th occurrence of its text, n counted over the tokens that came before it on screen. */
+    _focusIn(sentence, hit) {
+      const surface = hit.token.text;
+      let nth = 0;
+      const maps = this.subtitles.getWordMaps ? this.subtitles.getWordMaps() : [];
+      outer: for (const m of maps) { for (const tk of m.tokens) { if (tk === hit.token) break outer; if (tk.text === surface) nth++; } }
+      let at = -1;
+      for (let k = 0; k <= nth; k++) { const i = sentence.indexOf(surface, at + 1); if (i < 0) break; at = i; }
+      if (at < 0) at = sentence.indexOf(surface);
+      return at < 0 ? null : { start: at, end: at + surface.length };
+    }
     _cardSettings() {
       const s = this.settings;
-      return { morphology: s.value('morphology'), vocabulary: s.value('vocabulary'), pronunciation: s.value('pronunciation'),
+      return { morphology: s.value('morphology'), grammar: s.value('grammar'), vocabulary: s.value('vocabulary'), pronunciation: s.value('pronunciation'),
         showRomanization: s.value('showRomanization'), allowExternalLinks: s.value('allowExternalLinks') };
     }
     closeCard(o) {

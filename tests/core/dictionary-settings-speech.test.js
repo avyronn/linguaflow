@@ -11,7 +11,7 @@ test('DictionaryManager.lookup(word, language) returns the documented result sha
   dm.register('xx', new LF.LocalProvider({ id: 'xx-local', language: 'xx', data: DATA }));
   assert.equal(dm.lookupSync('가', 'xx'), null, 'not ready before init');
   const r = await dm.lookup('가', 'xx');
-  assert.deepEqual(Object.keys(r).sort(), ['confidence', 'examples', 'irregular', 'lemma', 'level', 'meanings', 'pos', 'pronunciation', 'rank', 'source', 'word']);
+  assert.deepEqual(Object.keys(r).sort(), ['altSenses', 'confidence', 'examples', 'hanViet', 'hanja', 'irregular', 'lemma', 'level', 'meanings', 'pos', 'pronunciation', 'rank', 'source', 'word']);
   assert.deepEqual({ word: r.word, lemma: r.lemma, meanings: r.meanings, pronunciation: r.pronunciation, confidence: r.confidence, rank: r.rank }, { word: '가', lemma: '가', meanings: ['đi'], pronunciation: 'ga', confidence: 1, rank: 0 });
   assert.equal(await dm.lookup('없음', 'xx'), null);
   assert.equal(await dm.lookup('가', 'yy'), null, 'unknown language');

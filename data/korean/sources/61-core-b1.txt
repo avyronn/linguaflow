@@ -1,0 +1,526 @@
+# ===== từ vựng trung cấp bổ sung (đợt 1: 가–신) =====
+가까이|adv|gần; một cách gần gũi
+가꾸다|v|chăm sóc; vun trồng; làm đẹp
+가득|adv|đầy ắp
+가득하다|adj|đầy ắp; tràn đầy
+가로|n|chiều ngang; hàng ngang
+가루|n|bột
+가리키다|v|chỉ; chỉ ra
+가스|n|ga; khí
+가슴속|n|trong lòng; trong tim
+가요|n|ca khúc; nhạc đại chúng
+가위|n|cái kéo
+가이드|n|hướng dẫn viên; sách hướng dẫn
+가정|n|gia đình; giả định
+가죽|n|da (thuộc)
+각각|adv|từng cái; mỗi cái
+각국|n|các nước
+각종|n|các loại; đủ loại
+간|n|vị mặn; gan
+간단히|adv|một cách đơn giản; ngắn gọn
+간식|n|đồ ăn vặt
+갈비탕|n|canh sườn (galbitang)
+갈색|n|màu nâu
+갈아타다|v|đổi (xe); chuyển (tàu xe)
+감|n|quả hồng; cảm giác
+감동|n|sự cảm động
+감상|n|sự thưởng thức; cảm tưởng
+감상하다|v|thưởng thức; chiêm ngưỡng
+감자|n|khoai tây
+강당|n|giảng đường; hội trường
+강물|n|nước sông
+강아지|n|chó con
+강제|n|sự cưỡng chế; ép buộc
+개구리|n|ếch
+개나리|n|hoa liên kiều (gaenari)
+개발하다|v|phát triển; khai thác
+개인|n|cá nhân
+개인적|n|mang tính cá nhân; riêng tư
+걔|pron|đứa đó; cậu/cô ấy (khẩu ngữ của 그 아이)
+거짓|n|điều giả dối; sự nói dối
+걱정스럽다|adj|đáng lo; lo lắng
+건너오다|v|băng qua đây; sang đây
+건지다|v|vớt lên; cứu vãn
+건축|n|kiến trúc; xây dựng
+겁|n|sự sợ hãi; nỗi sợ
+겉|n|bề ngoài; mặt ngoài
+겨울철|n|mùa đông
+결정되다|v|được quyết định
+경기|n|trận đấu; tình hình kinh tế
+경기장|n|sân thi đấu
+경상도|n|vùng Gyeongsang
+경영|n|việc kinh doanh; quản lý
+경제적|n|mang tính kinh tế; tiết kiệm
+곁|n|bên cạnh
+계산|n|việc tính toán; thanh toán
+계산기|n|máy tính (bỏ túi)
+계속되다|v|được tiếp tục; kéo dài
+계획하다|v|lên kế hoạch
+고개|n|cổ; đầu (cúi/gật); đèo
+고교|n|trường trung học phổ thông
+고급|n|cao cấp
+고려하다|v|cân nhắc; xem xét
+고모부|n|dượng (chồng của cô)
+고민|n|nỗi băn khoăn; trăn trở
+고속|n|cao tốc; tốc độ cao
+고속도로|n|đường cao tốc
+고속버스|n|xe buýt cao tốc
+고장|n|vùng; nơi; sự hỏng hóc
+고추|n|ớt
+고추장|n|tương ớt (gochujang)
+고춧가루|n|bột ớt
+골목길|n|ngõ; con hẻm
+골프|n|gôn; golf
+골프장|n|sân gôn
+곰|n|gấu
+곱다|adj|đẹp; mịn màng
+곳곳|n|khắp nơi
+공동|n|chung; cộng đồng
+공사|n|công trình; việc xây dựng
+공연|n|buổi biểu diễn
+공중전화|n|điện thoại công cộng
+공짜|n|đồ miễn phí
+공항버스|n|xe buýt sân bay
+과목|n|môn học
+과장|n|trưởng phòng; sự phóng đại
+과학적|n|mang tính khoa học
+관객|n|khán giả
+관광|n|du lịch tham quan
+관광객|n|khách du lịch
+관광지|n|điểm du lịch
+관련|n|sự liên quan
+관련되다|v|có liên quan
+관련하다|v|liên quan đến
+관하다|v|liên quan đến; về
+광고|n|quảng cáo
+굉장히|adv|cực kỳ; vô cùng
+교류|n|sự giao lưu
+교문|n|cổng trường
+교통사고|n|tai nạn giao thông
+교포|n|kiều bào Hàn
+교환|n|sự trao đổi
+구멍|n|cái lỗ
+구체적|n|cụ thể
+국기|n|quốc kỳ
+국내|n|trong nước
+국립|n|quốc lập; của nhà nước
+국물|n|nước canh; nước dùng
+국어|n|quốc ngữ; tiếng Hàn (môn học)
+국제|n|quốc tế
+국회의원|n|nghị sĩ quốc hội
+군|n|quận; quân đội; ông (gọi thân mật cho nam)
+굽다|v|nướng
+권투|n|quyền Anh
+귀국|n|sự về nước
+규칙적|n|đều đặn; có quy tắc
+그늘|n|bóng râm; bóng mát
+그다음|n|tiếp theo; sau đó
+그대로|adv|nguyên như vậy; cứ thế
+그램|cnt|gam
+그러하다|adj|như thế
+그렇지|phrase|đúng thế; phải rồi
+그려지다|v|được vẽ; được miêu tả
+그룹|n|nhóm
+그리|adv|(không) … lắm; đến mức đó
+그만|adv|thôi; dừng; chừng đó
+그만큼|adv|chừng ấy; bấy nhiêu
+그중|n|trong số đó
+그치다|v|ngừng; tạnh
+그해|n|năm đó
+근로자|n|người lao động
+근무|n|việc làm việc; công tác
+근무하다|v|làm việc; công tác
+글쓰기|n|việc viết lách
+글씨|n|chữ viết; nét chữ
+금년|n|năm nay
+금연|n|việc cấm hút thuốc; cai thuốc
+긍정적|n|tích cực; khẳng định
+기간|n|thời gian; khoảng thời gian
+기도|n|lời cầu nguyện
+기름|n|dầu; mỡ
+기본|n|cơ bản; nền tảng
+기사|n|bài báo; tài xế; kỹ sư
+기온|n|nhiệt độ không khí
+기운|n|sức lực; khí lực
+기초|n|nền tảng; cơ sở
+기타|n|guitar; cái khác
+긴장하다|v|căng thẳng; hồi hộp
+길가|n|ven đường
+길거리|n|đường phố
+길이|n|chiều dài
+김치찌개|n|canh kim chi
+깊이|n|độ sâu
+까닭|n|lý do; nguyên cớ
+까만색|n|màu đen
+깜짝|adv|giật mình; thình lình
+깨끗이|adv|sạch sẽ
+꺼지다|v|tắt; biến mất
+껌|n|kẹo cao su
+껍질|n|vỏ; lớp vỏ
+꼭대기|n|đỉnh; chóp
+꽃잎|n|cánh hoa
+꾸다|v|mơ (giấc mơ); mượn
+꾸준히|adv|kiên trì; đều đặn
+꿀|n|mật ong
+끄덕이다|v|gật (đầu)
+끊어지다|v|bị đứt; bị ngắt
+끓다|v|sôi; sôi lên
+끓이다|v|đun sôi; nấu
+끝내|adv|cuối cùng (cũng/không)
+나머지|n|phần còn lại
+나물|n|rau củ trộn; rau rừng
+나뭇가지|n|cành cây
+나빠지다|v|trở nên xấu đi
+나타내다|v|thể hiện; biểu lộ
+나흘|n|bốn ngày
+낚시|n|việc câu cá
+날개|n|cánh
+남|n|người khác; người dưng
+남성|n|nam giới
+내내|adv|suốt; liên tục
+내밀다|v|đưa ra; chìa ra
+내지|n|từ … đến; hoặc
+냄비|n|nồi
+너머|n|bên kia; phía bên kia
+너희|pron|các cậu; bọn mày
+넓어지다|v|trở nên rộng
+넓히다|v|mở rộng
+넘어서다|v|vượt qua
+넘치다|v|tràn; ngập
+네거리|n|ngã tư
+년도|n|niên độ; năm
+노동자|n|công nhân; người lao động
+노래방|n|quán karaoke
+노랫소리|n|tiếng hát
+녹색|n|màu xanh lục
+녹음하다|v|ghi âm
+녹차|n|trà xanh
+논문|n|luận văn; bài nghiên cứu
+논의하다|v|bàn bạc; thảo luận
+놀이|n|trò chơi; cuộc vui
+놀이터|n|sân chơi
+농구|n|bóng rổ
+농사|n|việc làm nông
+농업|n|nông nghiệp
+농촌|n|nông thôn
+높아지다|v|trở nên cao
+높이|n|độ cao
+높이|adv|cao; một cách cao
+높이다|v|nâng cao
+놓이다|v|được đặt; được để
+눈앞|n|trước mắt
+뉴욕|n|New York
+늘리다|v|làm tăng; kéo dài
+다녀가다|v|ghé qua rồi đi
+다수|n|đa số; số đông
+다이어트|n|ăn kiêng
+다하다|v|dốc hết; kết thúc
+단|n|bó; bậc; (chỉ) duy nhất
+단맛|n|vị ngọt
+단순히|adv|một cách đơn thuần
+단체|n|đoàn thể; tập thể
+담그다|v|ngâm; muối (kim chi)
+담기다|v|được đựng; được chứa
+담당하다|v|đảm nhiệm; phụ trách
+담임|n|giáo viên chủ nhiệm; sự phụ trách
+답장|n|thư trả lời
+답하다|v|trả lời
+닷새|n|năm ngày
+당근|n|cà rốt
+당황하다|v|bối rối; hoảng hốt
+대구|n|Daegu
+대기업|n|doanh nghiệp lớn
+대단히|adv|rất; vô cùng
+대도시|n|thành phố lớn
+대부분|n|phần lớn
+대전|n|Daejeon
+대중|n|đại chúng
+대중교통|n|phương tiện giao thông công cộng
+대중문화|n|văn hóa đại chúng
+대표적|n|tiêu biểu
+대학교수|n|giáo sư đại học
+대학원|n|cao học; sau đại học
+대화하다|v|đối thoại; trò chuyện
+대회|n|đại hội; cuộc thi
+더위|n|cái nóng
+더하다|v|cộng thêm; thêm vào
+덕분|n|nhờ có; nhờ ơn
+덜|adv|ít hơn; chưa đủ
+데리다|v|dẫn theo; đưa đi cùng
+도로|n|đường lộ; đường cái
+도로|adv|trở lại; lại
+도시락|n|cơm hộp
+도중|n|giữa chừng
+동경|n|Tokyo; sự khao khát
+독서|n|việc đọc sách
+독일어|n|tiếng Đức
+두세|det|hai ba
+뒷산|n|ngọn núi phía sau
+들려오다|v|vọng đến; nghe thấy
+마구|adv|bừa bãi; túi bụi
+마늘|n|tỏi
+마련되다|v|được chuẩn bị
+마련하다|v|chuẩn bị; sắm sửa
+# ===== đợt 1b (마–신) =====
+마사지|n|massage; xoa bóp
+마음속|n|trong lòng
+마주|adv|đối diện; mặt đối mặt
+마중|n|việc ra đón
+마찬가지|n|giống nhau; như nhau
+마침|adv|vừa đúng lúc
+마침내|adv|cuối cùng; rốt cuộc
+막|adv|vừa mới; túi bụi; bừa bãi
+막|n|màn (kịch)
+만들어지다|v|được làm ra; được tạo ra
+만화|n|truyện tranh; phim hoạt hình
+많아지다|v|trở nên nhiều
+맞서다|v|đối đầu; chống lại
+맞은편|n|phía đối diện
+매다|v|thắt; buộc
+먹히다|v|bị ăn; ăn thua; có hiệu quả
+멀리|adv|xa; ở xa
+멋|n|vẻ phong cách; sự sành điệu
+메모|n|ghi chú
+메시지|n|tin nhắn; thông điệp
+메일|n|thư điện tử
+며느리|n|con dâu
+명함|n|danh thiếp
+모니터|n|màn hình
+모델|n|người mẫu; mẫu
+모래|n|cát
+모임|n|buổi họp mặt; nhóm
+목걸이|n|vòng cổ
+목사|n|mục sư
+목욕탕|n|nhà tắm công cộng
+몸무게|n|cân nặng
+몸살|n|đau mình mẩy (do mệt/ốm)
+몹시|adv|vô cùng; cực kỳ
+무|n|củ cải trắng
+무늬|n|hoa văn
+무더위|n|cái nóng oi bức
+무렵|n|khoảng lúc
+무어|pron|cái gì (dạng cũ của 무엇)
+무용|n|múa
+무척|adv|rất; hết sức
+문장|n|câu văn; văn chương
+문제점|n|điểm có vấn đề
+문학|n|văn học
+물속|n|trong nước
+물음|n|câu hỏi
+미디어|n|truyền thông
+미술관|n|bảo tàng mỹ thuật
+미인|n|người đẹp; mỹ nhân
+미팅|n|cuộc họp; buổi gặp mặt
+밀리미터|cnt|mi-li-mét
+및|conj|và; cũng như
+바깥|n|bên ngoài
+바늘|n|cây kim
+바닷가|n|bờ biển
+바닷물|n|nước biển
+바이올린|n|đàn vi-ô-lông
+박수|n|tiếng vỗ tay
+박스|n|hộp; thùng
+반대|n|sự phản đối; ngược lại
+반복하다|v|lặp lại
+반장|n|lớp trưởng; tổ trưởng
+받침|n|phụ âm cuối (patchim); cái đế
+발견되다|v|được phát hiện
+발달|n|sự phát triển
+발달하다|v|phát triển
+발등|n|mu bàn chân
+발목|n|mắt cá chân
+발생|n|sự phát sinh; xảy ra
+발생하다|v|phát sinh; xảy ra
+발음하다|v|phát âm
+발전|n|sự phát triển; phát điện
+발전하다|v|phát triển; tiến bộ
+발표|n|sự công bố; thuyết trình
+발표하다|v|công bố; thuyết trình
+밤낮|n|ngày đêm; luôn luôn
+밤늦다|adj|khuya
+밤새다|v|thức trắng đêm
+밤중|n|giữa đêm
+밥그릇|n|bát cơm
+밥맛|n|vị cơm; sự thèm ăn
+밥솥|n|nồi cơm
+방문|n|cửa phòng; sự thăm viếng
+방송국|n|đài phát thanh truyền hình
+밭|n|ruộng khô; nương
+배경|n|bối cảnh; nền
+배구|n|bóng chuyền
+배꼽|n|rốn
+배달|n|việc giao hàng
+배드민턴|n|cầu lông
+버릇|n|thói quen
+버섯|n|nấm
+버터|n|bơ
+버튼|n|nút bấm
+번역|n|sự dịch; bản dịch
+벌리다|v|mở rộng ra; banh ra
+벗기다|v|cởi ra; lột ra
+벨트|n|thắt lưng; dây đai
+변화하다|v|biến đổi; thay đổi
+병들다|v|bị bệnh
+보고|n|báo cáo
+보관하다|v|bảo quản; cất giữ
+보험|n|bảo hiểm
+보호|n|sự bảo vệ
+복사|n|sự sao chép; photo
+복사하다|v|sao chép; photocopy
+복습|n|việc ôn bài
+복습하다|v|ôn bài
+볶다|v|xào; rang
+볶음밥|n|cơm chiên (cơm rang)
+볼일|n|việc cần làm; việc riêng
+봉지|n|túi (nilon/giấy)
+봉투|n|phong bì; túi giấy
+뵈다|v|gặp; yết kiến (khiêm nhường)
+뵙다|v|gặp; yết kiến (khiêm nhường)|reg
+부|n|bộ; phần; phó
+부근|n|vùng lân cận
+부끄러움|n|sự xấu hổ
+부동산|n|bất động sản
+부작용|n|tác dụng phụ
+부잣집|n|nhà giàu
+부장|n|trưởng ban; trưởng phòng
+부족|n|sự thiếu; bộ lạc
+부처|n|bộ ngành (chính phủ); Phật
+부치다|v|gửi (thư, tiền); rán (bánh)
+북|n|phía bắc; cái trống
+분명|n|sự rõ ràng; chắc chắn
+분석하다|v|phân tích
+불교|n|Phật giáo
+불리다|v|được gọi là; (bị) ngâm nở
+불행하다|adj|bất hạnh
+블라우스|n|áo sơ mi nữ
+비교적|adv|tương đối
+비닐|n|nhựa ni-lông
+비닐봉지|n|túi ni-lông
+비서|n|thư ký
+비용|n|chi phí
+비키다|v|tránh ra; nhường đường
+비타민|n|vitamin
+비판하다|v|phê phán
+빌딩|n|tòa nhà
+빗물|n|nước mưa
+빨갛다|adj|đỏ
+빨래|n|đồ giặt; việc giặt giũ
+뺨|n|má
+뻗다|v|duỗi ra; vươn ra
+사계절|n|bốn mùa
+사고|n|tai nạn; sự cố; tư duy
+사무|n|công việc văn phòng
+사물|n|sự vật
+사용|n|việc sử dụng
+사용되다|v|được sử dụng
+사용자|n|người dùng
+사원|n|nhân viên công ty; chùa
+사이좋다|adj|thân thiết; hòa thuận
+사자|n|sư tử
+사회적|n|mang tính xã hội
+산소|n|oxy; mộ phần
+산속|n|trong núi
+살짝|adv|nhẹ nhàng; khẽ; hơi
+삶다|v|luộc
+삼촌|n|chú; cậu; bác (anh em của bố/mẹ)
+상대방|n|đối phương
+상추|n|xà lách
+상품|n|sản phẩm; hàng hóa
+상하다|v|hỏng (thức ăn); bị tổn thương
+새끼|n|con (của thú vật); (chửi) thằng khốn
+새로|adv|một cách mới; mới
+새소리|n|tiếng chim
+새우|n|tôm
+생각되다|v|được nghĩ là; cảm thấy
+생활하다|v|sinh hoạt; sống
+생활환경|n|môi trường sống
+서너|det|ba bốn
+서비스|n|dịch vụ; sự phục vụ
+서양|n|phương Tây
+서투르다|adj|vụng về; non tay
+석유|n|dầu mỏ
+섞다|v|trộn
+섞이다|v|bị trộn lẫn
+선풍기|n|quạt máy
+설거지|n|việc rửa bát
+설렁탕|n|canh xương bò (seolleongtang)
+섬|n|đảo
+섭씨|n|độ C
+성별|n|giới tính
+성인|n|người trưởng thành; thánh nhân
+세계적|n|mang tính thế giới
+세로|n|chiều dọc
+세워지다|v|được dựng lên
+세탁|n|việc giặt giũ
+세탁소|n|tiệm giặt ủi
+센터|n|trung tâm
+소개|n|sự giới thiệu
+소개되다|v|được giới thiệu
+소문나다|v|lan truyền tin đồn; nổi tiếng
+소비자|n|người tiêu dùng
+소설|n|tiểu thuyết
+소설가|n|nhà văn (tiểu thuyết)
+소스|n|nước sốt
+소시지|n|xúc xích
+소용없다|adj|vô ích
+소포|n|bưu kiện
+속옷|n|đồ lót
+속하다|v|thuộc về
+손바닥|n|lòng bàn tay
+손발|n|tay chân
+손뼉|n|bàn tay (khi vỗ)
+손수건|n|khăn tay
+손잡이|n|tay cầm; tay nắm
+솔직히|adv|thành thật mà nói
+송아지|n|bê con
+송편|n|bánh songpyeon
+쇼|n|chương trình; show
+수년|n|vài năm
+수돗물|n|nước máy
+수많다|adj|rất nhiều
+수상|n|thủ tướng; sự đoạt giải
+수염|n|râu
+수입하다|v|nhập khẩu
+수출|n|xuất khẩu
+수출하다|v|xuất khẩu
+수표|n|séc
+수학|n|toán học
+수화기|n|ống nghe điện thoại
+숙소|n|chỗ ở; nơi trọ
+순수하다|adj|thuần khiết; ngây thơ
+술자리|n|bàn nhậu; cuộc nhậu
+술잔|n|chén rượu
+숫자|n|chữ số; con số
+스님|n|nhà sư
+스웨터|n|áo len
+스케이트|n|giày trượt băng; trượt băng
+스케줄|n|lịch trình
+스키장|n|khu trượt tuyết
+스타|n|ngôi sao
+스타일|n|phong cách; kiểu dáng
+승용차|n|xe ô tô con
+시내|n|nội thành; trong thành phố
+시내버스|n|xe buýt nội thành
+시리즈|n|loạt; series
+시부모|n|bố mẹ chồng
+시설|n|cơ sở vật chất; thiết bị
+시외|n|ngoại thành
+시인|n|nhà thơ; sự thừa nhận
+시집|n|tập thơ; nhà chồng
+시청|n|tòa thị chính; việc xem (tivi)
+시청자|n|khán giả (truyền hình)
+식|n|kiểu; nghi lễ; công thức
+식구|n|thành viên trong gia đình
+식물|n|thực vật
+식빵|n|bánh mì gối
+식용유|n|dầu ăn
+식초|n|giấm
+식품|n|thực phẩm
+신고|n|sự khai báo; tố cáo
+신문사|n|tòa soạn báo
+신문지|n|giấy báo
+신용|n|sự tín nhiệm; tín dụng
+신입생|n|tân sinh viên; học sinh mới
+신청|n|sự đăng ký; yêu cầu
+신체|n|cơ thể
+신호등|n|đèn giao thông

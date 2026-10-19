@@ -1,0 +1,16 @@
+# ===== từ ngữ pháp bổ sung (dùng trong các mẫu câu của grammar-patterns.js) =====
+듯하다|aux|có vẻ như; hình như (… -(으)ㄴ/는/(으)ㄹ 듯하다)
+성싶다|aux|có vẻ như (… -(으)ㄹ 성싶다)
+법하다|aux|có thể lắm; chẳng có gì lạ (… -(으)ㄹ 법하다)
+작정|n|ý định; quyết tâm (… -(으)ㄹ 작정이다)
+겸|nbound|kiêm; nhân tiện (… -(으)ㄹ 겸)
+계기|n|dịp; cơ hội; bước ngoặt (… 을/를 계기로)
+가량|n|khoảng; chừng (đứng sau số lượng)
+테지만|phrase|chắc là … nhưng (-ㄹ 테지만)
+테고|phrase|chắc là … và (-ㄹ 테고)
+테지|phrase|chắc là … nhỉ (-ㄹ 테지)
+하나도|adv|không … một chút / một cái nào (đi với phủ định)
+조금도|adv|không … một chút nào (đi với phủ định)
+명령하다|v|ra lệnh; ra chỉ thị
+송구하다|adj|áy náy; xin lỗi (rất trang trọng)
+덕택|n|nhờ ơn; nhờ giúp đỡ (… 덕택에)

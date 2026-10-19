@@ -5,6 +5,7 @@
 #   bash build.sh --skip-tests    package only
 #   bash build.sh --lint          also run `npx web-ext lint` (downloads web-ext once)
 #
+# Needs only Node.js (no `zip` / `unzip`).
 # Output:  dist/linguaflow-<version>.zip          ← the extension (manifest.json at the zip root; load/sign this)
 #          dist/linguaflow-<version>-source.zip   ← full project (sources, tests, scripts, README)
 set -euo pipefail
@@ -28,7 +29,7 @@ echo "==> 2/5 dictionary";        node scripts/build-dictionary.js
 if [ "$SKIP_TESTS" = 0 ]; then
   echo "==> 3/5 unit tests"
   [ -d node_modules/jsdom ] || npm install --no-audit --no-fund --loglevel=error
-  node --test "tests/**/*.test.js"
+  node scripts/run-tests.js
 else
   echo "==> 3/5 unit tests (skipped)"
 fi
@@ -39,17 +40,17 @@ SRC="dist/linguaflow-${VERSION}-source.zip"
 rm -f "$EXT" "$SRC"
 
 echo "==> 4/5 package extension → $EXT"
-zip -q -r -X "$EXT" manifest.json LICENSE README.md icons src data/korean/dictionary.json -x '*.DS_Store'
+STAGE=""
+if [ "$LINT" = 1 ]; then STAGE="$(mktemp -d)"; node scripts/make-zip.js extension "$EXT" --stage "$STAGE"; else node scripts/make-zip.js extension "$EXT"; fi
 
 if [ "$LINT" = 1 ]; then
   echo "==> web-ext lint"
-  TMP="$(mktemp -d)"; unzip -q "$EXT" -d "$TMP"
-  npx --yes web-ext lint --source-dir "$TMP" || { rm -rf "$TMP"; exit 1; }
-  rm -rf "$TMP"
+  npx --yes web-ext lint --source-dir "$STAGE" || { rm -rf "$STAGE"; exit 1; }
+  rm -rf "$STAGE"
 fi
 
 echo "==> 5/5 package source → $SRC"
-zip -q -r -X "$SRC" . -x 'node_modules/*' 'dist/*' '.git/*' '*.DS_Store'
+node scripts/make-zip.js source "$SRC"
 
 echo; echo "Built:"; ls -l "$EXT" "$SRC" | awk '{print "  " $5 " bytes  " $9}'
 echo "Load in Firefox: about:debugging#/runtime/this-firefox → Load Temporary Add-on → pick manifest.json (or the .zip)"

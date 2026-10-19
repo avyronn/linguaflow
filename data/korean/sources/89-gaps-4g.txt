@@ -1,0 +1,119 @@
+# ===== bổ sung (đợt 4g): danh từ đời sống / trừu tượng còn thiếu, thán từ, cụm chào hỏi viết liền =====
+# --- ăn uống ---
+두부|n|đậu phụ
+돼지고기|n|thịt heo; thịt lợn
+생강|n|gừng
+팥|n|đậu đỏ
+딸기|n|dâu tây
+대추|n|táo tàu
+키위|n|kiwi
+파인애플|n|dứa; thơm
+불고기|n|bulgogi; thịt bò ướp nướng kiểu Hàn
+떡볶이|n|tteokbokki; bánh gạo xào cay
+순대|n|sundae; dồi huyết kiểu Hàn
+족발|n|chân giò hầm kiểu Hàn
+스파게티|n|mì Ý; spaghetti
+사이다|n|nước ngọt có ga (kiểu 7-Up)
+# --- cơ thể, quần áo, đồ dùng, nơi chốn ---
+팔꿈치|n|khuỷu tay
+점퍼|n|áo khoác (jumper)
+슬리퍼|n|dép lê; dép đi trong nhà
+기린|n|hươu cao cổ
+상어|n|cá mập
+바퀴벌레|n|con gián
+대나무|n|tre
+소방관|n|lính cứu hỏa
+어부|n|ngư dân
+놀이공원|n|công viên giải trí
+소방서|n|trạm cứu hỏa
+베란다|n|ban công
+전자레인지|n|lò vi sóng
+충전기|n|bộ sạc
+등산|n|leo núi
+드럼|n|trống; bộ trống (drum)
+지리|n|địa lý
+앱|n|ứng dụng (app)
+# --- xã hội, chính trị, kinh tế ---
+문명|n|văn minh
+금융|n|tài chính; tín dụng
+실업|n|thất nghiệp
+복지|n|phúc lợi
+원자력|n|năng lượng nguyên tử
+헌법|n|hiến pháp
+여당|n|đảng cầm quyền
+야당|n|đảng đối lập
+특기|n|sở trường; tài riêng
+평등|n|bình đẳng
+흥|n|hứng; sự hứng khởi (흥이 나다: thấy hứng)
+# --- thán từ ---
+아이쿠|int|ối; ôi (đau hoặc giật mình)
+어어|int|ơ ơ; này này (hốt hoảng)
+쯧쯧|int|chậc chậc (tiếc hoặc chê)
+에고|int|ôi trời (than thở)
+에구|int|ôi chao (than thở)
+아야|int|ái; ui da (đau)
+아얏|int|ái! (đau đột ngột)
+으아|int|á!; ôi (hét lên)
+꺄|int|kya! (hét vui hoặc sợ)
+꺅|int|kyaa! (hét thất thanh)
+어마|int|ôi; trời ạ
+화이팅|int|cố lên!; cố gắng nhé (fighting)
+아우|int|ôi; ui
+아우|n|em (cách gọi em trai hoặc em hơn tuổi, hơi cũ)
+야호|int|yahoo; hoan hô
+쉿|int|suỵt
+허걱|int|hự; hả (giật mình)
+얼씨구|int|ồ hô; giỏi nhỉ (mỉa mai hoặc hứng khởi)
+# --- lời chào/nói thường gặp nhưng hay gõ liền ---
+잘가요|phrase|đi nhé; tạm biệt (người ở lại nói)
+잘자요|phrase|ngủ ngon nhé
+잘가|phrase|đi nhé (thân mật)
+잘자|phrase|ngủ ngon nhé (thân mật)
+안돼|phrase|không được (viết đúng là 안 돼)
+안돼요|phrase|không được ạ (viết đúng là 안 돼요)
+# --- danh từ bị thiếu nghĩa danh từ (trong từ điển chỉ có nghĩa phó từ) ---
+만약|n|trường hợp bất trắc; chuyện lỡ xảy ra (만약을 위해: phòng khi)
+# --- từ thường gặp trong phụ đề còn thiếu ---
+예|n|ví dụ (예를 들면: ví dụ như)
+안되다|v|không thành; không ổn; thật tội nghiệp (안됐다)
+조용|n|sự yên lặng (조용!: im lặng đi!)
+조심히|adv|một cách cẩn thận (조심히 가세요: đi cẩn thận nhé)
+어째|adv|sao lại; thế nào mà (= 어째서)
+내|nbound|trong; trong vòng (한 시간 내에: trong vòng một tiếng)
+잖아|phrase|… mà (đuôi câu nhắc điều người nghe đã biết, thường viết liền với từ trước)
+잖아요|phrase|… mà (lịch sự, thường viết liền với từ trước)
+거든요|phrase|… đấy / vì … mà (đuôi câu giải thích lý do, thường viết liền với từ trước)
+라고|phrase|(đuôi trích dẫn: “…” 라고 하다 = nói rằng “…”, viết liền với từ trước)
+라는|phrase|(đuôi định ngữ trích dẫn: cái gọi là …, viết liền với từ trước)
+란|phrase|(rút gọn của 라는 / -(이)란: nói đến … thì, viết liền với từ trước)
+라고는|phrase|(trích dẫn + 는: (nói) rằng “…” thì …, viết liền với từ trước)
+라곤|phrase|(rút gọn của 라고는, viết liền với từ trước)
+라고도|phrase|(trích dẫn + 도: cũng nói / gọi là “…”, viết liền với từ trước)
+라며|phrase|(đuôi trích dẫn nối: vừa nói “…” vừa …, viết liền với từ trước)
+라면서|phrase|(đuôi trích dẫn nối: nói rằng “…” rồi …, viết liền với từ trước)
+이라고|phrase|(đuôi trích dẫn sau danh từ có patchim: “…”이라고 하다 = nói / gọi là “…”, viết liền với từ trước)
+이라는|phrase|(đuôi định ngữ trích dẫn sau danh từ có patchim: cái gọi là “…”, viết liền với từ trước)
+이라고는|phrase|(trích dẫn + 는, sau danh từ có patchim, viết liền với từ trước)
+이라곤|phrase|(rút gọn của 이라고는, viết liền với từ trước)
+이라고도|phrase|(trích dẫn + 도, sau danh từ có patchim: cũng gọi là “…”, viết liền với từ trước)
+이라며|phrase|(đuôi trích dẫn nối sau danh từ có patchim: vừa nói “…” vừa …, viết liền với từ trước)
+이라면서|phrase|(đuôi trích dẫn nối sau danh từ có patchim: nói rằng “…” rồi …, viết liền với từ trước)
+# --- còn thiếu thấy khi quét tần suất phụ đề ---
+아무|pron|ai đó; bất kỳ ai (아무에게도: không với ai cả, đi với phủ định)
+친애|n|sự thân ái; sự quý mến
+친애하다|v|quý mến; thân ái (친애하는 + danh từ: thân mến, kính thưa, dùng mở đầu thư)
+예쁜이|n|người xinh xắn; cô xinh (cách gọi trìu mến)
+왔다갔다|adv|đi đi lại lại; qua qua lại lại
+왔다갔다하다|v|đi đi lại lại; lúc thế này lúc thế khác
+같으니라고|phrase|đồ …! (đứng sau danh từ, thốt lên khi chê trách: 이 녀석 같으니라고)
+뭐여|phrase|cái gì vậy? (khẩu ngữ, phương ngữ của 뭐야)
+테야|phrase|(tôi) nhất định sẽ … (-ㄹ 테야, thân mật)
+테죠|phrase|chắc là … nhỉ (-ㄹ 테죠, lịch sự)
+테지요|phrase|chắc là … nhỉ (-ㄹ 테지요, lịch sự)
+테면|phrase|nếu định … thì (-ㄹ 테면)
+겠어요|phrase|(đuôi câu) sẽ … / chắc là … (lịch sự, viết liền với từ trước: 가겠어요, 좋겠어요)
+겠어|phrase|(đuôi câu) sẽ … / chắc là … (thân mật, viết liền với từ trước)
+겠다|phrase|(đuôi câu) sẽ … / chắc là … (viết liền với từ trước: 먹겠다)
+겠죠|phrase|chắc là … nhỉ (viết liền với từ trước)
+겠네요|phrase|chắc là … nhỉ; vậy thì … rồi (viết liền với từ trước)
+만에|phrase|sau (một khoảng thời gian) …; mới … (3년 만에: sau 3 năm, 오랜만에: sau một thời gian dài)

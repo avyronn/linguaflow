@@ -1,0 +1,206 @@
+# ===== danh từ: khái niệm trừu tượng, cảm xúc, sự kiện, giao tiếp, đời sống =====
+가능성|n|khả năng
+가치|n|giá trị
+각오|n|quyết tâm
+감각|n|cảm giác; giác quan
+감사|n|sự cảm ơn
+감정적|n|mang tính cảm xúc
+갈등|n|mâu thuẫn
+강요|n|sự ép buộc
+거절|n|sự từ chối
+걱정거리|n|nỗi lo
+결과|n|kết quả
+결말|n|kết cục
+결백|n|sự trong sạch
+결혼|n|kết hôn
+결혼식|n|đám cưới
+경고|n|cảnh báo
+경쟁|n|cạnh tranh
+경험|n|kinh nghiệm
+고백|n|lời tỏ tình; thú nhận
+고생|n|sự vất vả
+공간|n|không gian
+공포심|n|nỗi sợ hãi
+과제|n|bài tập; nhiệm vụ
+관심|n|sự quan tâm
+교훈|n|bài học
+구원|n|sự cứu rỗi
+굴욕|n|nỗi nhục
+궁금증|n|thắc mắc
+권리|n|quyền lợi
+귀신같다|adj|như ma; thần sầu
+그림자놀이|n|trò chơi bóng
+극복|n|sự vượt qua
+근거|n|căn cứ
+기대|n|sự mong đợi
+기적|n|phép màu
+기준|n|tiêu chuẩn
+긴장|n|căng thẳng
+꿈속|n|trong mơ
+나쁜짓|n|việc xấu
+내용|n|nội dung
+노력|n|nỗ lực
+논리|n|logic
+농담|n|đùa; lời nói đùa
+눈치|n|sự tinh ý; sắc mặt
+능력|n|năng lực
+단점|n|nhược điểm
+대가|n|cái giá; bậc thầy
+대답|n|câu trả lời
+대신|n|thay thế
+도움말|n|lời khuyên
+동기|n|động cơ
+동정|n|lòng thương hại
+두려움|n|nỗi sợ
+뜻|n|ý nghĩa; ý chí
+마지막|n|sự cuối cùng
+만남|n|cuộc gặp gỡ
+말투|n|giọng điệu
+망상|n|ảo tưởng
+매력|n|sức hấp dẫn
+면목|n|thể diện
+명예|n|danh dự
+모순|n|mâu thuẫn
+목표|n|mục tiêu
+무게|n|trọng lượng
+무기력|n|sự bất lực; uể oải
+무서움|n|nỗi sợ
+무엇|n|cái gì
+미련|n|sự luyến tiếc
+미소|n|nụ cười mỉm
+믿음|n|niềm tin
+반응|n|phản ứng
+발견|n|sự phát hiện
+발자국|n|dấu chân
+방해|n|sự cản trở
+배려|n|sự quan tâm; chu đáo
+번호|n|số
+변화|n|sự thay đổi
+보람|n|giá trị; thành quả
+보상|n|bồi thường; đền bù
+복잡|n|sự phức tạp
+부담|n|gánh nặng
+부탁드립니다|phrase|xin nhờ (trang trọng)
+분위기|n|bầu không khí
+불안|n|sự bất an
+불만|n|bất mãn
+비교|n|sự so sánh
+비극|n|bi kịch
+사고방식|n|cách nghĩ
+사연|n|câu chuyện; hoàn cảnh
+상대|n|đối phương
+상상|n|tưởng tượng
+상태|n|tình trạng
+생일|n|sinh nhật
+생활|n|cuộc sống; sinh hoạt
+선입견|n|định kiến
+설명|n|giải thích
+성공|n|thành công
+소리|n|âm thanh
+소망|n|nguyện vọng
+소용|n|tác dụng; ích lợi
+속도|n|tốc độ
+속마음|n|lòng dạ
+수단|n|phương tiện; thủ đoạn
+습관|n|thói quen
+시선|n|ánh nhìn
+시작|n|bắt đầu
+신념|n|niềm tin
+신뢰|n|sự tin cậy
+실망|n|sự thất vọng
+실수|n|lỗi lầm; sơ suất
+실패|n|thất bại
+심정|n|tâm trạng
+쓸모|n|công dụng
+악수|n|cái bắt tay
+안부|n|lời hỏi thăm
+애정|n|tình cảm
+약점|n|điểm yếu
+양심|n|lương tâm
+어려움|n|khó khăn
+억울함|n|nỗi oan
+언어|n|ngôn ngữ
+여유|n|sự thong thả; dư dả
+역할|n|vai trò
+연기|n|khói; diễn xuất
+영혼|n|linh hồn
+예감|n|linh cảm
+예의|n|lễ nghĩa
+예정|n|dự định
+오해|n|hiểu lầm
+용기|n|dũng khí
+우정|n|tình bạn
+원망|n|oán trách
+원인|n|nguyên nhân
+위기|n|khủng hoảng
+위로|n|sự an ủi
+위험성|n|tính nguy hiểm
+유혹|n|sự cám dỗ
+의견|n|ý kiến
+의리|n|nghĩa khí; tình nghĩa
+의문|n|nghi vấn
+의심|n|sự nghi ngờ
+의지|n|ý chí
+이득|n|lợi ích
+이별|n|chia ly
+이익|n|lợi nhuận; lợi ích
+인연|n|duyên phận
+인정|n|sự công nhận
+일상|n|cuộc sống thường ngày
+자격|n|tư cách
+자랑|n|sự khoe khoang
+자존심|n|lòng tự trọng
+작별|n|sự từ biệt
+잘못|n|lỗi
+장난|n|trò đùa
+재능|n|tài năng
+저항|n|sự kháng cự
+적응|n|sự thích nghi
+전통|n|truyền thống
+절망|n|tuyệt vọng
+정성|n|tấm lòng; sự tận tâm
+정의|n|chính nghĩa; định nghĩa
+정직|n|sự trung thực
+조건|n|điều kiện
+존재|n|sự tồn tại
+존중|n|sự tôn trọng
+주장|n|sự khẳng định
+중독|n|nghiện; ngộ độc
+증오|n|sự căm ghét
+지혜|n|trí tuệ
+진심|n|chân tâm; thật lòng
+질문|n|câu hỏi
+집착|n|sự ám ảnh
+책임감|n|tinh thần trách nhiệm
+처벌|n|sự trừng phạt
+천벌|n|trời phạt
+첫사랑|n|mối tình đầu
+체면|n|thể diện
+추억|n|kỷ niệm
+충격|n|cú sốc
+충고|n|lời khuyên
+취미|n|sở thích
+친절|n|sự tử tế
+침묵|n|sự im lặng
+쾌락|n|khoái lạc
+탓|n|lỗi tại; do
+태도|n|thái độ
+통증|n|cơn đau
+포기|n|sự từ bỏ
+표정|n|nét mặt
+피해|n|thiệt hại
+한계|n|giới hạn
+한숨|n|tiếng thở dài
+행운|n|may mắn
+허락|n|sự cho phép
+현실|n|hiện thực
+호기심|n|sự tò mò
+혼란|n|sự hỗn loạn
+혼자|n|một mình
+화|n|cơn giận
+확신|n|sự chắc chắn
+환상|n|ảo ảnh
+후회|n|sự hối hận
+희생자|n|nạn nhân
+흔적|n|dấu vết
+힌트|n|gợi ý

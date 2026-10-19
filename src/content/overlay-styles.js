@@ -56,13 +56,55 @@
 .lf-meanings { margin: 0; padding-left: 18px; }
 .lf-meanings li { margin: 1px 0; }
 .lf-meta { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+.lf-ety { margin-top: 8px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 12.5px; }
+.lf-ek { font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.lf-et { font-size: 16px; font-weight: 600; color: var(--text); }
+.lf-er { color: #D5DBE4; font-style: italic; }
+.lf-eroot { color: var(--muted); font-size: 11.5px; }
 .lf-forms { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; color: var(--muted); }
 .lf-forms b { color: #D5DBE4; font-weight: 600; }
-details.lf-sent { margin-top: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--ink2); }
-details.lf-sent > summary { cursor: pointer; padding: 6px 10px; font-size: 12.5px; color: #D5DBE4; list-style: none; }
-details.lf-sent > summary::-webkit-details-marker { display: none; }
-details.lf-sent > summary::before { content: "▸ "; color: var(--muted); }
-details.lf-sent[open] > summary::before { content: "▾ "; }
+details.lf-det { margin-top: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--ink2); }
+details.lf-det > summary { cursor: pointer; padding: 6px 10px; font-size: 12.5px; color: #D5DBE4; list-style: none; }
+details.lf-det > summary::-webkit-details-marker { display: none; }
+details.lf-det > summary::before { content: "▸ "; color: var(--muted); }
+details.lf-det[open] > summary::before { content: "▾ "; }
+details.lf-gram > summary { font-weight: 650; color: var(--text); }
+details.lf-gram[open] > summary { color: var(--celadon); }
+.lf-gbody, .lf-sbody { padding: 0 10px 8px; }
+.lf-pat { padding: 7px 0 6px; border-top: 1px solid var(--line); }
+.lf-pat:first-child { border-top: 0; padding-top: 2px; }
+.lf-pt { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; }
+.lf-pform { font-size: 14.5px; font-weight: 650; color: var(--saffron); word-break: keep-all; overflow-wrap: anywhere; }
+.lf-lv { font-size: 10.5px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.lf-tag { font-size: 10.5px; padding: 0 6px; border-radius: 4px; background: var(--ink); border: 1px solid var(--line); color: var(--celadon); }
+.lf-pt .lf-pill { font-size: 10.5px; padding: 0 7px; }
+.lf-pm { margin-top: 2px; color: #D5DBE4; }
+.lf-ptext { margin-top: 2px; font-size: 12px; color: var(--muted); }
+.lf-ko { color: var(--text); font-weight: 600; word-break: keep-all; }
+.lf-pnote { margin-top: 3px; font-size: 11.5px; color: #F4D9A6; }
+details.lf-pdet { margin-top: 5px; background: transparent; border-color: transparent; }
+details.lf-pdet > summary { padding: 1px 0; font-size: 12px; color: var(--celadon); }
+.lf-pbody { padding: 2px 0 2px 10px; font-size: 12.5px; color: #C9D1DC; border-left: 2px solid var(--line); }
+.lf-pbody p { margin: 2px 0 4px; }
+.lf-exs { margin: 0; padding: 0; list-style: none; }
+.lf-exs li { margin: 3px 0; }
+.lf-exvi { display: block; color: var(--muted); font-style: italic; font-size: 12px; }
+.lf-sh { margin: 8px 0 3px; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.lf-sh:first-child { margin-top: 2px; }
+.lf-facts { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 3px 10px; font-size: 12.5px; }
+.lf-facts dt { color: var(--muted); }
+.lf-facts dd { margin: 0; color: var(--text); }
+.lf-facts dd small { display: block; color: var(--muted); font-size: 11.5px; }
+.lf-clauses { margin: 0; padding-left: 18px; font-size: 12.5px; }
+.lf-clauses small { display: block; color: var(--muted); font-size: 11.5px; }
+.lf-roles { display: grid; grid-template-columns: max-content 1fr; gap: 2px 10px; align-items: baseline; font-size: 12.5px; }
+.lf-rw { font-weight: 600; word-break: keep-all; }
+.lf-rw.focus { color: var(--celadon); }
+.lf-rr { color: #C3CBD6; }
+.lf-skel { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 5px; }
+.lf-chip { font-size: 11.5px; padding: 1px 8px; border-radius: 999px; background: var(--ink); border: 1px solid var(--line); color: #D5DBE4; }
+.lf-arrow { color: var(--muted); font-size: 11px; }
+.lf-sn { margin: 8px 0 0; font-size: 11px; }
 .lf-sentbody { padding: 2px 10px 8px; font-size: 13.5px; }
 .lf-sentbody mark { background: rgba(127, 214, 194, .25); color: var(--text); border-radius: 3px; padding: 0 2px; }
 .lf-trans { margin-top: 4px; color: #C3CBD6; font-style: italic; }

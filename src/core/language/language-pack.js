@@ -3,7 +3,9 @@
  *
  *   Token    = { text, start, end, type, clickable }          (offsets refer to the original string)
  *   Analysis = { surface, lemma, pos, known, confidence, confidenceLabel, display[], summary, warnings[], alternatives[] }
- *   Lookup   = { word, lemma, pos, meanings[], pronunciation, examples[], confidence, analysis }
+ *   Lookup   = { word, lemma, pos, meanings[], pronunciation, examples[], confidence, analysis, etymology? }
+ *   etymology (optional) = { label, text, reading?, root?, rootLabel? }   where a word comes from, shown as one line on the card
+ *                          (Korean: label "Hán tự · Hán-Việt", text "學校", reading "học hiệu"; root = the noun a 하다 verb is built on). All text is written by the pack.
  */
 (function (root) {
   'use strict';
@@ -42,6 +44,27 @@
     getExtraForms(/* lemma */) { return []; }
     /** Optional: online dictionary links, [{label, url}] — only shown if the user enabled them, opened only on click. */
     getExternalLinks(/* word */) { return []; }
+    /**
+     * Optional: the grammar of ONE sentence of a subtitle line (the one holding the clicked word). null = this language has no grammar module.
+     * `opts.focus` = the clicked word, as an offset or {start, end} into `text`. Every label is already written for the learner by the pack;
+     * the core only lays the pieces out.
+     *   SentenceAnalysis = {
+     *     text, offset, sentenceCount, sentenceIndex,
+     *     facts:     [{ id, label, value, hint? }]          what the sentence as a whole shows (kind of sentence, speech level, tense ...)
+     *     patterns:  [{ id, title, meaning, note, level, category, categoryLabel, kind: 'pattern'|'ending', text, confidence, notes[], focus,
+     *                   examples: [{ text, translation }] }] constructions found; the clicked word's come first
+     *     words:     [{ index, text, role, roleLabel, roleHint, lemma, posLabel, gloss, confidence, clause, focus, patterns[] }]
+     *     clauses:   [{ index, text, kind, kindLabel, relationLabel, predicate, ending, label }]
+     *     structure: [{ role, label }]                       word-order skeleton of the main clause
+     *   }
+     * @returns {SentenceAnalysis|null}
+     */
+    analyzeSentence(/* text, opts */) { return null; }
+    /**
+     * Optional: the grammar reference of the language, for the popup's "Grammar" tab.
+     *   [{ id, title, items: [{ id, title, summary, note, level, kind, examples: [{ text, translation }] }] }]
+     */
+    getGrammarReference() { return []; }
   }
 
   LF.LanguagePack = LanguagePack;

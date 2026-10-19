@@ -17,8 +17,8 @@ async function setup(over) {
   const dom = D.makeDom();
   const doc = dom.window.document; const win = dom.window;
   D.addVideoCanvas(doc);
-  D.netflixNative(doc, ['오늘 어디에 있었어요?']);
-  D.multiSubs(doc, ['Hôm nay bạn đã ở đâu?']);
+  D.netflixNative(doc, (over && over.lines) || ['오늘 어디에 있었어요?']);
+  D.multiSubs(doc, (over && over.secondary) || ['Hôm nay bạn đã ở đâu?']);
   const area = new LF.MemoryStorageArea();
   const settings = new LF.Settings.SettingsStore(area); await settings.load();
   if (over && over.settings) await settings.set(over.settings);
@@ -172,4 +172,83 @@ test('stop() removes listeners and overlay state', async () => {
   t.controller.stop();
   const ev = t.fire('click', AT.어디에, 510); await D.tick(30);
   assert.equal(ev.defaultPrevented, false); assert.equal(t.card(), null);
+});
+
+// ---- grammar on the card (real pack + real overlay + real subtitle word map) --------------------------------------------------------------------
+const gramFolds = (card) => Array.from(card.querySelectorAll('details.lf-gram')).map((d) => d.querySelector('summary').textContent.replace(/\s+/g, ' ').trim());
+const gramForms = (card, fold) => Array.from(card.querySelectorAll('details.lf-gram')[fold].querySelectorAll('.lf-pform')).map((e) => e.textContent);
+
+test('the card carries the grammar of the whole sentence, focused on the clicked word: 어디에 → N에 있다/없다; 있었어요 → that and its endings', async () => {
+  const t = await setup();
+  t.fire('click', AT.어디에, 510);
+  let card = await t.waitCard();
+  assert.deepEqual(gramFolds(card), ['Mẫu ngữ pháp · 1', 'Các mẫu khác trong câu · 2', 'Cấu trúc câu']);
+  assert.deepEqual(gramForms(card, 0), ['N에 있다/없다']);
+  assert.deepEqual(gramForms(card, 1).sort(), ['-아요/어요', '-았/었- (quá khứ)']);
+  t.fire('click', AT.있었어요, 510); await D.tick(60);
+  card = t.card();
+  assert.match(gramFolds(card)[0], /^Mẫu ngữ pháp · 3$/);
+  assert.deepEqual(gramForms(card, 0).sort(), ['-아요/어요', '-았/었- (quá khứ)', 'N에 있다/없다']);
+  assert.equal(card.querySelectorAll('details.lf-gram').length, 2, 'every pattern belongs to the clicked word: no "other patterns" fold');
+  const facts = Array.from(card.querySelectorAll('.lf-facts dt')).map((e) => e.textContent);
+  assert.deepEqual(facts, ['Loại câu', 'Mức độ lịch sự', 'Thì / thể', 'Từ để hỏi']);
+  assert.equal(t.video.paused, true);
+});
+
+test('the setting "Grammar" off: no grammar on the card, and the rest of the card is unchanged', async () => {
+  const t = await setup({ settings: { grammar: false } });
+  t.fire('click', AT.어디에, 510);
+  const card = await t.waitCard();
+  assert.equal(card.querySelectorAll('details.lf-gram').length, 0);
+  assert.deepEqual(Array.from(card.querySelectorAll('.lf-rtext')).map((e) => e.textContent), ['어디', '-에']);
+  assert.ok(card.querySelector('details.lf-sent'));
+});
+
+test('a word that occurs in two sentences of the subtitle: the grammar is that of the sentence where it was clicked', async () => {
+  const t = await setup({ lines: ['사람이 많아요. 사람이 없어요.'], secondary: ['Đông người. Không có người.'] });
+  // 사람이 (first) x 100-160 · 사람이 (second) x 280-340
+  t.fire('click', 310, 510);
+  let card = await t.waitCard();
+  const note = () => card.querySelector('details.lf-gram .lf-gbody .lf-meta').textContent;
+  assert.match(note(), /^Câu 2\/2 của phụ đề: 사람이 없어요\.$/);
+  t.fire('click', 130, 510); await D.tick(60);
+  card = t.card();
+  assert.match(card.querySelector('details.lf-gram .lf-gbody .lf-meta').textContent, /^Câu 1\/2 của phụ đề: 사람이 많아요\.$/);
+  assert.match(card.querySelector('.lf-summary').textContent, /người/);
+});
+
+test('a Sino-Korean word shows its Hanja and Hán-Việt reading on the card; a 하다 verb borrows them from its noun; a native word shows none', async () => {
+  const t = await setup({ lines: ['학교에 갔어요. 준비했어요.'], secondary: ['Tôi đã đến trường. Tôi đã chuẩn bị.'] });
+  // 학교에 x 100-160 · 갔어요 x 180-240 · 준비했어요 x 280-380
+  const line = () => { const e = t.card().querySelector('.lf-ety'); const x = (s) => (e && e.querySelector(s) ? e.querySelector(s).textContent : null); return e && { hanja: x('.lf-et'), vi: x('.lf-er'), root: x('.lf-eroot') }; };
+  t.fire('click', 130, 510); await t.waitCard();
+  assert.deepEqual(line(), { hanja: '學校', vi: 'học hiệu (trường học)', root: null });
+  t.fire('click', 330, 510); await D.tick(80);
+  assert.deepEqual(line(), { hanja: '準備', vi: 'chuẩn bị', root: '(từ gốc: 준비)' });
+  t.fire('click', 210, 510); await D.tick(80);
+  assert.equal(line(), null, '갔어요 = 가다 is a native word');
+});
+
+test('a failing sentence analysis never costs the learner the word card (error is logged, grammar is just absent)', async () => {
+  const t = await setup();
+  t.pack.analyzeSentence = () => { throw new Error('boom'); };
+  const log = t.LF.log, original = log.error; const logged = [];
+  log.error = (...a) => logged.push(a.map(String).join(' '));
+  try {
+    t.fire('click', AT.어디에, 510);
+    const card = await t.waitCard();
+    assert.ok(card); assert.equal(card.querySelectorAll('details.lf-gram').length, 0);
+    assert.deepEqual(Array.from(card.querySelectorAll('.lf-rtext')).map((e) => e.textContent), ['어디', '-에']);
+    assert.ok(logged.some((l) => /analyzeSentence failed/.test(l)), logged.join(' | '));
+  } finally { log.error = original; }
+});
+
+test('a language pack without sentence analysis (the base class default) simply has no grammar part', async () => {
+  const t = await setup();
+  t.pack.analyzeSentence = t.LF.LanguagePack.prototype.analyzeSentence;
+  assert.equal(t.pack.analyzeSentence('x'), null);
+  t.fire('click', AT.어디에, 510);
+  const card = await t.waitCard();
+  assert.equal(card.querySelectorAll('details.lf-gram').length, 0);
+  assert.ok(card.querySelector('.lf-summary'));
 });

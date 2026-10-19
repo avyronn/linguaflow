@@ -1,0 +1,293 @@
+# ===== danh từ: nhà cửa, đồ vật, thức ăn, quần áo, thiên nhiên, cơ thể, y học, công nghệ =====
+# --- nhà cửa, đồ dùng ---
+가구|n|đồ nội thất
+가마|n|kiệu; lò nung
+간판|n|biển hiệu
+거실|n|phòng khách
+공기|n|không khí; bát (cơm)
+그릇|n|bát đĩa; chén
+금고|n|két sắt
+기둥|n|cột
+깃발|n|lá cờ
+깡통|n|lon; hộp thiếc
+꾸러미|n|gói; bó
+나침반|n|la bàn
+담|n|tường rào; đờm
+담요|n|chăn mỏng
+대문|n|cổng chính
+대야|n|chậu
+도구|n|dụng cụ
+도자기|n|đồ gốm
+돗자리|n|chiếu
+등불|n|đèn lồng; ngọn đèn
+램프|n|đèn
+마루|n|sàn gỗ; hiên
+망치|n|cái búa
+못|n|đinh
+문고리|n|tay nắm cửa
+문턱|n|ngưỡng cửa
+바구니|n|giỏ
+밧줄|n|dây thừng
+방석|n|đệm ngồi
+베개|n|gối
+병풍|n|bình phong
+보따리|n|bọc đồ
+보자기|n|khăn gói
+부채|n|cái quạt
+붓|n|bút lông
+비누|n|xà phòng
+빗자루|n|chổi
+빗|n|lược
+사다리|n|cái thang
+사슬|n|xích
+상|n|bàn ăn; giải thưởng
+서랍|n|ngăn kéo
+선반|n|giá; kệ
+성냥|n|diêm
+솥|n|nồi
+수건|n|khăn tắm
+숟가락|n|thìa
+쓰레기|n|rác
+아궁이|n|bếp lò
+안경|n|kính
+양초|n|nến
+열쇠고리|n|móc chìa khóa
+요|n|nệm
+우산|n|ô; dù
+이불|n|chăn
+자물쇠|n|ổ khóa
+자루|n|cái bao; cán
+장롱|n|tủ quần áo
+장작|n|củi
+전등|n|đèn điện
+젓가락|n|đũa
+종|n|chuông; loài
+주전자|n|ấm
+줄|n|dây; hàng
+지갑|n|ví
+지붕|n|mái nhà
+창고|n|kho
+책장|n|giá sách
+촛불|n|ngọn nến
+칼날|n|lưỡi dao
+컵|n|cốc
+탁자|n|bàn nhỏ
+톱|n|cái cưa
+틈|n|kẽ hở; khoảng trống
+항아리|n|chum; vại
+화로|n|lò sưởi
+휴지|n|giấy vệ sinh
+# --- quần áo ---
+단추|n|cúc áo
+모자|n|mũ
+목도리|n|khăn quàng cổ
+바지|n|quần
+반지|n|nhẫn
+양복|n|vest
+양말|n|tất
+옷깃|n|cổ áo
+외투|n|áo khoác
+저고리|n|áo jeogori
+치마|n|váy
+한복|n|hanbok
+허리띠|n|thắt lưng
+# --- thức ăn, đồ uống ---
+간장|n|nước tương
+고구마|n|khoai lang
+과자|n|bánh kẹo
+국수|n|mì sợi
+김밥|n|cơm cuộn
+깍두기|n|kim chi củ cải
+달걀|n|trứng gà
+닭|n|gà
+닭고기|n|thịt gà
+돼지|n|lợn
+된장|n|tương đậu
+떡|n|bánh gạo
+막걸리|n|rượu gạo makgeolli
+만두|n|bánh bao; mandu
+물고기|n|cá
+미역국|n|canh rong biển
+밀가루|n|bột mì
+밥상|n|mâm cơm
+배추|n|cải thảo
+복숭아|n|quả đào
+사과|n|táo; lời xin lỗi
+살코기|n|thịt nạc
+삼겹살|n|thịt ba chỉ
+소고기|n|thịt bò
+소주|n|rượu soju
+수박|n|dưa hấu
+술병|n|chai rượu
+식사|n|bữa ăn
+식혜|n|nước gạo ngọt
+쌈|n|món cuốn
+양파|n|hành tây
+얼음|n|đá; băng
+오이|n|dưa chuột
+음료수|n|nước giải khát
+인삼|n|nhân sâm
+죽|n|cháo
+참기름|n|dầu mè
+채소|n|rau
+커피숍|n|quán cà phê
+콩|n|đậu
+파|n|hành lá
+포도|n|nho
+후추|n|hạt tiêu
+# --- thiên nhiên, thời tiết, động thực vật ---
+가을|n|mùa thu
+겨울|n|mùa đông
+계곡|n|thung lũng; khe suối
+구름|n|mây
+국화|n|hoa cúc
+까마귀|n|con quạ
+나뭇잎|n|lá cây
+나비|n|bươm bướm
+날씨|n|thời tiết
+낙엽|n|lá rụng
+너구리|n|chồn cáo
+노을|n|ánh hoàng hôn
+눈보라|n|bão tuyết
+달빛|n|ánh trăng
+닭장|n|chuồng gà
+돌|n|đá
+돌멩이|n|hòn đá
+동굴|n|hang động
+들판|n|cánh đồng
+먼지|n|bụi
+모기|n|muỗi
+무지개|n|cầu vồng
+물결|n|sóng nước
+바위|n|tảng đá
+번개|n|tia chớp
+벚꽃|n|hoa anh đào
+별빛|n|ánh sao
+봄|n|mùa xuân
+부엉이|n|cú mèo
+불꽃|n|tia lửa; pháo hoa
+비바람|n|mưa gió
+뿌리|n|rễ
+사슴|n|con hươu
+서리|n|sương giá
+소나기|n|mưa rào
+소나무|n|cây thông
+소|n|con bò
+숲속|n|trong rừng
+안개|n|sương mù
+여름|n|mùa hè
+연못|n|ao
+오리|n|con vịt
+우물|n|cái giếng
+울타리|n|hàng rào
+이슬|n|sương
+잔디|n|cỏ
+장마|n|mùa mưa dầm
+절벽|n|vách đá
+정글|n|rừng rậm
+조개|n|con sò
+지진|n|động đất
+천둥|n|sấm
+파도|n|sóng biển
+풀|n|cỏ; hồ dán
+하늘색|n|màu xanh da trời
+호수|n|hồ
+홍수|n|lũ lụt
+황소|n|bò đực
+# --- cơ thể, bệnh tật, y học (cả cho phim kinh dị) ---
+간호|n|chăm sóc bệnh nhân
+감기|n|cảm lạnh
+고름|n|mủ
+골절|n|gãy xương
+관절|n|khớp
+기침|n|ho
+내장|n|nội tạng
+뇌|n|não
+눈동자|n|con ngươi
+눈썹|n|lông mày
+다리뼈|n|xương chân
+독약|n|thuốc độc
+두통|n|đau đầu
+뒷목|n|gáy
+땀방울|n|giọt mồ hôi
+맥박|n|mạch đập
+머릿속|n|trong đầu
+목구멍|n|cổ họng
+몸부림|n|vùng vẫy
+무릎뼈|n|xương bánh chè
+발가락|n|ngón chân
+발톱|n|móng chân
+배설물|n|chất thải
+병균|n|vi khuẩn
+복부|n|bụng
+붕대|n|băng gạc
+비명소리|n|tiếng thét
+살갗|n|da thịt
+상처투성이|n|đầy vết thương
+세균|n|vi khuẩn
+소독|n|khử trùng
+손목|n|cổ tay
+손톱|n|móng tay
+송곳니|n|răng nanh
+수혈|n|truyền máu
+시신|n|thi hài
+식은땀|n|mồ hôi lạnh
+신경|n|thần kinh
+심장박동|n|nhịp tim
+약물|n|dược chất
+어금니|n|răng hàm
+열|n|sốt; nhiệt; mười
+염증|n|viêm
+오한|n|ớn lạnh
+왼손|n|tay trái
+오른손|n|tay phải
+유전자|n|gen
+응급실|n|phòng cấp cứu
+이마|n|trán
+입술|n|môi
+전염병|n|bệnh truyền nhiễm
+접종|n|tiêm chủng
+정맥|n|tĩnh mạch
+조직|n|mô; tổ chức
+주사기|n|ống tiêm
+증상|n|triệu chứng
+진단|n|chẩn đoán
+진통제|n|thuốc giảm đau
+척추|n|cột sống
+체온|n|thân nhiệt
+체질|n|thể trạng
+치료제|n|thuốc điều trị
+치아|n|răng
+콧물|n|nước mũi
+피부병|n|bệnh da
+피투성이|n|đẫm máu
+핏자국|n|vết máu
+항생제|n|kháng sinh
+해독제|n|thuốc giải độc
+혈액|n|máu (y học)
+혈관|n|mạch máu
+호흡|n|hơi thở; hô hấp
+혼수상태|n|hôn mê
+환각|n|ảo giác
+회복|n|hồi phục
+# --- công nghệ, vật dụng hiện đại ---
+기계|n|máy móc
+기차역|n|ga tàu
+녹음|n|ghi âm
+라디오|n|radio
+무전기|n|bộ đàm
+배터리|n|pin
+사진기|n|máy ảnh
+시계탑|n|tháp đồng hồ
+신호|n|tín hiệu
+전보|n|điện báo
+전기|n|điện; tiểu sử
+전선줄|n|dây điện
+전차|n|xe điện; xe tăng
+축음기|n|máy hát
+카메라|n|máy ảnh
+컴퓨터|n|máy tính
+총알|n|viên đạn
+탄약|n|đạn dược
+택시|n|taxi
+현미경|n|kính hiển vi

@@ -1,0 +1,280 @@
+# ===== từ vựng trung cấp bổ sung (đợt 2: 신–조) =====
+신혼부부|n|vợ chồng mới cưới
+신혼여행|n|tuần trăng mật
+실내|n|trong nhà; trong phòng
+실력|n|thực lực; năng lực
+실수하다|v|mắc lỗi; sơ suất
+심다|v|trồng (cây)
+심리|n|tâm lý
+심부름|n|việc vặt (sai bảo); chạy việc
+심해지다|v|trở nên nghiêm trọng
+싸움|n|cuộc đánh nhau; cãi vã
+쓰레기통|n|thùng rác
+쓰이다|v|được dùng; được viết
+씨름|n|đấu vật (ssireum)
+씩씩하다|adj|mạnh mẽ; dũng cảm
+아나운서|n|phát thanh viên
+아래쪽|n|phía dưới
+아래층|n|tầng dưới
+아무것|pron|bất cứ thứ gì
+아무튼|adv|dù sao đi nữa
+아버님|n|bố (kính ngữ); bố chồng/vợ
+아아|int|à; ôi
+아프리카|n|châu Phi
+아픔|n|nỗi đau
+악기|n|nhạc cụ
+안내하다|v|hướng dẫn; dẫn đường
+안방|n|phòng ngủ chính; phòng trong
+안주|n|đồ nhắm
+안쪽|n|phía trong
+알|n|trứng; hạt; viên
+암|n|ung thư
+앞길|n|con đường phía trước; tiền đồ
+앞뒤|n|trước sau
+앞서다|v|đi trước; vượt lên
+앞쪽|n|phía trước
+액세서리|n|phụ kiện; đồ trang sức
+야외|n|ngoài trời
+양|n|lượng; số lượng; con cừu
+양|nbound|cô (đứng sau tên người nữ trẻ)
+양념|n|gia vị; đồ nêm
+양배추|n|bắp cải
+양쪽|n|hai bên; hai phía
+얘|pron|đứa này; này (gọi trẻ)
+어떡하다|v|làm sao đây; làm thế nào
+어린아이|n|đứa trẻ nhỏ
+어린애|n|đứa trẻ nhỏ
+어린이날|n|Ngày Thiếu nhi (5/5)
+어머님|n|mẹ (kính ngữ); mẹ chồng/vợ
+얼다|v|đóng băng; bị cóng
+업무|n|nghiệp vụ; công việc
+없어지다|v|biến mất; mất đi
+없이|adv|không có; mà không
+엉뚱하다|adj|kỳ quặc; lạc đề; bất ngờ
+에너지|n|năng lượng
+엔|cnt|yên (Nhật)
+엘리베이터|n|thang máy
+여고생|n|nữ sinh trung học
+여기저기|n|đây đó; khắp nơi
+여대생|n|nữ sinh viên
+여름철|n|mùa hè
+여성|n|phụ nữ; nữ giới
+여우|n|con cáo
+여직원|n|nhân viên nữ
+여쭈다|v|hỏi; thưa (với người trên)
+여행사|n|công ty du lịch
+역사가|n|nhà sử học
+역사적|n|mang tính lịch sử
+연결되다|v|được kết nối
+연결하다|v|kết nối; nối
+연구자|n|nhà nghiên cứu
+연락처|n|thông tin liên lạc
+연말|n|cuối năm
+연휴|n|kỳ nghỉ liền nhau
+열차|n|tàu hỏa
+열흘|n|mười ngày
+엽서|n|bưu thiếp
+영상|n|hình ảnh; video; trên không độ
+영원하다|adj|vĩnh cửu; mãi mãi
+영하|n|dưới không độ
+옆방|n|phòng bên cạnh
+옆집|n|nhà bên cạnh
+예금|n|tiền gửi; việc gửi tiền
+예매하다|v|mua trước (vé)
+예상|n|sự dự đoán
+예술가|n|nghệ sĩ
+예약|n|sự đặt trước
+예전|n|ngày xưa; trước đây
+예절|n|lễ nghi; phép lịch sự
+옛|det|cũ; xưa
+옛날이야기|n|chuyện cổ tích
+오늘날|n|ngày nay
+오래도록|adv|trong thời gian dài
+오랜|det|lâu (đời); lâu năm
+오랫동안|adv|trong một thời gian dài
+오른발|n|chân phải
+오븐|n|lò nướng
+오징어|n|mực
+오피스텔|n|căn hộ văn phòng (officetel)
+옥수수|n|ngô; bắp
+온도|n|nhiệt độ
+온몸|n|toàn thân
+올려놓다|v|đặt lên
+올림픽|n|Thế vận hội; Olympic
+와인|n|rượu vang
+완벽하다|adj|hoàn hảo
+외|nbound|ngoài; ngoài ra
+외교관|n|nhà ngoại giao
+외출|n|việc ra ngoài
+외할머니|n|bà ngoại
+왼발|n|chân trái
+요금|n|phí; cước
+요청|n|sự yêu cầu
+욕실|n|phòng tắm
+욕심|n|lòng tham; tham vọng
+용돈|n|tiền tiêu vặt
+우리말|n|tiếng Hàn (cách nói của người Hàn)
+우수하다|adj|ưu tú; xuất sắc
+우승|n|sự vô địch
+우승하다|v|vô địch
+우울하다|adj|u sầu; buồn bã
+우표|n|tem thư
+운|n|vận may; vận mệnh
+운동복|n|đồ thể thao
+운전기사|n|tài xế
+운전자|n|người lái xe
+울음|n|tiếng khóc; việc khóc
+웃어른|n|người bề trên
+원숭이|n|con khỉ
+원피스|n|váy liền
+월드컵|n|World Cup
+웨이터|n|bồi bàn nam
+웬일|n|chuyện gì; có việc gì
+위반|n|sự vi phạm
+위아래|n|trên dưới
+위쪽|n|phía trên
+위층|n|tầng trên
+위치|n|vị trí
+위치하다|v|nằm ở; tọa lạc
+유교|n|Nho giáo
+유난히|adv|đặc biệt; khác thường
+유럽|n|châu Âu
+유리|n|thủy tinh; kính; sự có lợi
+유리창|n|cửa kính
+유명|n|sự nổi tiếng
+유치원|n|trường mẫu giáo
+유학생|n|du học sinh
+유행|n|mốt; thịnh hành
+유행하다|v|thịnh hành; lan rộng
+으응|int|ừ; ừm
+음료|n|đồ uống
+음악가|n|nhạc sĩ
+의미하다|v|có nghĩa là; biểu thị
+의하다|v|dựa vào; do
+이것저것|n|cái này cái kia; đủ thứ
+이곳저곳|n|đây đó; nhiều nơi
+이날|n|ngày hôm nay; hôm ấy
+이동|n|sự di chuyển
+이러하다|adj|như thế này
+이뤄지다|v|được thực hiện; trở thành hiện thực
+이르다|adj|sớm; còn sớm
+이르다|v|đạt đến; (nói) bảo
+이리|adv|thế này; về phía này
+이미지|n|hình ảnh; ấn tượng
+이발소|n|tiệm cắt tóc
+이사|n|việc chuyển nhà; giám đốc
+이성|n|người khác giới; lý trí
+이외|n|ngoài ra
+이용|n|việc sử dụng
+이용되다|v|được sử dụng
+이웃집|n|nhà hàng xóm
+이튿날|n|ngày hôm sau
+이하|n|trở xuống; dưới mức
+이혼|n|ly hôn
+이혼하다|v|ly hôn
+익다|v|chín; quen thuộc
+익숙해지다|v|trở nên quen thuộc
+인구|n|dân số
+인기|n|sự nổi tiếng; được ưa chuộng
+인사말|n|lời chào
+인삼차|n|trà nhân sâm
+인상|n|ấn tượng; sự tăng giá
+인원|n|số người; nhân sự
+인천공항|n|sân bay Incheon
+인터넷|n|internet
+인터뷰|n|cuộc phỏng vấn
+인형|n|búp bê
+일기|n|nhật ký; thời tiết
+일등|n|hạng nhất
+일반|n|thông thường; phổ thông
+일반적|n|mang tính phổ biến; thường thấy
+일부|n|một phần
+일상생활|n|sinh hoạt hằng ngày
+일정|n|lịch trình; cố định
+일회용|n|dùng một lần
+일회용품|n|đồ dùng một lần
+읽히다|v|bị đọc; cho đọc
+임금|n|tiền lương; vua
+임시|n|tạm thời
+임신|n|việc mang thai
+입원|n|việc nhập viện
+입원하다|v|nhập viện
+입학하다|v|nhập học
+자가용|n|xe riêng
+자꾸만|adv|cứ liên tục
+자동|n|tự động
+자료|n|tài liệu; dữ liệu
+자세히|adv|chi tiết; kỹ càng
+자식|n|con cái; (chửi) thằng
+자연|n|thiên nhiên; tự nhiên
+자연스럽다|adj|tự nhiên
+자유롭다|adj|tự do
+자체|n|bản thân; tự nó
+자판기|n|máy bán hàng tự động
+작아지다|v|trở nên nhỏ
+잔뜩|adv|đầy; ngập; hết cỡ
+잔치|n|tiệc; yến tiệc
+잘되다|v|diễn ra tốt đẹp
+잘못되다|v|bị sai; hỏng
+잘살다|v|sống khá giả
+잠옷|n|đồ ngủ
+장가가다|v|lấy vợ
+장갑|n|găng tay
+장난감|n|đồ chơi
+장남|n|trưởng nam
+장래|n|tương lai
+장점|n|ưu điểm
+장학금|n|học bổng
+재료|n|nguyên liệu
+재산|n|tài sản
+재채기|n|việc hắt hơi
+쟤|pron|đứa kia (khẩu ngữ của 저 아이)
+저녁때|n|lúc chiều tối
+저리|adv|thế kia; về phía kia
+저번|n|lần trước
+저자|n|tác giả
+저축|n|sự tiết kiệm; tiền tiết kiệm
+적극|n|sự tích cực; chủ động
+적극적|n|tích cực; chủ động
+적당히|adv|vừa phải
+적어도|adv|ít nhất
+적어지다|v|trở nên ít đi
+적용하다|v|áp dụng
+전공|n|chuyên ngành
+전국|n|toàn quốc
+전기밥솥|n|nồi cơm điện
+전날|n|hôm trước
+전문|n|chuyên môn
+전문가|n|chuyên gia
+전자|n|điện tử
+전철|n|tàu điện
+전체|n|toàn bộ
+전체적|n|tổng thể
+전통적|n|mang tính truyền thống
+전해지다|v|được truyền lại; được chuyển đến
+전화기|n|máy điện thoại
+절약하다|v|tiết kiệm
+젊은이|n|người trẻ
+점|n|điểm; chấm; nốt ruồi; cửa hàng
+점수|n|điểm số
+점심때|n|lúc trưa
+점원|n|nhân viên bán hàng
+점차|adv|dần dần
+접시|n|cái đĩa
+젓다|v|khuấy; lắc (đầu); chèo (thuyền)
+정|n|tình cảm; sự gắn bó
+정거장|n|bến; ga
+정리|n|sự sắp xếp; thu dọn
+정문|n|cổng chính
+정상|n|đỉnh; bình thường
+정식|n|chính thức; bữa ăn đủ món
+정신적|n|mang tính tinh thần
+정치적|n|mang tính chính trị
+정해지다|v|được định ra
+제공하다|v|cung cấp
+제목|n|tiêu đề
+제출하다|v|nộp
+제품|n|sản phẩm
+제한|n|sự hạn chế
+조상|n|tổ tiên
+조심스럽다|adj|thận trọng

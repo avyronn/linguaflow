@@ -2,13 +2,15 @@
   "manifest_version": 3,
   "name": "LinguaFlow",
   "short_name": "LinguaFlow",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Learn languages while watching. Click subtitle words on Netflix for dictionary, grammar breakdown, pronunciation and flashcards. Korean first. 100% local.",
-  "author": "LinguaFlow",
-  "homepage_url": "https://github.com/linguaflow/linguaflow",
+  "author": "AVYRON",
+  "developer": {
+    "name": "AVYRON"
+  },
   "browser_specific_settings": {
     "gecko": {
-      "id": "linguaflow@linguaflow.dev",
+      "id": "linguaflow@avyronn.github.io",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
         "required": [
@@ -87,10 +89,17 @@
         "src/languages/korean/hangul.js",
         "src/languages/korean/particles.js",
         "src/languages/korean/endings.js",
+        "src/languages/korean/honorifics.js",
         "src/languages/korean/conjugation.js",
         "src/languages/korean/dictionary.js",
         "src/languages/korean/tokenizer.js",
+        "src/languages/korean/numerals.js",
         "src/languages/korean/morphology.js",
+        "src/languages/korean/grammar-patterns.js",
+        "src/languages/korean/grammar-guide.js",
+        "src/languages/korean/patterns.js",
+        "src/languages/korean/sentence.js",
+        "src/languages/korean/grammar-view.js",
         "src/languages/korean/romanization.js",
         "src/languages/korean/index.js",
         "src/content/overlay-styles.js",
@@ -109,5 +118,6 @@
         "https://www.netflix.com/*"
       ]
     }
-  ]
+  ],
+  "homepage_url": "https://github.com/avyronn/linguaflow"
 }
